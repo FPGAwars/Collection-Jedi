@@ -372,6 +372,8 @@ Blocks created in the Jedi Hardware academy.
     * *16_bits*
       * Generico
 * *Varios*
+  * *ADC*
+    * adc
   * *Accesorios*
     * Baliza-1
     * Baliza-2
@@ -388,6 +390,10 @@ Blocks created in the Jedi Hardware academy.
     * Cambio
     * Dato
     * Set-Reset
+    * *D-Flip-flops*
+      * D-rst-load
+    * *T-Flip-flops*
+      * T
     * *system*
       * Dato
   * *Bombeo*
@@ -419,6 +425,7 @@ Blocks created in the Jedi Hardware academy.
       * Heart-tics
       * Heart-us-ena
       * Heart-us
+      * heart-N-tics
       * *Fijos*
         * Heart-1Hz
   * *Bus*
@@ -473,6 +480,7 @@ Blocks created in the Jedi Hardware academy.
       * Menor-2
   * *Contadores*
     * *02-bits*
+      * cont-up-mod-M
       * cont-up-system
       * cont-up
     * *03-bits*
@@ -516,6 +524,7 @@ Blocks created in the Jedi Hardware academy.
     * *SM-S4303R*
       * MotorBit
   * *Pegatinas*
+    * Jedi-collection
     * *Academia-Jedi*
       * 22-Caballero-Jedi
       * *00-Pre*
@@ -555,6 +564,7 @@ Blocks created in the Jedi Hardware academy.
   * *Recreo*
     * comecocos
   * *Registros*
+    * 01-bit
     * *02-bits*
       * reg
       * sreg-load
@@ -573,10 +583,13 @@ Blocks created in the Jedi Hardware academy.
     * *07-bits*
       * reg
       * sreg-load
+      * sreg-rst
+      * sreg
     * *08-bits*
       * reg
       * sreg-load
       * sreg-r-load
+      * sreg-rst
       * sreg
     * *09-bits*
       * sreg-r-load
@@ -620,6 +633,12 @@ Blocks created in the Jedi Hardware academy.
     * Icemove4
     * Icemove9
 
+## Examples
+* *ADC*
+  * 01-Potentiometer-LEDs
+  * 02-Potentiometer-serial
+  * 03-Potentiometer-servo
+  * Alhambra II_adc-test-01
 
 
 ## Authors
