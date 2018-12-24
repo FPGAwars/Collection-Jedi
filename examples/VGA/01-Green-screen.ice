@@ -257,6 +257,22 @@
             "width": 664,
             "height": 88
           }
+        },
+        {
+          "id": "0695b24b-0795-49f1-8db3-189ae6e6be06",
+          "type": "basic.info",
+          "data": {
+            "info": "## Conexión al monitor VGA\n\nPuedes encontrar información de cómo se ha conectado  \nla Icezum Alhambra al monitor [en este enlace](https://github.com/Obijuan/MonsterLED/wiki)",
+            "readonly": true
+          },
+          "position": {
+            "x": -176,
+            "y": 544
+          },
+          "size": {
+            "width": 680,
+            "height": 104
+          }
         }
       ],
       "wires": [
