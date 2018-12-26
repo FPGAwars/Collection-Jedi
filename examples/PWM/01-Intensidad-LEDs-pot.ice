@@ -390,6 +390,22 @@
             "width": 168,
             "height": 40
           }
+        },
+        {
+          "id": "6f206b8d-41e9-4dd4-bd00-b3d8d9038bd0",
+          "type": "basic.info",
+          "data": {
+            "info": "[Vídeo de funcionamiento en youtube](https://www.youtube.com/watch?v=ln9it85tJiM)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/ln9it85tJiM/0.jpg)](https://www.youtube.com/watch?v=ln9it85tJiM)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1744,
+            "y": 392
+          },
+          "size": {
+            "width": 592,
+            "height": 184
+          }
         }
       ],
       "wires": [
