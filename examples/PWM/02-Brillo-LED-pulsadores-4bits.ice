@@ -42,8 +42,8 @@
             "virtual": false
           },
           "position": {
-            "x": 0,
-            "y": 64
+            "x": -88,
+            "y": 16
           }
         },
         {
@@ -61,8 +61,8 @@
             "virtual": false
           },
           "position": {
-            "x": 288,
-            "y": 240
+            "x": 224,
+            "y": 88
           }
         },
         {
@@ -80,8 +80,8 @@
             "virtual": false
           },
           "position": {
-            "x": 288,
-            "y": 320
+            "x": 224,
+            "y": 168
           }
         },
         {
@@ -100,8 +100,8 @@
             "clock": false
           },
           "position": {
-            "x": -464,
-            "y": 360
+            "x": -552,
+            "y": 208
           }
         },
         {
@@ -120,8 +120,8 @@
             "clock": false
           },
           "position": {
-            "x": -464,
-            "y": 512
+            "x": -552,
+            "y": 360
           }
         },
         {
@@ -133,16 +133,16 @@
             "local": false
           },
           "position": {
-            "x": 128,
-            "y": 208
+            "x": 64,
+            "y": 56
           }
         },
         {
           "id": "afd615d5-998b-4f4d-9970-dae119f57f34",
           "type": "e2b856e09a9329dca4a720ecad63740cfd415268",
           "position": {
-            "x": -312,
-            "y": 344
+            "x": -400,
+            "y": 192
           },
           "size": {
             "width": 96,
@@ -157,8 +157,8 @@
             "readonly": true
           },
           "position": {
-            "x": -184,
-            "y": 256
+            "x": -272,
+            "y": 104
           },
           "size": {
             "width": 224,
@@ -173,8 +173,8 @@
             "readonly": true
           },
           "position": {
-            "x": -160,
-            "y": 432
+            "x": -248,
+            "y": 280
           },
           "size": {
             "width": 168,
@@ -185,24 +185,24 @@
           "id": "2ae887d4-1de2-48e5-b641-c15d5f5218d1",
           "type": "basic.info",
           "data": {
-            "info": "## PWM de 16 niveles con prescalado (92Hz)\n",
+            "info": "## Ejemplo 2. PWM: 16 niveles de brillo en LED, con prescalado\n\nSeñal **PWM de 16** niveles: 0, 6.2% ... 93.75% y frecuencia de **91.5 Hz**  \n(Prescalado de 13 bits) para controlar el brillo de un LED con **dos pulsadores**,  \nuno para incrementar el brillo y otro para disminuirlo. El nivel de brillo actual  \nse muestra en los **LEDs 3-0** (4 bits). El LED controlado es el **LED 7**",
             "readonly": true
           },
           "position": {
-            "x": -584,
-            "y": -48
+            "x": -664,
+            "y": -96
           },
           "size": {
-            "width": 464,
-            "height": 64
+            "width": 656,
+            "height": 136
           }
         },
         {
           "id": "0eafe775-fd47-4fa5-97ec-686880f698f1",
           "type": "d463c191e38684ae1c463773b04ce41b592d9653",
           "position": {
-            "x": -168,
-            "y": 328
+            "x": -256,
+            "y": 176
           },
           "size": {
             "width": 96,
@@ -213,8 +213,8 @@
           "id": "6cbcfd67-d487-405b-a963-29135470236d",
           "type": "e2b856e09a9329dca4a720ecad63740cfd415268",
           "position": {
-            "x": -312,
-            "y": 496
+            "x": -400,
+            "y": 344
           },
           "size": {
             "width": 96,
@@ -229,8 +229,8 @@
             "readonly": true
           },
           "position": {
-            "x": -416,
-            "y": 304
+            "x": -504,
+            "y": 152
           },
           "size": {
             "width": 192,
@@ -245,8 +245,8 @@
             "readonly": true
           },
           "position": {
-            "x": -408,
-            "y": 464
+            "x": -496,
+            "y": 312
           },
           "size": {
             "width": 192,
@@ -261,8 +261,8 @@
             "readonly": true
           },
           "position": {
-            "x": -184,
-            "y": 280
+            "x": -272,
+            "y": 128
           },
           "size": {
             "width": 192,
@@ -277,8 +277,8 @@
             "readonly": true
           },
           "position": {
-            "x": -88,
-            "y": 112
+            "x": -176,
+            "y": 56
           },
           "size": {
             "width": 152,
@@ -293,8 +293,8 @@
             "readonly": true
           },
           "position": {
-            "x": -24,
-            "y": 16
+            "x": -104,
+            "y": -32
           },
           "size": {
             "width": 184,
@@ -309,8 +309,8 @@
             "readonly": true
           },
           "position": {
-            "x": 128,
-            "y": 160
+            "x": 64,
+            "y": 8
           },
           "size": {
             "width": 232,
@@ -321,12 +321,92 @@
           "id": "1276c52f-6013-4759-bcff-36aad5cd39a2",
           "type": "e4e198c669951f5df85fca835f0e6656a7c88b36",
           "position": {
-            "x": 128,
-            "y": 304
+            "x": 64,
+            "y": 152
           },
           "size": {
             "width": 96,
             "height": 96
+          }
+        },
+        {
+          "id": "8a22e64e-52d2-4575-825f-a2b5b7c31d0a",
+          "type": "basic.info",
+          "data": {
+            "info": "## Montaje\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT1-PWM-LED/ej4-06.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": -672,
+            "y": 480
+          },
+          "size": {
+            "width": 648,
+            "height": 136
+          }
+        },
+        {
+          "id": "2cecace5-3175-46d0-95c9-a591bd93b440",
+          "type": "basic.info",
+          "data": {
+            "info": "[Vídeo de funcionamiento en youtube](https://www.youtube.com/watch?v=FaMuqZrrD1Y)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/FaMuqZrrD1Y/0.jpg)](https://www.youtube.com/watch?v=FaMuqZrrD1Y)",
+            "readonly": true
+          },
+          "position": {
+            "x": 392,
+            "y": -144
+          },
+          "size": {
+            "width": 456,
+            "height": 168
+          }
+        },
+        {
+          "id": "37254a4e-fd9b-428e-9dec-a4a69c6b477f",
+          "type": "basic.info",
+          "data": {
+            "info": "## Mediciones\n\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 144,
+            "y": 432
+          },
+          "size": {
+            "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "47de009b-9733-4615-94a6-f931a43e4186",
+          "type": "basic.info",
+          "data": {
+            "info": "* **Medición niveles 4, 10 y 15**: Se han tomado por separado y juntado en esta figura\n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-07.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 736,
+            "y": 504
+          },
+          "size": {
+            "width": 672,
+            "height": 512
+          }
+        },
+        {
+          "id": "07ee544c-6703-44f7-8dc5-b5623149f4b7",
+          "type": "basic.info",
+          "data": {
+            "info": "* **Medición nivel 1:** (PWM 6.25%): 2M muestras. Frecuencia muestreo: 24MHz \n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-06.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 56,
+            "y": 512
+          },
+          "size": {
+            "width": 632,
+            "height": 360
           }
         }
       ],
