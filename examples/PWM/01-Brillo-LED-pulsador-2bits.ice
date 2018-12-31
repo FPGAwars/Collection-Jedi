@@ -269,6 +269,86 @@
             "width": 256,
             "height": 64
           }
+        },
+        {
+          "id": "1ab70829-2d39-41d5-b987-2b68205756ff",
+          "type": "basic.info",
+          "data": {
+            "info": "## Montaje\n\n![Esquema del montaje](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-02.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 168,
+            "y": 824
+          },
+          "size": {
+            "width": 808,
+            "height": 152
+          }
+        },
+        {
+          "id": "07ca4c5e-c279-4e37-ab4f-c0fbfff1f766",
+          "type": "basic.info",
+          "data": {
+            "info": "\n* **Nivel 1**: \n  * 100 muestras\n  * Freq. muestreo: 24MHz\n  * \n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-03.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1048,
+            "y": 904
+          },
+          "size": {
+            "width": 792,
+            "height": 136
+          }
+        },
+        {
+          "id": "3c2cc3f0-7f7b-42ca-8611-c0e70f74f374",
+          "type": "basic.info",
+          "data": {
+            "info": "## Mediciones\n",
+            "readonly": true
+          },
+          "position": {
+            "x": 1064,
+            "y": 832
+          },
+          "size": {
+            "width": 144,
+            "height": 48
+          }
+        },
+        {
+          "id": "d060ee85-4785-4cd5-a9da-d83fec568a64",
+          "type": "basic.info",
+          "data": {
+            "info": "* **Todos lo niveles**, medidos por separado y agrupados  \ny agrupados en una única figura\n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-04.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1880,
+            "y": 920
+          },
+          "size": {
+            "width": 768,
+            "height": 336
+          }
+        },
+        {
+          "id": "0fd45fc2-901d-4a4c-9425-7b23d72f3f84",
+          "type": "basic.info",
+          "data": {
+            "info": "[Vídeo de funcionamiento en youtube](https://www.youtube.com/watch?v=SfixjIhfQ2c)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/SfixjIhfQ2c/0.jpg)](https://www.youtube.com/watch?v=SfixjIhfQ2c)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1192,
+            "y": 160
+          },
+          "size": {
+            "width": 1008,
+            "height": 408
+          }
         }
       ],
       "wires": [
