@@ -1,7 +1,7 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.1.0-orange.svg)
 
 Blocks created in the Jedi Hardware academy.
 
@@ -9,7 +9,7 @@ Blocks created in the Jedi Hardware academy.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.0.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.1.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -388,6 +388,16 @@ Blocks created in the Jedi Hardware academy.
     * *CircuitScramble*
       * Button-off
       * and
+  * *Aritmetica*
+    * *Sumadores*
+      * *03-bits*
+        * sum-1op
+      * *04-bits*
+        * sum-1op
+      * *08-bits*
+        * sum-1op
+      * *09-bits*
+        * sum-1op
   * *Biestables*
     * Cambio
     * Dato
@@ -437,6 +447,7 @@ Blocks created in the Jedi Hardware academy.
     * *03_bits*
       * Acoplador-3-8
       * Agregador
+      * Separador-1-2
       * Separador
     * *04_bits*
       * Agregador
@@ -445,8 +456,11 @@ Blocks created in the Jedi Hardware academy.
       * Separador4
     * *08_bits*
       * Agregador
+      * Extract-bit
+      * Separador-3-4
       * Separador
     * *09_bits*
+      * Extract-bit
       * Join-8-1
       * split-1-8
     * *10_bits*
@@ -454,12 +468,22 @@ Blocks created in the Jedi Hardware academy.
     * *16_bits*
       * Agregador
       * Separador
+    * *17_bits*
+      * Extractor-bus-1bit
+      * Extractor-bus-2bits
+      * Extractor-bus-4bits
+      * Extractor-bus-8bits
   * *Comparadores*
     * *1-bit*
       * Comp-1
       * Comp-2
       * Menor-1
       * Menor-2
+    * *10-bits*
+      * Comp-1
+      * Less-1
+      * Less-eq-1
+      * grt-eq-1
     * *2-bits*
       * Comp-1
       * Comp-2
@@ -482,15 +506,30 @@ Blocks created in the Jedi Hardware academy.
       * Menor-2
   * *Contadores*
     * *02-bits*
+      * cont-basic-+1-ini0
+      * cont-basic
       * cont-up-mod-M
       * cont-up-system
       * cont-up
+      * *system*
+        * cont-basic
     * *03-bits*
+      * cont-basic
+      * cont-up-down
       * cont-up-system
       * cont-up
+      * *blocks*
+        * cont-up-down
+      * *system*
+        * cont-basic
     * *04-bits*
+      * cont-basic-+1-ini0
+      * cont-basic
+      * cont-up-down
       * cont-up-system
       * cont-up
+      * *system*
+        * cont-basic
     * *05-bits*
       * cont-up
     * *06-bits*
@@ -499,10 +538,14 @@ Blocks created in the Jedi Hardware academy.
     * *07-bits*
       * cont-up
     * *08-bits*
+      * cont-basic
       * cont-up
+      * *blocks*
+        * cont-basic
     * *09-bits*
       * cont-up
     * *10-bits*
+      * cont-up-system
       * cont-up
     * *11-bits*
       * cont-up
@@ -510,6 +553,9 @@ Blocks created in the Jedi Hardware academy.
       * cont-up
     * *13-bits*
       * cont-up
+    * *17-bits*
+      * *system*
+        * cont-basic
   * *Flancos*
     * Bajada
     * Subida
@@ -525,6 +571,19 @@ Blocks created in the Jedi Hardware academy.
   * *Motor*
     * *SM-S4303R*
       * MotorBit
+  * *PWM*
+    * *02-bits*
+      * pwm
+    * *04-bits*
+      * pwm
+      * *blocks*
+        * pwm-92Hz
+    * *08-bits*
+      * pwm-100Hz
+      * pwm
+      * *blocks*
+        * pwm-100Hz
+        * pwm-92Hz
   * *Pegatinas*
     * Jedi-collection
     * *Academia-Jedi*
@@ -559,6 +618,11 @@ Blocks created in the Jedi Hardware academy.
       * Smiley
       * caca
       * like
+  * *Prescaler*
+    * pres-basic
+    * *blocks*
+      * *09-bits*
+        * pres-basic
   * *Pulsador*
     * pulsador-cambio
     * pulsador-tic-sound
@@ -588,12 +652,15 @@ Blocks created in the Jedi Hardware academy.
       * sreg-rst
       * sreg
     * *08-bits*
+      * reg-rst
+      * reg-system
       * reg
       * sreg-load
       * sreg-r-load
       * sreg-rst
       * sreg
     * *09-bits*
+      * reg-system
       * sreg-r-load
     * *10-bits*
       * sreg-load
@@ -631,6 +698,10 @@ Blocks created in the Jedi Hardware academy.
     * timer-usec
     * *blocks*
       * timer-10usec
+  * *VGA*
+    * *VGA-retro*
+      * frame
+      * sync-256x240-60hz
   * *icebot*
     * Icemove4
     * Icemove9
@@ -640,7 +711,20 @@ Blocks created in the Jedi Hardware academy.
   * 01-Potentiometer-LEDs
   * 02-Potentiometer-serial
   * 03-Potentiometer-servo
+  * 04-Potentiometer-BCD-7Seg
+  * 05-Potentiometer-8LEDs
   * Alhambra II_adc-test-01
+  * Test-16-levels
+* *PWM*
+  * 01-Brillo-LED-pulsador-2bits
+  * 02-Brillo-LED-pulsadores-4bits
+  * 03-Brillo-LEDs-pot-8bits
+  * 04-Brillo-LEDs-serial-8bits
+* *VGA*
+  * 01-Green-screen
+  * 02-VGA-adjust
+  * *Alhambra-II*
+    * 01-Green-screen
 
 
 ## Authors
