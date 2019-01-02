@@ -12,6 +12,25 @@
     "graph": {
       "blocks": [
         {
+          "id": "1f97e15e-493a-4749-874c-ebecf2fc6e83",
+          "type": "basic.output",
+          "data": {
+            "name": "Analizador",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D0",
+                "value": "119"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 1568,
+            "y": 408
+          }
+        },
+        {
           "id": "950b8bd8-5de8-49f2-95b8-00034f2690c9",
           "type": "basic.output",
           "data": {
@@ -351,12 +370,12 @@
           "id": "9732fee6-5dca-474e-836d-d50b7ac4c1de",
           "type": "basic.info",
           "data": {
-            "info": "## Ejemplo 1: Control del brillo de 8 LEDs con el potenciómetro\n\nSe usa una unidad PWM de 100Hz y 8bits para variar la intesidad de los  \n8 LEDs de la Icezim Alhambra a la vez. Hay 256 niveles de intesidad",
+            "info": "## Ejemplo 3: 256 niveles de brillo en LEDs, con potenciómetro\n\nSe usa una unidad PWM de 46.9KHz y 8bits para variar la intesidad de los  \n8 LEDs de la Icezim Alhambra a la vez. Hay 256 niveles de intesidad",
             "readonly": true
           },
           "position": {
-            "x": 720,
-            "y": 384
+            "x": 744,
+            "y": 312
           },
           "size": {
             "width": 672,
@@ -405,6 +424,86 @@
           "size": {
             "width": 96,
             "height": 96
+          }
+        },
+        {
+          "id": "26bd807a-8607-49e4-801d-54cc66f1bc5a",
+          "type": "basic.info",
+          "data": {
+            "info": "**Para medir**",
+            "readonly": true
+          },
+          "position": {
+            "x": 1584,
+            "y": 368
+          },
+          "size": {
+            "width": 144,
+            "height": 40
+          }
+        },
+        {
+          "id": "c167c697-2130-4da3-b1c0-b2070fea3a57",
+          "type": "basic.info",
+          "data": {
+            "info": "## Mediciones",
+            "readonly": true
+          },
+          "position": {
+            "x": 760,
+            "y": 1024
+          },
+          "size": {
+            "width": 504,
+            "height": 40
+          }
+        },
+        {
+          "id": "7e9a2fc4-b96e-4652-b885-365400f79ce3",
+          "type": "basic.info",
+          "data": {
+            "info": "* **Medición nivel 1**: (PWM 0.39%): 5K muestras. Frecuencia muestreo: 24MHz \n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-10.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 712,
+            "y": 1128
+          },
+          "size": {
+            "width": 824,
+            "height": 312
+          }
+        },
+        {
+          "id": "3c398408-410d-4cde-9fdb-265511a716d9",
+          "type": "basic.info",
+          "data": {
+            "info": "* **Medición de tres anchuras**: Se han medido por separado y juntado en esta figura\n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-11.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1632,
+            "y": 1136
+          },
+          "size": {
+            "width": 824,
+            "height": 312
+          }
+        },
+        {
+          "id": "20dfa445-40e4-4a4a-a04d-7d723ab39229",
+          "type": "basic.info",
+          "data": {
+            "info": "## Montaje\n\n* **Elementos**: **Potenciómetro** y **analizador lógico** para hacer las medicicones\n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT1-PWM-LED/bloque-ej-09.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 2384,
+            "y": 352
+          },
+          "size": {
+            "width": 712,
+            "height": 304
           }
         }
       ],
@@ -565,6 +664,16 @@
             "port": "1f11e33d-ce0d-4082-827f-8b0f4ba0d5df"
           },
           "size": 8
+        },
+        {
+          "source": {
+            "block": "3b068b20-7cef-4019-ba53-56cbe6faff6f",
+            "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
+          },
+          "target": {
+            "block": "1f97e15e-493a-4749-874c-ebecf2fc6e83",
+            "port": "in"
+          }
         }
       ]
     }
