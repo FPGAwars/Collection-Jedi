@@ -264,7 +264,7 @@
           "id": "6f206b8d-41e9-4dd4-bd00-b3d8d9038bd0",
           "type": "basic.info",
           "data": {
-            "info": "[Vídeo de funcionamiento en youtube]()\n\n[![Click to see the youtube video](http://img.youtube.com/vi//0.jpg)]()",
+            "info": "[Vídeo de funcionamiento en youtube](https://www.youtube.com/watch?v=Im8lueRn09U)\n\n[![Click to see the youtube video](http://img.youtube.com/vi/Im8lueRn09U/0.jpg)](https://www.youtube.com/watch?v=Im8lueRn09U)",
             "readonly": true
           },
           "position": {
