@@ -12,81 +12,6 @@
     "graph": {
       "blocks": [
         {
-          "id": "fae2f395-3d6e-4ca3-b17c-444f278a945b",
-          "type": "basic.input",
-          "data": {
-            "name": "hpos",
-            "range": "[7:0]",
-            "pins": [
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "clock": false
-          },
-          "position": {
-            "x": 104,
-            "y": 120
-          }
-        },
-        {
-          "id": "c3b58083-7005-4b27-9fc8-1932637f36e8",
-          "type": "basic.output",
-          "data": {
-            "name": "v",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 760,
-            "y": 168
-          }
-        },
-        {
           "id": "f4de3799-0964-4cea-b1c4-37a17b1e99fd",
           "type": "basic.input",
           "data": {
@@ -138,8 +63,99 @@
             "clock": false
           },
           "position": {
-            "x": 104,
+            "x": 96,
+            "y": 120
+          }
+        },
+        {
+          "id": "c3b58083-7005-4b27-9fc8-1932637f36e8",
+          "type": "basic.output",
+          "data": {
+            "name": "v",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 760,
+            "y": 168
+          }
+        },
+        {
+          "id": "fae2f395-3d6e-4ca3-b17c-444f278a945b",
+          "type": "basic.input",
+          "data": {
+            "name": "hpos",
+            "range": "[7:0]",
+            "pins": [
+              {
+                "index": "7",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "6",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "5",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "4",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "3",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "1",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "clock": false
+          },
+          "position": {
+            "x": 96,
             "y": 208
+          }
+        },
+        {
+          "id": "2a33112d-0d31-4b98-b217-babfa6f47718",
+          "type": "basic.info",
+          "data": {
+            "info": "Modulo for drawing a frame around the visible zone  \n",
+            "readonly": true
+          },
+          "position": {
+            "x": 208,
+            "y": 24
+          },
+          "size": {
+            "width": 400,
+            "height": 40
           }
         },
         {
@@ -151,12 +167,12 @@
             "ports": {
               "in": [
                 {
-                  "name": "hpos",
+                  "name": "vpos",
                   "range": "[7:0]",
                   "size": 8
                 },
                 {
-                  "name": "vpos",
+                  "name": "hpos",
                   "range": "[7:0]",
                   "size": 8
                 }
@@ -176,35 +192,18 @@
             "width": 448,
             "height": 184
           }
-        },
-        {
-          "id": "2a33112d-0d31-4b98-b217-babfa6f47718",
-          "type": "basic.info",
-          "data": {
-            "info": "Modulo for drawing a frame around the visible zone  \n",
-            "readonly": true
-          },
-          "position": {
-            "x": 208,
-            "y": 24
-          },
-          "size": {
-            "width": 400,
-            "height": 40
-          }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "fae2f395-3d6e-4ca3-b17c-444f278a945b",
-            "port": "out"
+            "block": "e4675643-5d62-4f07-a7e7-fc9310d7a4c9",
+            "port": "v"
           },
           "target": {
-            "block": "e4675643-5d62-4f07-a7e7-fc9310d7a4c9",
-            "port": "hpos"
-          },
-          "size": 8
+            "block": "c3b58083-7005-4b27-9fc8-1932637f36e8",
+            "port": "in"
+          }
         },
         {
           "source": {
@@ -219,13 +218,14 @@
         },
         {
           "source": {
-            "block": "e4675643-5d62-4f07-a7e7-fc9310d7a4c9",
-            "port": "v"
+            "block": "fae2f395-3d6e-4ca3-b17c-444f278a945b",
+            "port": "out"
           },
           "target": {
-            "block": "c3b58083-7005-4b27-9fc8-1932637f36e8",
-            "port": "in"
-          }
+            "block": "e4675643-5d62-4f07-a7e7-fc9310d7a4c9",
+            "port": "hpos"
+          },
+          "size": 8
         }
       ]
     }
