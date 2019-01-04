@@ -32,10 +32,29 @@
           }
         },
         {
+          "id": "b58132b2-2e39-4a85-ab5b-63bded91cecc",
+          "type": "basic.output",
+          "data": {
+            "name": "s",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 976,
+            "y": 96
+          }
+        },
+        {
           "id": "997db8c4-b772-49d8-83e7-4427aff720e6",
           "type": "basic.output",
           "data": {
-            "name": "",
+            "name": "t",
             "pins": [
               {
                 "index": "0",
@@ -47,7 +66,7 @@
           },
           "position": {
             "x": 968,
-            "y": 232
+            "y": 376
           }
         },
         {
@@ -90,7 +109,7 @@
           "id": "e1c281e9-6a22-456b-863e-20d2550b122c",
           "type": "basic.code",
           "data": {
-            "code": "// Sincronizacion. Evitar \n// problema de la metaestabilidad\n\nreg d2;\nreg r_in;\n\nalways @(posedge clk)\n d2 <= d;\n \nalways @(posedge clk)\n  r_in <= d2;\n\n\n//-- Debouncer Circuit\n//-- It produces a stable output when the\n//-- input signal is bouncing\n\nreg btn_prev = 0;\nreg btn_out_r = 0;\n\nreg [16:0] counter = 0;\n\n\nalways @(posedge clk) begin\n\n  //-- If btn_prev and btn_in are differents\n  if (btn_prev ^ r_in == 1'b1) begin\n    \n      //-- Reset the counter\n      counter <= 0;\n      \n      //-- Capture the button status\n      btn_prev <= r_in;\n  end\n    \n  //-- If no timeout, increase the counter\n  else if (counter[16] == 1'b0)\n      counter <= counter + 1;\n      \n  else\n    //-- Set the output to the stable value\n    btn_out_r <= btn_prev;\n\nend\n\n//-- Generar tic en flanco de subida del boton\nreg old;\n\nalways @(posedge clk)\n  old <= btn_out_r;\n  \nassign tic = !old & btn_out_r;\n\n\n\n",
+            "code": "// Sincronizacion. Evitar \n// problema de la metaestabilidad\n\nreg d2;\nreg r_in;\n\nalways @(posedge clk)\n d2 <= d;\n \nalways @(posedge clk)\n  r_in <= d2;\n\n\n//-- Debouncer Circuit\n//-- It produces a stable output when the\n//-- input signal is bouncing\n\nreg btn_prev = 0;\nreg btn_out_r = 0;\n\nreg [16:0] counter = 0;\n\n\nalways @(posedge clk) begin\n\n  //-- If btn_prev and btn_in are differents\n  if (btn_prev ^ r_in == 1'b1) begin\n    \n      //-- Reset the counter\n      counter <= 0;\n      \n      //-- Capture the button status\n      btn_prev <= r_in;\n  end\n    \n  //-- If no timeout, increase the counter\n  else if (counter[16] == 1'b0)\n      counter <= counter + 1;\n      \n  else\n    //-- Set the output to the stable value\n    btn_out_r <= btn_prev;\n\nend\n\n//-- Generar tic en flanco de subida del boton\nreg old;\n\nalways @(posedge clk)\n  old <= btn_out_r;\n  \nassign tic = !old & btn_out_r;\n\n//-- El estado del pulsador se saca por state\nassign state = btn_out_r;\n\n",
             "params": [],
             "ports": {
               "in": [
@@ -102,6 +121,9 @@
                 }
               ],
               "out": [
+                {
+                  "name": "state"
+                },
                 {
                   "name": "tic"
                 }
@@ -147,6 +169,16 @@
           "target": {
             "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
             "port": "clk"
+          }
+        },
+        {
+          "source": {
+            "block": "e1c281e9-6a22-456b-863e-20d2550b122c",
+            "port": "state"
+          },
+          "target": {
+            "block": "b58132b2-2e39-4a85-ab5b-63bded91cecc",
+            "port": "in"
           }
         }
       ]
