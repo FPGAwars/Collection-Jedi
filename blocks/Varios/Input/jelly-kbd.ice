@@ -35,7 +35,7 @@
           "id": "cce168a0-486a-4155-92b4-5dad198ab344",
           "type": "basic.output",
           "data": {
-            "name": "keycode",
+            "name": "kcode",
             "range": "[4:0]",
             "pins": [
               {
@@ -75,7 +75,7 @@
           "id": "f1e4533e-7e38-40dc-87f1-6faef690a24a",
           "type": "basic.output",
           "data": {
-            "name": "keypressed",
+            "name": "kdown",
             "pins": [
               {
                 "index": "0",
@@ -94,7 +94,7 @@
           "id": "f1a7e8c3-fd8d-454f-b0d8-23af85c796e6",
           "type": "basic.output",
           "data": {
-            "name": "keyreleased",
+            "name": "kup",
             "pins": [
               {
                 "index": "0",
@@ -113,7 +113,7 @@
           "id": "ef15efb1-89f4-4395-90f5-e76ad05ba080",
           "type": "basic.output",
           "data": {
-            "name": "state",
+            "name": "kst",
             "pins": [
               {
                 "index": "0",
@@ -132,7 +132,7 @@
           "id": "012d2f62-864a-44a9-9441-5c91b59a9d5a",
           "type": "basic.input",
           "data": {
-            "name": "scanC",
+            "name": "sC",
             "range": "[4:0]",
             "pins": [
               {
@@ -173,7 +173,7 @@
           "id": "b603fff0-ba56-4cfd-b47e-7ca0aa8fe5f0",
           "type": "basic.output",
           "data": {
-            "name": "scanF",
+            "name": "sF",
             "range": "[5:0]",
             "pins": [
               {
