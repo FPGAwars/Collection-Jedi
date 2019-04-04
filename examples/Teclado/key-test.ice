@@ -86,16 +86,16 @@
           "id": "d5b9ed2e-6700-49b3-88da-a30c4ef325b1",
           "type": "basic.info",
           "data": {
-            "info": "**Ejemplo 6**: Leyendo la tecla backspace  \nUsando el **bloque key**. Se emiten dos pitidos, uno al  \npulsar y otro al soltar",
+            "info": "## Ejemplo 1\n\nLectura de una tecla aislada esando el **bloque key**  \nSe emiten dos pitidos, uno al pulsar y otro al soltar\n\n[Más información](https://github.com/Obijuan/FPGA-keyboard/wiki/Teclado-num%C3%A9rico-USB-Jelly-Comb)",
             "readonly": true
           },
           "position": {
-            "x": 512,
-            "y": 96
+            "x": 336,
+            "y": -64
           },
           "size": {
-            "width": 440,
-            "height": 72
+            "width": 536,
+            "height": 128
           }
         },
         {
@@ -208,6 +208,54 @@
           "size": {
             "width": 128,
             "height": 48
+          }
+        },
+        {
+          "id": "609102d1-8b62-41ee-a4ba-1c189953c93b",
+          "type": "basic.info",
+          "data": {
+            "info": "**Conexión de la tecla Backspace**  \nTeclado Jelly\n\n![](https://raw.githubusercontent.com/Obijuan/FPGA-keyboard/master/wiki/jelly-keyboard/jelly-usb-26.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1360,
+            "y": -88
+          },
+          "size": {
+            "width": 536,
+            "height": 416
+          }
+        },
+        {
+          "id": "c3935cfb-5b0f-4567-9e11-076151923f0d",
+          "type": "basic.info",
+          "data": {
+            "info": "### Escenario\n\n![](https://raw.githubusercontent.com/Obijuan/FPGA-keyboard/master/wiki/jelly-keyboard/tecla-backspace-06.png)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1432,
+            "y": 440
+          },
+          "size": {
+            "width": 544,
+            "height": 256
+          }
+        },
+        {
+          "id": "d4fd2ce3-91a2-4226-b008-e276c38a9aa5",
+          "type": "basic.info",
+          "data": {
+            "info": "### VIDEO\n\n[![Click to see the youtube video](http://img.youtube.com/vi/YQmEWZz1FUs/0.jpg)](https://www.youtube.com/watch?v=YQmEWZz1FUs)",
+            "readonly": true
+          },
+          "position": {
+            "x": 328,
+            "y": 496
+          },
+          "size": {
+            "width": 560,
+            "height": 368
           }
         }
       ],
