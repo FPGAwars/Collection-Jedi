@@ -5,6 +5,8 @@
 
 Blocks created in the Jedi Hardware academy.
 
+![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.2.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
@@ -788,7 +790,12 @@ Blocks created in the Jedi Hardware academy.
   * 03-Brillo-LEDs-pot-8bits
   * 04-Brillo-LEDs-serial-8bits
 * *Teclado*
-  * Jelly-keyboard-test1
+  * 01-Key-test
+  * 02-Jelly-kbd-test1
+  * 03-Jelly-kbd-seleccion
+  * 04-Jelly-kbd-calculator
+  * 05-Jelly-kbd-control-acceso
+  * 06-Jelly-kbd-consola-serie
 * *VGA*
   * 01-Green-screen
   * 02-VGA-adjust
