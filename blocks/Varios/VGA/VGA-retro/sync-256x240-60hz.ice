@@ -183,7 +183,7 @@
           "id": "f35e2e8b-8742-4bfb-a498-08700295c7d3",
           "type": "basic.output",
           "data": {
-            "name": "hvs",
+            "name": "vhs",
             "range": "[1:0]",
             "pins": [
               {
@@ -200,8 +200,8 @@
             "virtual": true
           },
           "position": {
-            "x": 2144,
-            "y": 1672
+            "x": 2120,
+            "y": 1664
           }
         },
         {
@@ -652,8 +652,8 @@
           "id": "75603dfa-a0e7-472e-a490-ea58779ab127",
           "type": "d4bd0427fb21ebb734fc9a18df1fcc2006219425",
           "position": {
-            "x": 1856,
-            "y": 712
+            "x": 1848,
+            "y": 680
           },
           "size": {
             "width": 96,
@@ -664,7 +664,7 @@
           "id": "f8e6ccaf-9298-4aed-8c06-4ed8763d752b",
           "type": "basic.info",
           "data": {
-            "info": "Señales de sincronía:  \nhvs[1]: HS  \nhvs[0]: VS",
+            "info": "Señales de sincronía:  \nvhs[1]: VS  \nvhs[0]: HS",
             "readonly": true
           },
           "position": {
@@ -790,6 +790,38 @@
           "size": {
             "width": 240,
             "height": 88
+          }
+        },
+        {
+          "id": "813d58ae-f203-406e-a701-341b17523601",
+          "type": "basic.info",
+          "data": {
+            "info": "Sincronismo HORIZONTAL",
+            "readonly": true
+          },
+          "position": {
+            "x": 1520,
+            "y": 696
+          },
+          "size": {
+            "width": 208,
+            "height": 40
+          }
+        },
+        {
+          "id": "ca39afba-1bc3-47de-9bd9-4a838ac93247",
+          "type": "basic.info",
+          "data": {
+            "info": "Sincronismo\nVERTICAL",
+            "readonly": true
+          },
+          "position": {
+            "x": 1768,
+            "y": 632
+          },
+          "size": {
+            "width": 104,
+            "height": 48
           }
         }
       ],
@@ -945,34 +977,12 @@
         },
         {
           "source": {
-            "block": "d3768a3f-a9b2-48d3-a363-12eb2b2952ea",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-          },
-          "target": {
-            "block": "75603dfa-a0e7-472e-a490-ea58779ab127",
-            "port": "969e11ca-69e8-403b-a566-7bf2fbe3a5a8"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
             "block": "f3f78a43-24dd-4ac2-8091-90854f605181",
             "port": "664caf9e-5f40-4df4-800a-b626af702e62"
           },
           "target": {
             "block": "d3768a3f-a9b2-48d3-a363-12eb2b2952ea",
             "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
-          },
-          "vertices": []
-        },
-        {
-          "source": {
-            "block": "38ed9576-23e7-4e20-8102-5d3790caf31a",
-            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
-          },
-          "target": {
-            "block": "75603dfa-a0e7-472e-a490-ea58779ab127",
-            "port": "e4111201-8441-4e7d-bcd2-bcf9d265d043"
           },
           "vertices": []
         },
@@ -1230,6 +1240,32 @@
           },
           "vertices": [],
           "size": 9
+        },
+        {
+          "source": {
+            "block": "d3768a3f-a9b2-48d3-a363-12eb2b2952ea",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "75603dfa-a0e7-472e-a490-ea58779ab127",
+            "port": "e4111201-8441-4e7d-bcd2-bcf9d265d043"
+          }
+        },
+        {
+          "source": {
+            "block": "38ed9576-23e7-4e20-8102-5d3790caf31a",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "75603dfa-a0e7-472e-a490-ea58779ab127",
+            "port": "969e11ca-69e8-403b-a566-7bf2fbe3a5a8"
+          },
+          "vertices": [
+            {
+              "x": 1808,
+              "y": 752
+            }
+          ]
         }
       ]
     }
