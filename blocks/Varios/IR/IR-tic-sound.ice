@@ -8,7 +8,7 @@
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22323.735%22%20height=%22296.391%22%20viewBox=%220%200%2085.6549%2078.420014%22%3E%3Cg%20transform=%22translate(-27.14%20-46.356)%22%3E%3Cpath%20d=%22M30.775%2061.153l1.577%2063.588%2068.568-14.287.227-59.903z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M30.692%2061.054l-3.517-2.115%201.62%2063.178%203.72%202.49z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M27.187%2059.005l3.618%202.195%2070.342-10.649-5.477-1.687z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M47.596%2080.531l.726%2038.171%2015.948-3.873-.505-38.017z%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2238.388%22%20cx=%22117.211%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#80b3ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.055%2098.516l.038%202.352%208.436%202.48.045-2.264z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.028%2098.555L63.4%2095.197l4.582%203.501.119.287-11.564%202.276z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M56.432%20101.246l.112%201.997%2011.34-2.579.172-1.74zM34.666%2073.143l6.875%203.713.432%2038.563-6.708-3.537z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.497%2076.78l6.1%203.796.734%2038.135-6.348-3.281z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.555%2076.874l6.023%203.688%2016.168-3.788-1.103-4.32z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M62.627%2072.457L55.1%2069.611%2034.776%2073.13l6.765%203.795z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2241.149%22%20cx=%2299.498%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#0ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(1.2877%200%200%201.2877%20-35.892%204.68)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cpath%20d=%22M80.53%2073.913c-2.544-.396-4.516-1.77-4.954-3.45-.728-2.796%202.6-5.289%206.798-5.093%201.34.063%202.562.36%203.494.85.187.099.362.19.39.202.027.012.061%202.376.067-3.294l.017-16.772c7.873%202.17%2015.723%204.428%2023.652%206.388%200%200%20.155%201.675.155%205.699%200%2013.329.026%2019.67-.414%2020.44-1.505%202.63-6.364%203.629-9.803%202.013-1.775-.834-2.787-2.123-2.787-3.55%200-2.504%203.177-4.49%206.903-4.315%201.34.063%202.562.36%203.494.85.186.098.361.189.39.202.027.012.05-14.983.05-14.983l.01-2.59-19.516-5.32v15.632c0%203.397.023%203.636-.414%204.4-.97%201.694-3.434%202.812-6.156%202.79a11.547%2011.547%200%200%201-1.377-.099z%22%20fill=%22#00f%22/%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -20,7 +20,7 @@
               {
                 "index": "0",
                 "name": "D13",
-                "value": "144"
+                "value": 144
               }
             ],
             "virtual": true,
@@ -40,7 +40,7 @@
               {
                 "index": "0",
                 "name": "D1",
-                "value": "118"
+                "value": 118
               }
             ],
             "virtual": true
@@ -51,15 +51,34 @@
           }
         },
         {
-          "id": "36d4be41-8f89-4f1b-ab76-3eb0b7d2a098",
+          "id": "84f5409a-e12f-4826-a4e1-28226f934733",
           "type": "basic.output",
           "data": {
-            "name": "tic",
+            "name": "s",
             "pins": [
               {
                 "index": "0",
                 "name": "LED0",
-                "value": "95"
+                "value": 95
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 888,
+            "y": 128
+          }
+        },
+        {
+          "id": "36d4be41-8f89-4f1b-ab76-3eb0b7d2a098",
+          "type": "basic.output",
+          "data": {
+            "name": "t",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": 95
               }
             ],
             "virtual": true
@@ -78,15 +97,15 @@
               {
                 "index": "0",
                 "name": "D13",
-                "value": "144"
+                "value": 144
               }
             ],
             "virtual": true,
             "clock": false
           },
           "position": {
-            "x": 256,
-            "y": 256
+            "x": 200,
+            "y": 312
           }
         },
         {
@@ -132,18 +151,6 @@
           }
         },
         {
-          "id": "1add4c0a-5219-4bf5-9748-9c6cefd2d84c",
-          "type": "2ad1f9ba564ce18aac9465f95b70d3a84a6052bb",
-          "position": {
-            "x": 384,
-            "y": 240
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "97d49d63-016b-40e6-b272-b43354c45d66",
           "type": "f91a2729e24bdc5bb7370785202c65c6526d7a01",
           "position": {
@@ -178,6 +185,18 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "c7049911-71a2-4d33-b5f8-62a73f40d15d",
+          "type": "4fcc646817f5760a965fc10b3c0c1fdc868b1ac8",
+          "position": {
+            "x": 384,
+            "y": 296
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -187,7 +206,7 @@
             "port": "out"
           },
           "target": {
-            "block": "1add4c0a-5219-4bf5-9748-9c6cefd2d84c",
+            "block": "c7049911-71a2-4d33-b5f8-62a73f40d15d",
             "port": "b39a24c1-02a7-4806-a716-e4ce82f81c88"
           }
         },
@@ -197,7 +216,7 @@
             "port": "out"
           },
           "target": {
-            "block": "1add4c0a-5219-4bf5-9748-9c6cefd2d84c",
+            "block": "c7049911-71a2-4d33-b5f8-62a73f40d15d",
             "port": "add059ff-0fce-4060-b7d2-9bfe2ab760ef"
           }
         },
@@ -247,16 +266,6 @@
         },
         {
           "source": {
-            "block": "1add4c0a-5219-4bf5-9748-9c6cefd2d84c",
-            "port": "bd2f26b1-a39e-46fe-b762-bc399df80c73"
-          },
-          "target": {
-            "block": "97d49d63-016b-40e6-b272-b43354c45d66",
-            "port": "61d11f03-6fbc-4467-a947-d546fa6f6429"
-          }
-        },
-        {
-          "source": {
             "block": "b39a24c1-02a7-4806-a716-e4ce82f81c88",
             "port": "out"
           },
@@ -300,140 +309,37 @@
             "block": "36d4be41-8f89-4f1b-ab76-3eb0b7d2a098",
             "port": "in"
           }
+        },
+        {
+          "source": {
+            "block": "c7049911-71a2-4d33-b5f8-62a73f40d15d",
+            "port": "bd2f26b1-a39e-46fe-b762-bc399df80c73"
+          },
+          "target": {
+            "block": "97d49d63-016b-40e6-b272-b43354c45d66",
+            "port": "61d11f03-6fbc-4467-a947-d546fa6f6429"
+          }
+        },
+        {
+          "source": {
+            "block": "c7049911-71a2-4d33-b5f8-62a73f40d15d",
+            "port": "f4406e38-fc44-47ac-8f46-06212c508f45"
+          },
+          "target": {
+            "block": "84f5409a-e12f-4826-a4e1-28226f934733",
+            "port": "in"
+          },
+          "vertices": [
+            {
+              "x": 760,
+              "y": 216
+            }
+          ]
         }
       ]
     }
   },
   "dependencies": {
-    "2ad1f9ba564ce18aac9465f95b70d3a84a6052bb": {
-      "package": {
-        "name": "IR-tic",
-        "version": "0.1",
-        "description": "Detección de objeto con sensor de infrarrojos (IR). Emite un tic cada vez detecta un objeto",
-        "author": "Juan Gonzalez-Gomez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22323.735%22%20height=%22287.049%22%20viewBox=%220%200%2085.6549%2075.948296%22%3E%3Cg%20transform=%22translate(-27.14%20-48.828)%22%20stroke-linecap=%22round%22%3E%3Cpath%20d=%22M30.775%2061.153l1.577%2063.588%2068.568-14.287.227-59.903z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M30.692%2061.054l-3.517-2.115%201.62%2063.178%203.72%202.49z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M27.187%2059.005l3.618%202.195%2070.342-10.649-5.477-1.687z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M47.596%2080.531l.726%2038.171%2015.948-3.873-.505-38.017z%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2238.388%22%20cx=%22117.211%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#80b3ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.055%2098.516l.038%202.352%208.436%202.48.045-2.264z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.028%2098.555L63.4%2095.197l4.582%203.501.119.287-11.564%202.276z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M56.432%20101.246l.112%201.997%2011.34-2.579.172-1.74zM34.666%2073.143l6.875%203.713.432%2038.563-6.708-3.537z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.497%2076.78l6.1%203.796.734%2038.135-6.348-3.281z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.555%2076.874l6.023%203.688%2016.168-3.788-1.103-4.32z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M62.627%2072.457L55.1%2069.611%2034.776%2073.13l6.765%203.795z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2241.149%22%20cx=%2299.498%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#0ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(1.2877%200%200%201.2877%20-35.892%204.68)%22%20stroke=%22green%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "b39a24c1-02a7-4806-a716-e4ce82f81c88",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 184,
-                "y": 200
-              }
-            },
-            {
-              "id": "bd2f26b1-a39e-46fe-b762-bc399df80c73",
-              "type": "basic.output",
-              "data": {
-                "name": ""
-              },
-              "position": {
-                "x": 848,
-                "y": 280
-              }
-            },
-            {
-              "id": "add059ff-0fce-4060-b7d2-9bfe2ab760ef",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": false
-              },
-              "position": {
-                "x": 176,
-                "y": 352
-              }
-            },
-            {
-              "id": "63e1651a-83ba-4c40-8ef6-a5cd239f1257",
-              "type": "basic.info",
-              "data": {
-                "info": "**IRr-tic**",
-                "readonly": true
-              },
-              "position": {
-                "x": 344,
-                "y": 104
-              },
-              "size": {
-                "width": 152,
-                "height": 40
-              }
-            },
-            {
-              "id": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
-              "type": "basic.code",
-              "data": {
-                "code": "// Sincronizacion. Evitar \n// problema de la metaestabilidad\n\nreg d2;\nreg r_in;\n\nalways @(posedge clk)\n d2 <= d;\n \nalways @(posedge clk)\n  r_in <= d2;\n\n\n//-- Generar tic en flanco de subida del boton\nreg old;\n\nalways @(posedge clk)\n  old <= r_in;\n  \nassign tic = !old & r_in;\n\n\n\n",
-                "params": [],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "d"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "tic"
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 344,
-                "y": 152
-              },
-              "size": {
-                "width": 424,
-                "height": 312
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "add059ff-0fce-4060-b7d2-9bfe2ab760ef",
-                "port": "out"
-              },
-              "target": {
-                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
-                "port": "d"
-              }
-            },
-            {
-              "source": {
-                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
-                "port": "tic"
-              },
-              "target": {
-                "block": "bd2f26b1-a39e-46fe-b762-bc399df80c73",
-                "port": "in"
-              }
-            },
-            {
-              "source": {
-                "block": "b39a24c1-02a7-4806-a716-e4ce82f81c88",
-                "port": "out"
-              },
-              "target": {
-                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
-                "port": "clk"
-              }
-            }
-          ]
-        }
-      }
-    },
     "f91a2729e24bdc5bb7370785202c65c6526d7a01": {
       "package": {
         "name": "timer-msec",
@@ -883,6 +789,159 @@
               "target": {
                 "block": "7e864797-b165-408f-a9ce-2e71dc63f8b8",
                 "port": "HZ"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "4fcc646817f5760a965fc10b3c0c1fdc868b1ac8": {
+      "package": {
+        "name": "IR-tic",
+        "version": "0.1",
+        "description": "Detección de objeto con sensor de infrarrojos (IR). Emite un tic cada vez detecta un objeto",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22323.735%22%20height=%22287.049%22%20viewBox=%220%200%2085.6549%2075.948296%22%3E%3Cg%20transform=%22translate(-27.14%20-48.828)%22%20stroke-linecap=%22round%22%3E%3Cpath%20d=%22M30.775%2061.153l1.577%2063.588%2068.568-14.287.227-59.903z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M30.692%2061.054l-3.517-2.115%201.62%2063.178%203.72%202.49z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M27.187%2059.005l3.618%202.195%2070.342-10.649-5.477-1.687z%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M47.596%2080.531l.726%2038.171%2015.948-3.873-.505-38.017z%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2238.388%22%20cx=%22117.211%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#80b3ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.055%2098.516l.038%202.352%208.436%202.48.045-2.264z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M48.028%2098.555L63.4%2095.197l4.582%203.501.119.287-11.564%202.276z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M56.432%20101.246l.112%201.997%2011.34-2.579.172-1.74zM34.666%2073.143l6.875%203.713.432%2038.563-6.708-3.537z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.497%2076.78l6.1%203.796.734%2038.135-6.348-3.281z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.555%2076.874l6.023%203.688%2016.168-3.788-1.103-4.32z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M62.627%2072.457L55.1%2069.611%2034.776%2073.13l6.765%203.795z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%227.046%22%20rx=%226.786%22%20cy=%2241.149%22%20cx=%2299.498%22%20transform=%22matrix(.17339%20.98485%20.98483%20-.1735%200%200)%22%20fill=%22#0ff%22%20stroke=%22#000%22%20stroke-width=%22.071%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(1.2877%200%200%201.2877%20-35.892%204.68)%22%20stroke=%22green%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "b39a24c1-02a7-4806-a716-e4ce82f81c88",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 184,
+                "y": 200
+              }
+            },
+            {
+              "id": "f4406e38-fc44-47ac-8f46-06212c508f45",
+              "type": "basic.output",
+              "data": {
+                "name": "s"
+              },
+              "position": {
+                "x": 832,
+                "y": 200
+              }
+            },
+            {
+              "id": "bd2f26b1-a39e-46fe-b762-bc399df80c73",
+              "type": "basic.output",
+              "data": {
+                "name": "t"
+              },
+              "position": {
+                "x": 832,
+                "y": 352
+              }
+            },
+            {
+              "id": "add059ff-0fce-4060-b7d2-9bfe2ab760ef",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": 176,
+                "y": 352
+              }
+            },
+            {
+              "id": "63e1651a-83ba-4c40-8ef6-a5cd239f1257",
+              "type": "basic.info",
+              "data": {
+                "info": "**IRr-tic**",
+                "readonly": true
+              },
+              "position": {
+                "x": 344,
+                "y": 104
+              },
+              "size": {
+                "width": 152,
+                "height": 40
+              }
+            },
+            {
+              "id": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
+              "type": "basic.code",
+              "data": {
+                "code": "// Sincronizacion. Evitar \n// problema de la metaestabilidad\n\nreg d2;\nreg r_in;\n\nalways @(posedge clk)\n d2 <= d;\n \nalways @(posedge clk)\n  r_in <= d2;\n\n\n//-- Generar tic en flanco de subida del boton\nreg old;\n\nalways @(posedge clk)\n  old <= r_in;\n  \nassign tic = !old & r_in;\n\nassign state = r_in;\n\n\n\n",
+                "params": [],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "d"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "state"
+                    },
+                    {
+                      "name": "tic"
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 344,
+                "y": 152
+              },
+              "size": {
+                "width": 424,
+                "height": 312
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "add059ff-0fce-4060-b7d2-9bfe2ab760ef",
+                "port": "out"
+              },
+              "target": {
+                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
+                "port": "d"
+              }
+            },
+            {
+              "source": {
+                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
+                "port": "tic"
+              },
+              "target": {
+                "block": "bd2f26b1-a39e-46fe-b762-bc399df80c73",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "b39a24c1-02a7-4806-a716-e4ce82f81c88",
+                "port": "out"
+              },
+              "target": {
+                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "199d4340-3a47-4cac-b5fa-3b12a2f70c37",
+                "port": "state"
+              },
+              "target": {
+                "block": "f4406e38-fc44-47ac-8f46-06212c508f45",
+                "port": "in"
               }
             }
           ]
