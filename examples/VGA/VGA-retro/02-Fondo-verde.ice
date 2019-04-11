@@ -430,6 +430,22 @@
             "width": 216,
             "height": 64
           }
+        },
+        {
+          "id": "1275fbd0-3b7e-4cd2-979f-fd8664349eee",
+          "type": "basic.info",
+          "data": {
+            "info": "### ESCENARIO\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT2-VGA-Retro-I/vga-retro-09.jpg)",
+            "readonly": true
+          },
+          "position": {
+            "x": 1272,
+            "y": -48
+          },
+          "size": {
+            "width": 448,
+            "height": 200
+          }
         }
       ],
       "wires": [
