@@ -351,7 +351,7 @@
           "id": "feda0ad4-3169-48ed-a578-c0ebf9b13730",
           "type": "basic.info",
           "data": {
-            "info": "### FUNCIONAMIENTO\n\nPrueba en un monitor real\n\n![](https://raw.githubusercontent.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/master/wiki/CT2-VGA-Retro-I/test-vga-02.png)",
+            "info": "### FUNCIONAMIENTO\n\nPrueba en un monitor real\n\n![](https://github.com/Obijuan/Cuadernos-tecnicos-FPGAs-libres/raw/master/wiki/CT2-VGA-Retro-I/A1-vga-retro-03.jpg)",
             "readonly": true
           },
           "position": {
