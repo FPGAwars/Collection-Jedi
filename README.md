@@ -1,15 +1,15 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.2.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.3.0-orange.svg)
 
-Blocks created in the Jedi Hardware academy.
+Blocks created in the Jedi Hardware academy
 
 ![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.2.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.3.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -90,7 +90,10 @@ Blocks created in the Jedi Hardware academy.
     * or6
     * xnor
     * xor
+    * *02-bits*
+      * and-2-1
     * *03-bits*
+      * and-2-1
       * and3
       * or3
     * *04-bits*
@@ -464,6 +467,7 @@ Blocks created in the Jedi Hardware academy.
     * *02_bits*
       * Agregador
       * Separador
+      * mult-1-2
     * *03_bits*
       * Acoplador-3-8
       * Agregador
@@ -488,6 +492,7 @@ Blocks created in the Jedi Hardware academy.
     * *08_bits*
       * Agregador
       * Extract-bit
+      * Separador-1-7
       * Separador-3-4
       * Separador
     * *09_bits*
@@ -648,6 +653,7 @@ Blocks created in the Jedi Hardware academy.
         * pwm-100Hz
         * pwm-92Hz
   * *Pegatinas*
+    * Agujero-negro
     * Jedi-collection
     * *Academia-Jedi*
       * 22-Caballero-Jedi
@@ -768,8 +774,10 @@ Blocks created in the Jedi Hardware academy.
   * *VGA*
     * *VGA-retro*
       * Monster-LED-green
+      * Sync
+      * Test-FPGAwars
+      * VGA-LED-2v
       * frame
-      * sync-256x240-60hz
   * *icebot*
     * Icemove4
     * Icemove9
@@ -797,13 +805,36 @@ Blocks created in the Jedi Hardware academy.
   * 05-Jelly-kbd-control-acceso
   * 06-Jelly-kbd-consola-serie
 * *VGA*
-  * 01-Green-screen
-  * 02-VGA-adjust
-  * *Alhambra-II*
-    * 01-Green-screen
-  * *MonsterLED*
-    * 01-pulsador
-    * 02-blink
+  * *VGA-retro*
+    * 00-Plantilla
+    * 01-Test-and-Adjust-VGA
+    * 02-Fondo-verde
+    * 03-Fondo-verde-parpadeo
+    * 04-MonsterLED-blink
+    * 05-MonsterLED-button
+    * 06-MonsterLED-IR
+    * 08-Barra-1-ON
+    * 09-Barra-1-boton
+    * 10-Dos-Barras
+    * 11-VGALED2-Botones
+    * 12-VGALED2-Contador
+    * 13-VGALED2-IR
+    * 14-VGALED2-Ruleta-IR
+    * *Icezum-Alhambra*
+      * 00-Plantilla
+      * 01-Test-and-Adjust-VGA
+      * 02-Fondo-verde
+      * 03-Fondo-verde-parpadeo
+      * 04-MonsterLED-blink
+      * 05-MonsterLED-button
+      * 06-MonsterLED-IR
+      * 08-Barra-1-ON
+      * 09-Barra-1-boton
+      * 10-Dos-Barras
+      * 11-VGALED2-Botones
+      * 12-VGALED2-Contador
+      * 13-VGALED2-IR
+      * 14-VGALED2-Ruleta-IR
 
 
 ## Authors
