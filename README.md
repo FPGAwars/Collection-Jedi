@@ -1,13 +1,15 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.3.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.4.0-orange.svg)
 
-Blocks created in the Jedi Hardware academy.
+Blocks created in the Jedi Hardware academy
+
+![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.3.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.4.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
