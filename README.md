@@ -3,9 +3,7 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v1.3.0-orange.svg)
 
-Blocks created in the Jedi Hardware academy
-
-![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
+Blocks created in the Jedi Hardware academy.
 
 ## Install
 
@@ -23,6 +21,7 @@ Blocks created in the Jedi Hardware academy
     * cod-8-3-bus
     * cod-8-3
   * *Decodificadores*
+    * 10bitBCD-3charASCII
     * BCD-ASCII
     * decod-1-2
     * decod-2-4-bus
@@ -208,6 +207,7 @@ Blocks created in the Jedi Hardware academy
         * tabla-hex-3-6
         * tabla-hex-3-7
         * tabla-hex-3-8
+        * tabla-hex-3-9
       * *4bit_entrada*
         * tabla-hex-4-1
         * tabla-hex-4-2
@@ -227,6 +227,7 @@ Blocks created in the Jedi Hardware academy
         * tabla-hex-5-6
         * tabla-hex-5-7
         * tabla-hex-5-8
+        * tabla-hex-5-9
       * *6bit_entrada*
         * tabla-hex-6-1
         * tabla-hex-6-16
@@ -237,6 +238,7 @@ Blocks created in the Jedi Hardware academy
         * tabla-hex-6-6
         * tabla-hex-6-7
         * tabla-hex-6-8
+        * tabla-hex-6-9
       * *7bit_entrada*
         * tabla-hex-7-1
         * tabla-hex-7-2
@@ -390,10 +392,15 @@ Blocks created in the Jedi Hardware academy
         * Char-J
         * Char-L
         * Char-LF
+    * *09_bits*
+      * Generico
     * *10_bits*
       * Generico
     * *16_bits*
       * Generico
+* *Pines*
+  * In-out-right
+  * In-out
 * *Varios*
   * *ADC*
     * adc
@@ -421,6 +428,7 @@ Blocks created in the Jedi Hardware academy
         * sum-1op
       * *09-bits*
         * sum-1op
+        * sum-2op
   * *Biestables*
     * Cambio
     * Dato
@@ -431,6 +439,7 @@ Blocks created in the Jedi Hardware academy
       * T
     * *system*
       * Dato
+      * Datox2
   * *Bombeo*
     * Corazon_Hz
     * Corazon_Seg
@@ -464,6 +473,8 @@ Blocks created in the Jedi Hardware academy
       * *Fijos*
         * Heart-1Hz
   * *Bus*
+    * *01_bits*
+      * wire-1-1
     * *02_bits*
       * Agregador
       * Separador
@@ -490,11 +501,14 @@ Blocks created in the Jedi Hardware academy
     * *07_bits*
       * Agregador
     * *08_bits*
+      * Agregador-8x1
       * Agregador
       * Extract-bit
       * Separador-1-7
       * Separador-3-4
+      * Separador-8x1
       * Separador
+      * mult-1-8
     * *09_bits*
       * Extract-bit
       * Join-8-1
@@ -512,6 +526,9 @@ Blocks created in the Jedi Hardware academy
       * Extractor-bus-8bits
   * *Comparadores*
     * *05-bits*
+      * Comp-1
+      * Menor-1
+    * *06-bits*
       * Comp-1
       * Menor-1
     * *09-bits*
@@ -625,6 +642,7 @@ Blocks created in the Jedi Hardware academy
     * Debouncer
     * Pull-up-5
     * Pull-up
+    * Tri-state-8
     * Tri-state
     * jelly-kbd
     * key-beep
@@ -764,6 +782,7 @@ Blocks created in the Jedi Hardware academy
   * *Sonido*
     * note
   * *Timers*
+    * bus-cycle
     * timer-10usec
     * timer-msec
     * timer-sec
@@ -797,6 +816,12 @@ Blocks created in the Jedi Hardware academy
   * 02-Brillo-LED-pulsadores-4bits
   * 03-Brillo-LEDs-pot-8bits
   * 04-Brillo-LEDs-serial-8bits
+* *Pines-ES*
+  * 02-pin-entrada-test-2
+  * 04-pin-salida-test-2
+  * 05-inout-test-02
+  * 06-inout-test-03
+  * 07-inout-dos-circuitos
 * *Teclado*
   * 01-Key-test
   * 02-Jelly-kbd-test1
