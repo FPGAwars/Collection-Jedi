@@ -161,6 +161,22 @@
             "width": 192,
             "height": 32
           }
+        },
+        {
+          "id": "3065fc70-7c59-4d8f-8bec-8ebeaf1e8040",
+          "type": "basic.info",
+          "data": {
+            "info": "## Ejemplo: Configuración manual de un pin de salida\n\nEjemplo de uso del bloque InOut para configurar manualmente el pin D13  \ncomo salida. El ejemplo hace parpadear un LED externo conectado a  \nD13",
+            "readonly": true
+          },
+          "position": {
+            "x": 160,
+            "y": -208
+          },
+          "size": {
+            "width": 544,
+            "height": 112
+          }
         }
       ],
       "wires": [
