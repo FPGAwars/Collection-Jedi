@@ -1,14 +1,14 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "package": {
     "name": "Valor_85_55_8bits",
     "version": "0.0.1",
     "description": "Valor constante 85 (55h) para bus de 8 bits",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.094%22%20height=%22192.712%22%20viewBox=%220%200%20268.21304%20180.66755%22%3E%3Cg%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22306.821%22%20y=%22654.558%22%20font-size=%22165.12%22%20fill=%22green%22%20transform=%22translate(-307.953%20-550.037)%22%3E%3Ctspan%20x=%22306.821%22%20y=%22654.558%22%3E85%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22302.767%22%20y=%22729.805%22%20font-size=%2269.145%22%20transform=%22translate(-307.953%20-550.037)%22%3E%3Ctspan%20x=%22302.767%22%20y=%22729.805%22%3E10101010%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22490.722%22%20y=%22650.624%22%20font-size=%2283.077%22%20fill=%22#00f%22%20transform=%22translate(-307.953%20-550.037)%22%3E%3Ctspan%20x=%22490.722%22%20y=%22650.624%22%3E55%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22287.053%22%20height=%22192.712%22%20viewBox=%220%200%20269.11192%20180.66755%22%3E%3Cg%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22306.821%22%20y=%22654.558%22%20font-size=%22165.12%22%20fill=%22green%22%20transform=%22translate(-305.948%20-550.037)%22%3E%3Ctspan%20x=%22306.821%22%20y=%22654.558%22%3E85%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22302.767%22%20y=%22729.805%22%20font-size=%2269.145%22%20transform=%22translate(-305.948%20-550.037)%22%3E%3Ctspan%20x=%22302.767%22%20y=%22729.805%22%3E01010101%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22490.722%22%20y=%22650.624%22%20font-size=%2283.077%22%20fill=%22#00f%22%20transform=%22translate(-305.948%20-550.037)%22%3E%3Ctspan%20x=%22490.722%22%20y=%22650.624%22%3E55%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
