@@ -35,7 +35,7 @@
           "id": "20900453-999e-428e-ba6b-a170ca5cf67b",
           "type": "basic.output",
           "data": {
-            "name": "pwm",
+            "name": "",
             "pins": [
               {
                 "index": "0",
