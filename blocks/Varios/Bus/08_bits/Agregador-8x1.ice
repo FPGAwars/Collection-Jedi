@@ -150,7 +150,7 @@
           "id": "d2b89642-2cf6-4d14-9215-4eb774c9853d",
           "type": "basic.input",
           "data": {
-            "name": "i7",
+            "name": "i3",
             "pins": [
               {
                 "index": "0",
@@ -170,7 +170,7 @@
           "id": "42733799-2dd4-429b-bd43-a478067a10a6",
           "type": "basic.input",
           "data": {
-            "name": "i6",
+            "name": "i2",
             "pins": [
               {
                 "index": "0",
@@ -190,7 +190,7 @@
           "id": "7298de85-12b9-4ba6-a305-b9a2ea5a0eba",
           "type": "basic.input",
           "data": {
-            "name": "i5",
+            "name": "i1",
             "pins": [
               {
                 "index": "0",
@@ -210,7 +210,7 @@
           "id": "4f112367-2a70-4bac-acdc-8e3ad3f42257",
           "type": "basic.input",
           "data": {
-            "name": "i4",
+            "name": "i0",
             "pins": [
               {
                 "index": "0",
