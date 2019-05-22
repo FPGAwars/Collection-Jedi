@@ -355,7 +355,7 @@
             "local": false
           },
           "position": {
-            "x": 928,
+            "x": 936,
             "y": 456
           }
         },
@@ -574,16 +574,16 @@
           "id": "b1432f8c-070e-474f-9f22-66804f216d40",
           "type": "basic.info",
           "data": {
-            "info": "Registro inicializado  \ncon el valor mínimo",
+            "info": "Registro inicializado  \ncon el valor máximo",
             "readonly": true
           },
           "position": {
-            "x": 704,
+            "x": 712,
             "y": 304
           },
           "size": {
             "width": 184,
-            "height": 48
+            "height": 88
           }
         },
         {
@@ -943,22 +943,6 @@
         },
         {
           "source": {
-            "block": "b53a2625-5b96-424b-8e96-543d34dde71d",
-            "port": "constant-out"
-          },
-          "target": {
-            "block": "1eb27213-a48a-47c6-ba13-61339a2c5ebc",
-            "port": "f3b434e4-0c8f-4dd7-90c7-305189a807f1"
-          },
-          "vertices": [
-            {
-              "x": 864,
-              "y": 520
-            }
-          ]
-        },
-        {
-          "source": {
             "block": "9202c539-ba0c-4cca-b1fd-1dfcf5a49689",
             "port": "outlabel"
           },
@@ -1235,6 +1219,16 @@
           "target": {
             "block": "97479eaf-daec-4c84-a23c-2fc5f19031db",
             "port": "5340dd0d-17b9-42a2-b4d9-fbd56349f8c8"
+          }
+        },
+        {
+          "source": {
+            "block": "9eaeb052-1fdc-4080-a4fc-a1184d97f20d",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "1eb27213-a48a-47c6-ba13-61339a2c5ebc",
+            "port": "f3b434e4-0c8f-4dd7-90c7-305189a807f1"
           }
         }
       ]
