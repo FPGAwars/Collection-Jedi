@@ -3,9 +3,7 @@
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v1.4.0-orange.svg)
 
-Blocks created in the Jedi Hardware academy
-
-![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
+Blocks created in the Jedi Hardware academy.
 
 ## Install
 
@@ -105,7 +103,13 @@ Blocks created in the Jedi Hardware academy
       * not
       * or5-bus
       * or5
+    * *06-bits*
+    * *07-bits*
+      * and-7-1
+      * and-7
     * *08-bits*
+      * and-8-1
+      * and-8
       * not
   * *Tablas*
     * *tablas_bin*
@@ -445,6 +449,7 @@ Blocks created in the Jedi Hardware academy
   * *Bombeo*
     * Corazon_Hz
     * Corazon_Seg
+    * Corazon_ms
     * *Fijos*
       * Corazon_10Hz
       * Corazon_1Hz
@@ -492,6 +497,7 @@ Blocks created in the Jedi Hardware academy
       * Agregador4
       * Separador
       * Separador4
+      * mult-1-4-bus
     * *05_bits*
       * Agregador-3-2
       * Agregador-5
@@ -501,7 +507,10 @@ Blocks created in the Jedi Hardware academy
       * Agregador-1-5
       * Agregador
     * *07_bits*
+      * Agregador-7x1
       * Agregador
+      * Separador-7x1
+      * mult-1-7-bus
     * *08_bits*
       * Agregador-8x1
       * Agregador
@@ -510,6 +519,7 @@ Blocks created in the Jedi Hardware academy
       * Separador-3-4
       * Separador-8x1
       * Separador
+      * mult-1-8-bus
       * mult-1-8
     * *09_bits*
       * Extract-bit
@@ -593,6 +603,7 @@ Blocks created in the Jedi Hardware academy
     * *04-bits*
       * cont-basic-+1-ini0
       * cont-basic
+      * cont-up-down-2
       * cont-up-down
       * cont-up-system
       * cont-up
@@ -607,8 +618,12 @@ Blocks created in the Jedi Hardware academy
       * cont-up
     * *08-bits*
       * cont-basic
+      * cont-up-down-limit
       * cont-up
+      * counter-down-limit
       * *blocks*
+        * cont-basic
+      * *system*
         * cont-basic
     * *09-bits*
       * cont-max
@@ -651,6 +666,19 @@ Blocks created in the Jedi Hardware academy
     * key
     * sync-bus5
     * sync
+  * *LED*
+    * Brillo-control
+    * brillo-gradual
+    * brillo
+    * fade-out
+    * *07-bits*
+      * brillo-7
+      * brillo-gradual-7
+      * fade-out-7
+    * *08-bits*
+      * brillo-8
+      * brillo-gradual-8
+      * fade-out-8
   * *Maquinas*
     * *Basicas*
       * Wait-ms
@@ -813,6 +841,20 @@ Blocks created in the Jedi Hardware academy
   * 04-Potentiometer-BCD-7Seg
   * 05-Potentiometer-8LEDs
   * Alhambra II_adc-test-01
+* *LEDs*
+  * Ejemplo-03-grupo-ocho-leds
+  * Ejemplo-05-grupo-ocho-leds-brillo-bajo
+  * Ejemplo-08-degradado-8-LEDs
+  * Ejemplo-10-Potenciometro-grupo-8-LEDs
+  * Ejemplo-12-fundido-desvanecimiento-pulsador
+  * Ejemplo-14-LEDs-pulsantes-grupo-8
+  * Ejemplo-16-LEDs-estela
+  * Ejemplo-19-animacion-brillo-ajustable-teclas
+  * Ejemplo-21-contador-binario-gradual
+  * Ejemplo-22-segundero-gradual
+  * Ejemplo-23-coche-fantastico
+  * Ejemplo-24-contador-binario-efimero
+  * Ejemplo-25-contador-decimal-efimero
 * *PWM*
   * 01-Brillo-LED-pulsador-2bits
   * 02-Brillo-LED-pulsadores-4bits
