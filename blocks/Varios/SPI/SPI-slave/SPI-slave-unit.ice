@@ -153,6 +153,45 @@
           }
         },
         {
+          "id": "d9f41b8e-fa5a-4d6f-ad21-52f0b617e5e4",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "oe",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 224,
+            "y": -72
+          }
+        },
+        {
+          "id": "b4d1fb2e-3ad7-4d06-84f5-f6160f0f2c53",
+          "type": "basic.output",
+          "data": {
+            "name": "MISO",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D12",
+                "value": "63"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 528,
+            "y": -24
+          }
+        },
+        {
           "id": "c5dfe86f-e849-45a2-8512-b617d73d4b07",
           "type": "basic.inputLabel",
           "data": {
@@ -194,45 +233,6 @@
           }
         },
         {
-          "id": "d9f41b8e-fa5a-4d6f-ad21-52f0b617e5e4",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "oe",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 224,
-            "y": 152
-          }
-        },
-        {
-          "id": "b4d1fb2e-3ad7-4d06-84f5-f6160f0f2c53",
-          "type": "basic.output",
-          "data": {
-            "name": "MISO",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D12",
-                "value": "63"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 528,
-            "y": 200
-          }
-        },
-        {
           "id": "5cfc365c-0728-4e56-850f-c67fddff9098",
           "type": "basic.outputLabel",
           "data": {
@@ -250,7 +250,46 @@
           },
           "position": {
             "x": 224,
-            "y": 232
+            "y": 8
+          }
+        },
+        {
+          "id": "245292ae-77db-4705-bac0-52013a1a2557",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "SS",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 296,
+            "y": 160
+          }
+        },
+        {
+          "id": "9c4e6a55-2e25-4664-b90a-6fa81c8113f1",
+          "type": "basic.output",
+          "data": {
+            "name": "ss",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D12",
+                "value": "63"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 456,
+            "y": 160
           }
         },
         {
@@ -524,45 +563,6 @@
           "position": {
             "x": -1112,
             "y": 488
-          }
-        },
-        {
-          "id": "245292ae-77db-4705-bac0-52013a1a2557",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "SS",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 320,
-            "y": 600
-          }
-        },
-        {
-          "id": "9c4e6a55-2e25-4664-b90a-6fa81c8113f1",
-          "type": "basic.output",
-          "data": {
-            "name": "ss",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D12",
-                "value": "63"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 480,
-            "y": 600
           }
         },
         {
@@ -1315,7 +1315,7 @@
           "type": "d7e6ff61e136e0120db6aaabf8b34ea6fd14c159",
           "position": {
             "x": 384,
-            "y": 216
+            "y": -8
           },
           "size": {
             "width": 96,
@@ -1331,7 +1331,7 @@
           },
           "position": {
             "x": 224,
-            "y": 88
+            "y": -136
           },
           "size": {
             "width": 360,
