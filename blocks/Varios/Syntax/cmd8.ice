@@ -5,7 +5,7 @@
     "version": "0.1",
     "description": "Detectar el comando, y devolver los valores que llegan tras el comando",
     "author": "Juan Gonzalez-Gómez (Obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22357.358%22%20height=%22196.167%22%20viewBox=%220%200%2094.550903%2051.902424%22%3E%3Cg%20font-weight=%22400%22%20font-size=%225.114%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20stroke-width=%22.426%22%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2246.477%22%20y=%22165.976%22%20fill=%22#00f%22%20transform=%22translate(-49.099%20-114.424)%22%3E%3Ctspan%20x=%2246.477%22%20y=%22165.976%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2224.742%22%3E&lt;cmd&gt;%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2247.896%22%20y=%22132.787%22%20fill=%22green%22%20transform=%22translate(-49.099%20-114.424)%22%3E%3Ctspan%20x=%2247.896%22%20y=%22132.787%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2224.742%22%3ESyntax%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22357.358%22%20height=%22421.383%22%20viewBox=%220%200%2094.550903%20111.4908%22%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2246.477%22%20y=%22165.976%22%20font-weight=%22400%22%20font-size=%225.114%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20stroke-width=%22.426%22%20transform=%22translate(-49.099%20-114.424)%22%3E%3Ctspan%20x=%2246.477%22%20y=%22165.976%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2224.742%22%3E&lt;cmd&gt;%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2247.896%22%20y=%22132.787%22%20font-weight=%22400%22%20font-size=%225.114%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20stroke-width=%22.426%22%20transform=%22translate(-49.099%20-114.424)%22%3E%3Ctspan%20x=%2247.896%22%20y=%22132.787%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2224.742%22%3ESyntax%3C/tspan%3E%3C/text%3E%3Cg%20transform=%22matrix(.79321%200%200%20.79321%20.425%2031.247)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.79321%200%200%20.79321%20-57.39%2041.15)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
     "board": "alhambra-ii",
@@ -158,7 +158,7 @@
             "clock": false
           },
           "position": {
-            "x": 568,
+            "x": 480,
             "y": 192
           }
         },
@@ -177,8 +177,8 @@
             "virtual": true
           },
           "position": {
-            "x": 1480,
-            "y": 208
+            "x": 1488,
+            "y": 224
           }
         },
         {
@@ -197,7 +197,7 @@
             "clock": false
           },
           "position": {
-            "x": 568,
+            "x": 480,
             "y": 296
           }
         },
@@ -205,12 +205,12 @@
           "id": "c875d3e9-7fed-4f53-b957-cc01ef8b80a5",
           "type": "basic.constant",
           "data": {
-            "name": "cmd",
+            "name": "",
             "value": "'h00",
             "local": false
           },
           "position": {
-            "x": 808,
+            "x": 720,
             "y": 96
           }
         },
@@ -218,7 +218,7 @@
           "id": "f5c15680-9fd8-4d77-bf00-2264c9ce4808",
           "type": "ca73164c83e3f1cf6728c52cd70327629263bb51",
           "position": {
-            "x": 808,
+            "x": 720,
             "y": 192
           },
           "size": {
@@ -230,8 +230,8 @@
           "id": "c0b8cd0a-5e6e-4fa3-a943-b3b6e047caca",
           "type": "b959c256104d1064a5ef7b38632ffb6eed3b396f",
           "position": {
-            "x": 1088,
-            "y": 176
+            "x": 1080,
+            "y": 192
           },
           "size": {
             "width": 96,
@@ -242,8 +242,8 @@
           "id": "ba622b6b-6bf4-44e4-ba24-97afc59276ae",
           "type": "b2090f68ef94fd3c5c0eaea93eb6ba7e80aff0b6",
           "position": {
-            "x": 1280,
-            "y": 208
+            "x": 1288,
+            "y": 224
           },
           "size": {
             "width": 96,
@@ -274,8 +274,8 @@
             "readonly": true
           },
           "position": {
-            "x": 1272,
-            "y": 152
+            "x": 1280,
+            "y": 168
           },
           "size": {
             "width": 256,
@@ -293,6 +293,34 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "21fb73c9-931d-4c12-a922-35ff47d96342",
+          "type": "b2090f68ef94fd3c5c0eaea93eb6ba7e80aff0b6",
+          "position": {
+            "x": 872,
+            "y": 208
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "bdcab636-7639-44e4-b0f0-511dfa96e243",
+          "type": "basic.info",
+          "data": {
+            "info": "Solo se comprueba  \nel comando cuando  \nllega un tic",
+            "readonly": true
+          },
+          "position": {
+            "x": 848,
+            "y": 128
+          },
+          "size": {
+            "width": 168,
+            "height": 72
+          }
         }
       ],
       "wires": [
@@ -304,16 +332,6 @@
           "target": {
             "block": "f5c15680-9fd8-4d77-bf00-2264c9ce4808",
             "port": "bde24908-c5bf-4286-b7e3-e42a11ca5c68"
-          }
-        },
-        {
-          "source": {
-            "block": "f5c15680-9fd8-4d77-bf00-2264c9ce4808",
-            "port": "0344dacc-8583-456b-b377-8cb4ab97cf94"
-          },
-          "target": {
-            "block": "c0b8cd0a-5e6e-4fa3-a943-b3b6e047caca",
-            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
           }
         },
         {
@@ -336,22 +354,6 @@
             "port": "66770249-8f14-4f0c-b645-56f2f2ffc1b2"
           },
           "size": 8
-        },
-        {
-          "source": {
-            "block": "7adc16cc-9f3a-4913-83eb-b3cf1eeef5e8",
-            "port": "out"
-          },
-          "target": {
-            "block": "c0b8cd0a-5e6e-4fa3-a943-b3b6e047caca",
-            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
-          },
-          "vertices": [
-            {
-              "x": 944,
-              "y": 136
-            }
-          ]
         },
         {
           "source": {
@@ -384,7 +386,7 @@
           },
           "vertices": [
             {
-              "x": 1008,
+              "x": 1032,
               "y": -32
             }
           ]
@@ -427,11 +429,57 @@
           },
           "vertices": [
             {
-              "x": 720,
+              "x": 632,
               "y": 56
             }
           ],
           "size": 8
+        },
+        {
+          "source": {
+            "block": "f5c15680-9fd8-4d77-bf00-2264c9ce4808",
+            "port": "0344dacc-8583-456b-b377-8cb4ab97cf94"
+          },
+          "target": {
+            "block": "21fb73c9-931d-4c12-a922-35ff47d96342",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "21fb73c9-931d-4c12-a922-35ff47d96342",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "c0b8cd0a-5e6e-4fa3-a943-b3b6e047caca",
+            "port": "3ae2d46d-7981-497a-899f-b60bfae0f43e"
+          }
+        },
+        {
+          "source": {
+            "block": "7adc16cc-9f3a-4913-83eb-b3cf1eeef5e8",
+            "port": "out"
+          },
+          "target": {
+            "block": "c0b8cd0a-5e6e-4fa3-a943-b3b6e047caca",
+            "port": "86eb8c81-17fc-4371-bd21-51f429191f3c"
+          },
+          "vertices": [
+            {
+              "x": 992,
+              "y": 152
+            }
+          ]
+        },
+        {
+          "source": {
+            "block": "beaaf064-47fc-404a-bda5-e7d9dd8bc935",
+            "port": "out"
+          },
+          "target": {
+            "block": "21fb73c9-931d-4c12-a922-35ff47d96342",
+            "port": "97b51945-d716-4b6c-9db9-970d08541249"
+          }
         }
       ]
     }
