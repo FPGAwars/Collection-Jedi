@@ -72,6 +72,46 @@
           }
         },
         {
+          "id": "253a2366-1e41-4e05-9fe2-306d30c2f830",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "clock": true
+          },
+          "position": {
+            "x": -96,
+            "y": -152
+          }
+        },
+        {
+          "id": "793c182b-7696-4424-8e3e-738313e28893",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 56,
+            "y": -152
+          }
+        },
+        {
           "id": "9825c300-6b90-42a0-938a-216cb9fbcbdc",
           "type": "basic.input",
           "data": {
@@ -183,46 +223,6 @@
           "position": {
             "x": 1696,
             "y": -64
-          }
-        },
-        {
-          "id": "253a2366-1e41-4e05-9fe2-306d30c2f830",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "clock": true
-          },
-          "position": {
-            "x": -96,
-            "y": -32
-          }
-        },
-        {
-          "id": "793c182b-7696-4424-8e3e-738313e28893",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 56,
-            "y": -32
           }
         },
         {
