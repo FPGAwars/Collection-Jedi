@@ -15,7 +15,7 @@
           "id": "8bf78dc7-4eb5-4d20-bdad-541066177db1",
           "type": "basic.input",
           "data": {
-            "name": "clk",
+            "name": "",
             "pins": [
               {
                 "index": "0",
