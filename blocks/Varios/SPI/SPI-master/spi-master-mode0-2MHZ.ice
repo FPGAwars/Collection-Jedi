@@ -36,7 +36,7 @@
           "id": "d4d72900-cc12-412e-8cbd-b464ebb23315",
           "type": "basic.input",
           "data": {
-            "name": "clk",
+            "name": "",
             "pins": [
               {
                 "index": "0",
