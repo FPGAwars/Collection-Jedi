@@ -70,7 +70,7 @@
           },
           "position": {
             "x": 1000,
-            "y": -32
+            "y": -80
           }
         },
         {
@@ -91,7 +91,7 @@
           },
           "position": {
             "x": 480,
-            "y": 48
+            "y": -8
           }
         },
         {
@@ -110,6 +110,25 @@
           },
           "position": {
             "x": 472,
+            "y": 48
+          }
+        },
+        {
+          "id": "5b305823-1adf-4703-9ebe-55d4f38de35b",
+          "type": "basic.output",
+          "data": {
+            "name": "SCLK",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D13",
+                "value": "64"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 488,
             "y": 104
           }
         },
@@ -156,22 +175,42 @@
           }
         },
         {
-          "id": "5b305823-1adf-4703-9ebe-55d4f38de35b",
+          "id": "4370bc55-4672-43d0-b681-905c1bb5b483",
           "type": "basic.output",
           "data": {
-            "name": "SCLK",
+            "name": "ss",
             "pins": [
               {
                 "index": "0",
-                "name": "D13",
-                "value": "64"
+                "name": "D10",
+                "value": "22"
               }
             ],
             "virtual": true
           },
           "position": {
-            "x": 472,
-            "y": 160
+            "x": 1448,
+            "y": 152
+          }
+        },
+        {
+          "id": "704bf9c4-8ebc-463c-b1c3-f3a9b9c31bae",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "done",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 976,
+            "y": 152
           }
         },
         {
@@ -214,45 +253,6 @@
           }
         },
         {
-          "id": "4370bc55-4672-43d0-b681-905c1bb5b483",
-          "type": "basic.output",
-          "data": {
-            "name": "ss",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D10",
-                "value": "22"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 1448,
-            "y": 200
-          }
-        },
-        {
-          "id": "704bf9c4-8ebc-463c-b1c3-f3a9b9c31bae",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "done",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 976,
-            "y": 200
-          }
-        },
-        {
           "id": "41111a91-6e57-461c-9bd1-ebb9b5b42115",
           "type": "basic.outputLabel",
           "data": {
@@ -269,7 +269,7 @@
           },
           "position": {
             "x": 976,
-            "y": 256
+            "y": 208
           }
         },
         {
@@ -356,7 +356,7 @@
           },
           "position": {
             "x": 1128,
-            "y": 88
+            "y": 40
           }
         },
         {
@@ -369,7 +369,7 @@
           },
           "position": {
             "x": 1304,
-            "y": 88
+            "y": 40
           }
         },
         {
@@ -433,7 +433,7 @@
           "type": "b959c256104d1064a5ef7b38632ffb6eed3b396f",
           "position": {
             "x": 1304,
-            "y": 184
+            "y": 136
           },
           "size": {
             "width": 96,
@@ -445,7 +445,7 @@
           "type": "3b630a3c35b04c9bdcc4afaf4a01b0b1b8d06887",
           "position": {
             "x": 1128,
-            "y": 184
+            "y": 136
           },
           "size": {
             "width": 96,
@@ -461,7 +461,7 @@
           },
           "position": {
             "x": 1120,
-            "y": 304
+            "y": 256
           },
           "size": {
             "width": 368,
