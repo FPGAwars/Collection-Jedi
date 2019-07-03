@@ -1,7 +1,7 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.6.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.7.0-orange.svg)
 
 Blocks created in the Jedi Hardware academy.
 
@@ -9,7 +9,7 @@ Blocks created in the Jedi Hardware academy.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.6.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.7.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -83,6 +83,7 @@ Blocks created in the Jedi Hardware academy.
       * Mux-2-1
       * Mux-4-1-bus
       * Mux-4-1
+      * Mux-8-1
   * *Puertas*
     * and
     * nand
@@ -509,6 +510,7 @@ Blocks created in the Jedi Hardware academy.
     * *06_bits*
       * Agregador-1-5
       * Agregador
+      * Separador-6x1
     * *07_bits*
       * Agregador-7x1
       * Agregador
@@ -686,6 +688,8 @@ Blocks created in the Jedi Hardware academy.
       * brillo-gradual-8
       * fade-out-8
   * *Maquinas*
+    * serialize-2-16bits
+    * serialize-2
     * *Basicas*
       * Wait-ms
     * *Componentes*
@@ -794,9 +798,21 @@ Blocks created in the Jedi Hardware academy.
   * *Retardo*
     * Tortuga-2
   * *SPI*
+    * *SPI-master*
+      * serial-SPI-mode0-2MHz
+      * spi-master-mode0-2MHZ
+      * spi-master-reg
+      * *parts*
+        * SPI-heart-2MHZ
     * *SPI-slave*
       * SPI-cmd-regs
+      * SPI-slave-mode0-2MHZ
       * SPI-slave-unit
+      * *Test*
+        * spi-slave-test-cmd
+        * spi-slave-test-echo
+        * spi-slave-test-id
+        * spi-slave-test-regs
   * *Serial*
     * Serial-rx
     * Serial-tx
@@ -880,8 +896,22 @@ Blocks created in the Jedi Hardware academy.
   * 06-inout-test-03
   * 07-inout-dos-circuitos
 * *SPI*
+  * *SPI-master*
+    * 01-2-spi-master-constant
+    * 02-spi-master-lectura-id
+    * 03-spi-master-lectura-escritura
+    * 04-spi-master-medidas
+    * 05-2-serial-spi-echo
+    * 06-serial-spi-cmd
+    * 07-serial-spi-regs
+    * 08-1-serial-spi-flash-memory
+    * 09-serial-spi-cap1188
+    * *Icestick*
+      * 08-3-serial-spi-flash-memory-Icestick
+    * *Icezum-alhambra*
+      * 08-2-serial-spi-flash-memory-Icezum-Alhambra
   * *SPI-slave*
-    * 01-SPI-LEDs
+    * 01-SPI-LEDs-mode0
     * 02-SPI-LEDs-regs
     * 03-SPI-Pulsadores
     * 04-SPI-send-receive
@@ -895,6 +925,11 @@ Blocks created in the Jedi Hardware academy.
     * 14-SPI-cuatro-registros-mapeados
     * 15-Serial-cuatro-registros-mapeados
     * 16-SPI-mini-VGA
+    * *SPI-test*
+      * 00-1-spi-slave-test-id
+      * 00-2-spi-slave-test-eco
+      * 00-3-spi-slave-test-cmd
+      * 00-4-spi-slave-test-regs
     * *icezum-Alhambra*
       * 18-SPI-Icezum-Alhambra-cuatro-registros-mapeados
 * *Teclado*
