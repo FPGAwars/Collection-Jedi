@@ -344,7 +344,7 @@
           "id": "a8eb520f-8b09-41ab-9146-919bf44b6078",
           "type": "basic.output",
           "data": {
-            "name": "q",
+            "name": "n",
             "range": "[3:0]",
             "pins": [
               {
@@ -743,13 +743,13 @@
           "id": "d0005413-fea9-4b0b-8a18-9b15d4977bc1",
           "type": "basic.constant",
           "data": {
-            "name": "Cyc",
+            "name": "N",
             "value": "8",
             "local": false
           },
           "position": {
             "x": 680,
-            "y": 352
+            "y": 344
           }
         },
         {
