@@ -330,7 +330,7 @@
           "id": "2885a59c-c338-4e79-83bc-771f79ec7d2e",
           "type": "basic.output",
           "data": {
-            "name": "q",
+            "name": "n",
             "range": "[2:0]",
             "pins": [
               {
@@ -720,7 +720,7 @@
           "id": "d0005413-fea9-4b0b-8a18-9b15d4977bc1",
           "type": "basic.constant",
           "data": {
-            "name": "Cyc",
+            "name": "N",
             "value": "8",
             "local": false
           },
