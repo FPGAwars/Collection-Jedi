@@ -317,7 +317,7 @@
           "id": "d5202de9-f599-44eb-91b0-9cc066d99cb2",
           "type": "basic.output",
           "data": {
-            "name": "q",
+            "name": "n",
             "range": "[1:0]",
             "pins": [
               {
@@ -697,7 +697,7 @@
           "id": "d0005413-fea9-4b0b-8a18-9b15d4977bc1",
           "type": "basic.constant",
           "data": {
-            "name": "Cyc",
+            "name": "N",
             "value": "4",
             "local": false
           },
@@ -1353,8 +1353,7 @@
         {
           "source": {
             "block": "b5f44002-cef7-4159-8bb4-7bad1da19528",
-            "port": "ca5759cf-fc96-4d75-8a59-3a8087cad1bf",
-            "size": 2
+            "port": "ca5759cf-fc96-4d75-8a59-3a8087cad1bf"
           },
           "target": {
             "block": "684c73b1-e845-427e-99f6-7725540026bd",
@@ -1369,8 +1368,7 @@
           },
           "target": {
             "block": "efc77998-2cbe-4f54-aa2f-847344dad59a",
-            "port": "ab6da1db-4b52-45d3-aa03-5f37ed6719fe",
-            "size": 2
+            "port": "ab6da1db-4b52-45d3-aa03-5f37ed6719fe"
           },
           "size": 2
         },
@@ -1431,8 +1429,7 @@
           },
           "target": {
             "block": "5a639e88-cf08-4a9e-9321-08826c72f3fa",
-            "port": "2cd37537-b9f4-4f85-8e70-bd2b23905f1b",
-            "size": 2
+            "port": "2cd37537-b9f4-4f85-8e70-bd2b23905f1b"
           },
           "size": 2
         },
@@ -1499,8 +1496,7 @@
           },
           "target": {
             "block": "d5202de9-f599-44eb-91b0-9cc066d99cb2",
-            "port": "in",
-            "size": 2
+            "port": "in"
           },
           "size": 2
         },
