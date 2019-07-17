@@ -1,9 +1,9 @@
 {
   "version": "1.2",
   "package": {
-    "name": "digitos-4",
+    "name": "Time-4",
     "version": "0.1",
-    "description": "Controlador para display SPI de 4 digitos modelo COM-1129 de SparkFun",
+    "description": "Time-4: Controlador para display SPI de 4 digitos modelo COM-1129 de SparkFun",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22494.245%22%20height=%22277.134%22%20viewBox=%220%200%20130.76886%2073.325074%22%20id=%22svg8%22%3E%3Cdefs%20id=%22defs2%22%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-7%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-5%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-5%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-6%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-2%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-9%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-1%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-7%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cdefs%20id=%22defs3%22%3E%3Cpath%20d=%22M-58.3-45h653.6v640H-58.3z%22%20id=%22a%22/%3E%3C/defs%3E%3Cpath%20d=%22M-58.3-45h653.6v640H-58.3z%22%20id=%22path880%22/%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleInM%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4321%22%20d=%22M-2.308%200l3.46-2v4z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22EmptyTriangleInM%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4339%22%20d=%22M-.508%200l3.46-2v4z%22%20fill=%22#fff%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM-3%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4297%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22marker4456%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4458%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22marker4428%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4430%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-67%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path4179%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cpath%20d=%22M-58.3-45h653.6v640H-58.3z%22%20id=%22path919%22/%3E%3Cpath%20d=%22M-58.3-45h653.6v640H-58.3z%22%20id=%22path998%22/%3E%3Cmarker%20id=%22TriangleOutM-4%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-7%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-4%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-0%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-62%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-99%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-0%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-8%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-1%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM-7-3%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972-5-1%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-3-1%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-5-0%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-6-3%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-2-4%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3-9-0%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6-1-3%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5-2-9%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3-7-1%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cdefs%20id=%22defs3-9%22%3E%3Cpath%20id=%22a-6%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3C/defs%3E%3Cpath%20id=%22path880-9%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3Cmarker%20id=%22TriangleInM-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-2.308%200l3.46-2v4z%22%20id=%22path4321-3%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22EmptyTriangleInM-8%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-.508%200l3.46-2v4z%22%20id=%22path4339-0%22%20fill=%22#fff%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-3-5%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path4297-6%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.5332%22/%3E%3C/marker%3E%3Cmarker%20id=%22marker4456-6%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path4458-4%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22marker4428-0%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path4430-0%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-67-4%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path4179-6%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cpath%20id=%22path1228%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3Cpath%20d=%22M-58.3-45h653.6v640H-58.3z%22%20id=%22path2109%22/%3E%3Cpath%20id=%22path2111%22%20d=%22M-58.3-45h653.6v640H-58.3z%22/%3E%3C/defs%3E%3Cg%20id=%22layer1%22%20transform=%22translate(-182.982%20-60.687)%22%3E%3Cpath%20d=%22M313.751%2060.687H183.395v73.325h130.356V60.687m-10.999%2065.178a5.296%205.296%200%201%201-10.591%200%205.296%205.296%200%201%201%2010.591%200zm0-57.03a5.296%205.296%200%201%201-10.591%200%205.296%205.296%200%201%201%2010.591%200zm-97.766%2057.03a5.296%205.296%200%200%201-10.592%200%205.296%205.296%200%201%201%2010.592%200zm0-57.03a5.296%205.296%200%200%201-10.592%200%205.296%205.296%200%201%201%2010.592%200zm-15.888-4.074a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0%208.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm122.209%2057.03a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm0-8.147a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm0-57.03a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm0%208.147a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm-122.209%2057.03a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.148a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm0-8.147a1.63%201.63%200%201%201-3.258%200%201.63%201.63%200%201%201%203.258%200zm24.442-16.294a1.63%201.63%200%201%201-3.259%200%201.63%201.63%200%201%201%203.26%200zm8.147%200a1.63%201.63%200%201%201-3.259%200%201.63%201.63%200%201%201%203.26%200zm8.148%200a1.63%201.63%200%201%201-3.26%200%201.63%201.63%200%201%201%203.26%200zm8.147%200a1.63%201.63%200%201%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm8.147%200a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.26%200zm8.147%200a1.63%201.63%200%200%201-3.259%200%201.63%201.63%200%201%201%203.26%200zm8.148%200a1.63%201.63%200%200%201-3.26%200%201.63%201.63%200%201%201%203.26%200zm8.147%200a1.63%201.63%200%200%201-3.26%200%201.63%201.63%200%201%201%203.26%200zm8.147%200a1.63%201.63%200%201%201-3.259%200%201.63%201.63%200%201%201%203.259%200zm8.147%200a1.63%201.63%200%201%201-3.259%200%201.63%201.63%200%201%201%203.26%200z%22%20id=%22path8-3%22%20fill=%22#e6321e%22%20stroke-width=%221.132%22/%3E%3Cpath%20id=%22line14%22%20stroke=%22#fff%22%20stroke-width=%22.815%22%20stroke-linecap=%22round%22%20d=%22M191.543%2071.942v43.995%22/%3E%3Cpath%20id=%22line16%22%20stroke=%22#fff%22%20stroke-width=%22.815%22%20stroke-linecap=%22round%22%20d=%22M191.543%20115.937l-2.445%202.444%22/%3E%3Cpath%20id=%22line18%22%20stroke=%22#fff%22%20stroke-width=%22.815%22%20stroke-linecap=%22round%22%20d=%22M189.098%20118.381h-5.703%22/%3E%3Cpath%20id=%22line20%22%20stroke=%22#fff%22%20stroke-width=%22.815%22%20stroke-linecap=%22round%22%20d=%22M189.098%2069.498l2.445%202.444%22/%3E%3Cpath%20id=%22line22%22%20stroke=%22#fff%22%20stroke-width=%22.815%22%20stroke-linecap=%22round%22%20d=%22M189.098%2069.498h-5.703%22/%3E%3Cpath%20id=%22line24%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M303.974%20128.309v3.259%22/%3E%3Cpath%20id=%22line26%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M305.604%20129.939h-3.259%22/%3E%3Cpath%20id=%22line28%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M303.974%20120.162v3.259%22/%3E%3Cpath%20id=%22line30%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M193.172%20120.826v3.258%22/%3E%3Cpath%20id=%22line32%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M194.802%20122.455h-3.259%22/%3E%3Cpath%20id=%22line34%22%20stroke=%22#fff%22%20stroke-width=%22.652%22%20stroke-linecap=%22round%22%20d=%22M193.172%20112.678v3.259%22/%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20161.655%2060.687)%22%20id=%22g883%22%3E%3Cg%20id=%22g881%22%3E%3Cg%20id=%22g42%22%3E%3Ctitle%20id=%22title44%22%3Etext:VCC%3C/title%3E%3Cg%20transform=%22translate(68.4%206.48)%22%20id=%22g878%22%3E%3Cg%20id=%22g876%22%3E%3Cg%20id=%22g46%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g873%22%3E%3Cg%20id=%22g871%22%3E%3Cg%20id=%22g48%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text50%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EVCC%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20145.36%2060.687)%22%20id=%22g900%22%3E%3Cg%20id=%22g898%22%3E%3Cg%20id=%22g52%22%3E%3Ctitle%20id=%22title54%22%3Etext:GND%3C/title%3E%3Cg%20transform=%22translate(75.6%206.48)%22%20id=%22g895%22%3E%3Cg%20id=%22g893%22%3E%3Cg%20id=%22g56%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g890%22%3E%3Cg%20id=%22g888%22%3E%3Cg%20id=%22g58%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text60%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EGND%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20259.421%2060.687)%22%20id=%22g917%22%3E%3Cg%20id=%22g915%22%3E%3Cg%20id=%22g62%22%3E%3Ctitle%20id=%22title64%22%3Etext:RX%3C/title%3E%3Cg%20transform=%22translate(25.2%206.48)%22%20id=%22g912%22%3E%3Cg%20id=%22g910%22%3E%3Cg%20id=%22g66%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g907%22%3E%3Cg%20id=%22g905%22%3E%3Cg%20id=%22g68%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text70%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ERX%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20243.127%2060.687)%22%20id=%22g934%22%3E%3Cg%20id=%22g932%22%3E%3Cg%20id=%22g72%22%3E%3Ctitle%20id=%22title74%22%3Etext:!SS%3C/title%3E%3Cg%20transform=%22translate(32.4%206.48)%22%20id=%22g929%22%3E%3Cg%20id=%22g927%22%3E%3Cg%20id=%22g76%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g924%22%3E%3Cg%20id=%22g922%22%3E%3Cg%20id=%22g78%22%3E%3Ctext%20style=%22text-decoration-line:overline%22%20text-decoration=%22overline%22%20font-size=%222.448%22%20id=%22text80%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ESS%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20226.832%2060.687)%22%20id=%22g951%22%3E%3Cg%20id=%22g949%22%3E%3Cg%20id=%22g82%22%3E%3Ctitle%20id=%22title84%22%3Etext:SDI%3C/title%3E%3Cg%20transform=%22translate(39.6%206.48)%22%20id=%22g946%22%3E%3Cg%20id=%22g944%22%3E%3Cg%20id=%22g86%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g941%22%3E%3Cg%20id=%22g939%22%3E%3Cg%20id=%22g88%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text90%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ESDI%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20194.243%2060.687)%22%20id=%22g968%22%3E%3Cg%20id=%22g966%22%3E%3Cg%20id=%22g92%22%3E%3Ctitle%20id=%22title94%22%3Etext:SCK%3C/title%3E%3Cg%20transform=%22translate(54%206.48)%22%20id=%22g963%22%3E%3Cg%20id=%22g961%22%3E%3Cg%20id=%22g96%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g958%22%3E%3Cg%20id=%22g956%22%3E%3Cg%20id=%22g98%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text100%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ESCK%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%2075.149%2053.204)%22%20id=%22g982%22%3E%3Cg%20id=%22g980%22%3E%3Cg%20id=%22g108%22%3E%3Ctitle%20id=%22title110%22%3Etext:TX%3C/title%3E%3Ctext%20x=%22107.64%22%20y=%2225.2%22%20font-size=%222.448%22%20id=%22text112%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ETX%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%2075.149%2053.204)%22%20id=%22g989%22%3E%3Cg%20id=%22g987%22%3E%3Cg%20id=%22g114%22%3E%3Ctitle%20id=%22title116%22%3Etext:RX%3C/title%3E%3Ctext%20x=%22107.64%22%20y=%2232.4%22%20font-size=%222.448%22%20id=%22text118%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ERX%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%2077.651%2053.204)%22%20id=%22g996%22%3E%3Cg%20id=%22g994%22%3E%3Cg%20id=%22g120%22%3E%3Ctitle%20id=%22title122%22%3Etext:VCC%3C/title%3E%3Ctext%20x=%22107.64%22%20y=%2239.6%22%20font-size=%222.448%22%20id=%22text124%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EVCC%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%2077.651%2053.204)%22%20id=%22g1003%22%3E%3Cg%20id=%22g1001%22%3E%3Cg%20id=%22g126%22%3E%3Ctitle%20id=%22title128%22%3Etext:GND%3C/title%3E%3Ctext%20x=%22107.64%22%20y=%2246.8%22%20font-size=%222.448%22%20id=%22text130%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EGND%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20297.004%2060.818)%22%20id=%22g1020%22%3E%3Cg%20id=%22g1018%22%3E%3Cg%20id=%22g132%22%3E%3Ctitle%20id=%22title134%22%3Etext:SCL%3C/title%3E%3Cg%20transform=%22translate(7.92%2010.44)%22%20id=%22g1015%22%3E%3Cg%20id=%22g1013%22%3E%3Cg%20id=%22g136%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1010%22%3E%3Cg%20id=%22g1008%22%3E%3Cg%20id=%22g138%22%3E%3Ctext%20font-size=%222.016%22%20id=%22text140%22%20font-family=%22OCRA%22%20text-anchor=%22middle%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.27%22%3ESCL%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20297.135%2060.687)%22%20id=%22g1037%22%3E%3Cg%20id=%22g1035%22%3E%3Cg%20id=%22g142%22%3E%3Ctitle%20id=%22title144%22%3Etext:SDA%3C/title%3E%3Cg%20transform=%22translate(7.92%203.6)%22%20id=%22g1032%22%3E%3Cg%20id=%22g1030%22%3E%3Cg%20id=%22g146%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1027%22%3E%3Cg%20id=%22g1025%22%3E%3Cg%20id=%22g148%22%3E%3Ctext%20font-size=%222.016%22%20id=%22text150%22%20font-family=%22OCRA%22%20text-anchor=%22middle%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.27%22%3ESDA%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%2072.01%2053.596)%22%20id=%22g1054%22%3E%3Cg%20id=%22g1052%22%3E%3Cg%20id=%22g152%22%3E%3Ctitle%20id=%22title154%22%3Etext:SCL%3C/title%3E%3Cg%20transform=%22translate(107.28%2010.44)%22%20id=%22g1049%22%3E%3Cg%20id=%22g1047%22%3E%3Cg%20id=%22g156%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1044%22%3E%3Cg%20id=%22g1042%22%3E%3Cg%20id=%22g158%22%3E%3Ctext%20font-size=%222.016%22%20id=%22text160%22%20font-family=%22OCRA%22%20text-anchor=%22middle%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.27%22%3ESCL%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20129.066%2060.687)%22%20id=%22g1088%22%3E%3Cg%20id=%22g1086%22%3E%3Cg%20id=%22g172%22%3E%3Ctitle%20id=%22title174%22%3Etext:A6%3C/title%3E%3Cg%20transform=%22translate(82.8%206.48)%22%20id=%22g1083%22%3E%3Cg%20id=%22g1081%22%3E%3Cg%20id=%22g176%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1078%22%3E%3Cg%20id=%22g1076%22%3E%3Cg%20id=%22g178%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text180%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EA6%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20177.949%2060.687)%22%20id=%22g1105%22%3E%3Cg%20id=%22g1103%22%3E%3Cg%20id=%22g182%22%3E%3Ctitle%20id=%22title184%22%3Etext:SDO%3C/title%3E%3Cg%20transform=%22translate(61.2%206.48)%22%20id=%22g1100%22%3E%3Cg%20id=%22g1098%22%3E%3Cg%20id=%22g186%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1095%22%3E%3Cg%20id=%22g1093%22%3E%3Cg%20id=%22g188%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text190%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ESDO%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20112.771%2060.687)%22%20id=%22g1122%22%3E%3Cg%20id=%22g1120%22%3E%3Cg%20id=%22g192%22%3E%3Ctitle%20id=%22title194%22%3Etext:A7%3C/title%3E%3Cg%20transform=%22translate(90%206.48)%22%20id=%22g1117%22%3E%3Cg%20id=%22g1115%22%3E%3Cg%20id=%22g196%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1112%22%3E%3Cg%20id=%22g1110%22%3E%3Cg%20id=%22g198%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text200%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3EA7%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(1.13156%200%200%201.13156%20210.538%2060.687)%22%20id=%22g1139%22%3E%3Cg%20id=%22g1137%22%3E%3Cg%20id=%22g202%22%3E%3Ctitle%20id=%22title204%22%3Etext:RST%3C/title%3E%3Cg%20transform=%22translate(46.8%206.48)%22%20id=%22g1134%22%3E%3Cg%20id=%22g1132%22%3E%3Cg%20id=%22g206%22%3E%3Cg%20transform=%22rotate(-90)%22%20id=%22g1129%22%3E%3Cg%20id=%22g1127%22%3E%3Cg%20id=%22g208%22%3E%3Ctext%20font-size=%222.448%22%20id=%22text210%22%20font-family=%22OCRA%22%20text-anchor=%22end%22%20fill=%22#fff%22%20stroke=%22#fff%22%20stroke-width=%22.324%22%3ERST%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1147%22%3E%3Cg%20id=%22g1145%22%3E%3Cg%20id=%22g262%22%3E%3Ctitle%20id=%22title264%22%3Eelement:JP1%3C/title%3E%3Cg%20id=%22g266%22%3E%3Ctitle%20id=%22title268%22%3Epackage:STAND-OFF%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1155%22%3E%3Cg%20id=%22g1153%22%3E%3Cg%20id=%22g270%22%3E%3Ctitle%20id=%22title272%22%3Eelement:JP2%3C/title%3E%3Cg%20id=%22g274%22%3E%3Ctitle%20id=%22title276%22%3Epackage:1X02_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1163%22%3E%3Cg%20id=%22g1161%22%3E%3Cg%20id=%22g278%22%3E%3Ctitle%20id=%22title280%22%3Eelement:JP3%3C/title%3E%3Cg%20id=%22g282%22%3E%3Ctitle%20id=%22title284%22%3Epackage:STAND-OFF%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1171%22%3E%3Cg%20id=%22g1169%22%3E%3Cg%20id=%22g286%22%3E%3Ctitle%20id=%22title288%22%3Eelement:JP4%3C/title%3E%3Cg%20id=%22g290%22%3E%3Ctitle%20id=%22title292%22%3Epackage:STAND-OFF%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1179%22%3E%3Cg%20id=%22g1177%22%3E%3Cg%20id=%22g294%22%3E%3Ctitle%20id=%22title296%22%3Eelement:JP5%3C/title%3E%3Cg%20id=%22g298%22%3E%3Ctitle%20id=%22title300%22%3Epackage:STAND-OFF%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1187%22%3E%3Cg%20id=%22g1185%22%3E%3Cg%20id=%22g302%22%3E%3Ctitle%20id=%22title304%22%3Eelement:JP6%3C/title%3E%3Cg%20id=%22g306%22%3E%3Ctitle%20id=%22title308%22%3Epackage:1X02_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1195%22%3E%3Cg%20id=%22g1193%22%3E%3Cg%20id=%22g310%22%3E%3Ctitle%20id=%22title312%22%3Eelement:JP7%3C/title%3E%3Cg%20id=%22g314%22%3E%3Ctitle%20id=%22title316%22%3Epackage:1X02_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1203%22%3E%3Cg%20id=%22g1201%22%3E%3Cg%20id=%22g318%22%3E%3Ctitle%20id=%22title320%22%3Eelement:JP8%3C/title%3E%3Cg%20id=%22g322%22%3E%3Ctitle%20id=%22title324%22%3Epackage:1X02_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1211%22%3E%3Cg%20id=%22g1209%22%3E%3Cg%20id=%22g326%22%3E%3Ctitle%20id=%22title328%22%3Eelement:JP9%3C/title%3E%3Cg%20id=%22g330%22%3E%3Ctitle%20id=%22title332%22%3Epackage:MICRO-FIDUCIAL%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1219%22%3E%3Cg%20id=%22g1217%22%3E%3Cg%20id=%22g334%22%3E%3Ctitle%20id=%22title336%22%3Eelement:JP10%3C/title%3E%3Cg%20id=%22g338%22%3E%3Ctitle%20id=%22title340%22%3Epackage:MICRO-FIDUCIAL%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1227%22%3E%3Cg%20id=%22g1225%22%3E%3Cg%20id=%22g342%22%3E%3Ctitle%20id=%22title344%22%3Eelement:JP11%3C/title%3E%3Cg%20id=%22g346%22%3E%3Ctitle%20id=%22title348%22%3Epackage:1X05_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1235%22%3E%3Cg%20id=%22g1233%22%3E%3Cg%20id=%22g350%22%3E%3Ctitle%20id=%22title352%22%3Eelement:JP12%3C/title%3E%3Cg%20id=%22g354%22%3E%3Ctitle%20id=%22title356%22%3Epackage:1X10_NO_SILK%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20261.828%2060.687)%22%20id=%22g1243%22%3E%3Cg%20id=%22g1241%22%3E%3Cg%20id=%22g358%22%3E%3Ctitle%20id=%22title360%22%3Eelement:LED1%3C/title%3E%3Cg%20id=%22g362%22%3E%3Ctitle%20id=%22title364%22%3Epackage:7-SEGMENT-4DIGIT-YOUNGSUN%3C/title%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20294.762%2066.318)%22%20id=%22g1254%22%3E%3Cg%20id=%22g1252%22%3E%3Cg%20id=%22g456%22%3E%3Ctitle%20id=%22title458%22%3Eelement:U$2%3C/title%3E%3Cg%20id=%22g460%22%3E%3Ctitle%20id=%22title462%22%3Epackage:SFE-LOGO-FLAME%3C/title%3E%3Cg%20id=%22g464%22%3E%3Ctitle%20id=%22title466%22%3Epolygon%3C/title%3E%3Cpath%20d=%22M73.548%2054.382l-.137-.022m0%200l-.266-.02m0%200l-.267.02m0%200l-.198.052m0%200l-.183.091m0%200l-.162.126m0%200l-.133.156m0%200l-.114.207m0%200l-.068.227m0%200l-.02.236m0%200v4.298m0%200l1.382-1.555m0%200l.247-.226m0%200l.286-.17m0%200l.106-.039m0%200l.11-.019m0%200h.648m0%200l.387-.035m0%200l.374-.104m0%200l.348-.17m0%200l.328-.232m0%200l.293-.276m0%200l.25-.313m0%200l.269-.477m0%200l.178-.517m0%200l.082-.54m0%200l-.018-.547m0%200l-.058-.295m0%200l-.101-.283m0%200l-.143-.264m0%200l-.256-.323m0%200l-.32-.26m0%200v.251m0%200l-.005.041m0%200l-.017.039m0%200l-.084.104m0%200l-.11.076m0%200l-.058.021m0%200l-.162.017m0%200l-.16-.03m0%200l-.146-.073m0%200l-.259-.187m0%200l-.12-.104m0%200l-.103-.12m0%200l-.083-.134m0%200l-.061-.146m0%200l-.018-.093m0%200l.004-.095m0%200l.047-.156m0%200l.086-.138m0%200l.119-.112m0%200l.144-.076m0%200l.145-.041m0%200l.15-.017m0%200h.173m0%200l-.008-.007m0%200l-.123-.096m0%200l-.143-.063m0%200l-.1-.043m0%200l-.066-.029m0%200l-.248-.062m0%200l-.256-.024m0%200l-.246.019m0%200l-.238.066m0%200l-.221.11m0%200l-.22.158m0%200l-.198.187m0%200l-.122.171m0%200l-.076.196m0%200l-.024.21m0%200l.028.208m0%200l.079.195m0%200l.336.498m0%200l.413.437m0%200l.108.128m0%200l.072.151m0%200l.031.165m0%200l-.013.167m0%200l-.056.157m0%200l-.094.138m0%200l-.127.11m0%200l-.16.086m0%200l-.172.058m0%200l-.18.028m0%200l-.21-.01m0%200l-.2-.061m0%200l-.18-.109m0%200l-.095-.1m0%200l-.063-.123m0%200l-.029-.126m0%200v-.13m0%200l.029-.125m0%200l.025-.049m0%200l.04-.038m0%200l.237-.172m0%200l.045-.024m0%200l.05-.01m0%200l.049.005M72%2059.688h.058M72%2059.616h.122M72%2059.544h.186M72%2059.472h.25M72%2059.4h.314M72%2059.328h.378M72%2059.256h.442M72%2059.184h.506M72%2059.112h.57M72%2059.04h.634M72%2058.968h.698M72%2058.896h.762M72%2058.824h.826M72%2058.752h.89M72%2058.68h.954M72%2058.608h1.017M72%2058.536h1.081M72%2058.464h1.145M72%2058.392h1.21M72%2058.32h1.274M72%2058.248h1.338M72%2058.176h1.406M72%2058.104h1.485M72%2058.032h1.563M72%2057.96h1.649M72%2057.888h1.77M72%2057.816h1.89M72%2057.744h2.78M72%2057.672h3.298M72%2057.6h3.549M72%2057.528h3.696M72%2057.456h3.844M72%2057.384h3.96M72%2057.312h4.061M72%2057.24h4.164M72%2057.168h4.253M72%2057.096h4.33M72%2057.024h4.406M72%2056.952h4.483M72%2056.88h4.547M72%2056.808h4.604M72%2056.736h4.661M72%2056.664h4.719M72%2056.592h4.771M72%2056.52h4.812M72%2056.448h4.853M72%2056.376h4.893M72%2056.304h4.933M72%2056.232h4.974M72%2056.16h5.015M72%2056.088h5.044M72%2056.016h5.07M72%2055.944h5.094M72%2055.872h5.12M72%2055.8h5.144M72%2055.728h5.169M72%2055.656h5.193M72%2055.584h5.211M72%2055.512h5.222m-5.22-.072h1.626m.313%200h3.292m-5.226-.072h1.409m.785%200h3.043m-5.23-.072h1.282m1.039%200h2.92m-5.236-.072h1.193m1.217%200h2.836m-5.225-.072h1.113m1.35%200h2.774m-5.215-.072h1.055m1.435%200h2.736m-5.205-.072h1.01m1.5%200h2.692m-5.166-.072h.957m1.542%200h2.665m-5.125-.072h.915m1.567%200h2.64m-5.082-.072h.876m1.572%200h2.632m-5.021-.072h.834m1.56%200h2.625m-4.957-.072h.794m1.528%200h2.633m-4.87-.072h.773m1.45%200h2.645m-4.777-.072h.78m1.327%200h2.663m-4.625-.072h.735m1.192%200h2.683m-4.372-.072h.533m1.11%200h2.715m-2.777-.072h2.762m-2.828-.072h2.811m-2.878-.072h2.852m-2.92-.072h2.894M74.19%2054h2.937m-3.004-.072h2.973m-3.04-.072h3.002m-3.059-.072h3.02m-3.068-.072h3.03m-3.08-.072h1.962m.256%200h.81m-3.075-.072h1.826m.57%200h.622m-3.067-.072h1.766m.754%200h.49m-3.059-.072h1.716m.906%200h.379m-3.049-.072h1.668m1.017%200h.3m-3.02-.072h1.618m1.102%200h.212m-2.962-.072h1.582m1.168%200h.124m-2.903-.072h1.55m1.229%200h.035m-2.824-.072h1.517m-1.527-.072h1.485m-1.493-.072h1.464m-1.455-.072h1.427m-1.418-.072h1.404m-1.392-.072h1.394m-1.366-.072h1.38m-1.353-.072h1.374m-1.335-.072h1.367m-1.315-.072h1.36m-1.306-.072h1.367m-1.291-.072h1.368m-1.292-.072h1.426m-1.338-.072h1.811m-1.711-.072h1.62m-1.507-.072h1.365m-1.22-.072h1.054m-.82-.072h.558%22%20id=%22path468%22%20fill=%22none%22%20stroke=%22#fff%22%20stroke-width=%22.072%22%20stroke-linecap=%22round%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%20117.75)%22%20id=%22g1259%22%3E%3Cg%20id=%22g1257%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector38pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2052.535)%22%20id=%22g1264%22%3E%3Cg%20id=%22g1262%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2210.8%22%20r=%222.052%22%20id=%22connector39pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1269%22%3E%3Cg%20id=%22g1267%22%3E%3Ccircle%20cx=%223.6%22%20cy=%2261.2%22%20r=%222.052%22%20id=%22connector40pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1274%22%3E%3Cg%20id=%22g1272%22%3E%3Ccircle%20cx=%223.6%22%20cy=%2254%22%20r=%222.052%22%20id=%22connector41pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1279%22%3E%3Cg%20id=%22g1277%22%3E%3Ccircle%20cx=%223.6%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector42pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1284%22%3E%3Cg%20id=%22g1282%22%3E%3Ccircle%20cx=%223.6%22%20cy=%2210.8%22%20r=%222.052%22%20id=%22connector43pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1289%22%3E%3Cg%20id=%22g1287%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2261.2%22%20r=%222.052%22%20id=%22connector44pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2053.204)%22%20id=%22g1294%22%3E%3Cg%20id=%22g1292%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2254%22%20r=%222.052%22%20id=%22connector45pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2053.204)%22%20id=%22g1299%22%3E%3Cg%20id=%22g1297%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2246.8%22%20r=%222.052%22%20id=%22connector48pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2053.204)%22%20id=%22g1304%22%3E%3Cg%20id=%22g1302%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2239.6%22%20r=%222.052%22%20id=%22connector49pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2053.204)%22%20id=%22g1309%22%3E%3Cg%20id=%22g1307%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2232.4%22%20r=%222.052%22%20id=%22connector50pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2053.204)%22%20id=%22g1314%22%3E%3Cg%20id=%22g1312%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2225.2%22%20r=%222.052%22%20id=%22connector51pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2052.535)%22%20id=%22g1319%22%3E%3Cg%20id=%22g1317%22%3E%3Ccircle%20cx=%22111.6%22%20cy=%2218%22%20r=%222.052%22%20id=%22connector52pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1324%22%3E%3Cg%20id=%22g1322%22%3E%3Ccircle%20cx=%2290%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector53pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1329%22%3E%3Cg%20id=%22g1327%22%3E%3Ccircle%20cx=%2282.8%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector54pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1334%22%3E%3Cg%20id=%22g1332%22%3E%3Ccircle%20cx=%2275.6%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector55pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1339%22%3E%3Cg%20id=%22g1337%22%3E%3Ccircle%20cx=%2268.4%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector56pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1344%22%3E%3Cg%20id=%22g1342%22%3E%3Ccircle%20cx=%2261.2%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector57pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1349%22%3E%3Cg%20id=%22g1347%22%3E%3Ccircle%20cx=%2254%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector58pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1354%22%3E%3Cg%20id=%22g1352%22%3E%3Ccircle%20cx=%2246.8%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector59pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1359%22%3E%3Cg%20id=%22g1357%22%3E%3Ccircle%20cx=%2239.6%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector60pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1364%22%3E%3Cg%20id=%22g1362%22%3E%3Ccircle%20cx=%2232.4%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector61pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22matrix(-1.13156%200%200%201.13156%20313.751%2060.687)%22%20id=%22g1369%22%3E%3Cg%20id=%22g1367%22%3E%3Ccircle%20cx=%2225.2%22%20cy=%223.6%22%20r=%222.052%22%20id=%22connector62pin%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%221.224%22/%3E%3C/g%3E%3C/g%3E%3Ccircle%20id=%22connector0pin_1_-7%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22220.096%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector1pin_1_-4%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22228.202%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector2pin_1_-0%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22236.307%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector3pin_1_-9%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22244.413%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector4pin_1_-4%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22252.519%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector5pin_1_-8%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22260.624%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector6pin_1_-8%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22268.73%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector7pin_1_-2%22%20r=%222.218%22%20cy=%22114.211%22%20cx=%22276.836%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector8pin_1_-4%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22276.836%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector9pin_1_-5%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22260.624%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector10pin_1_-5%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22244.413%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector11pin_1_-1%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22236.307%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector12pin_1_-7%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22228.202%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Ccircle%20id=%22connector13pin_1_-1%22%20r=%222.218%22%20cy=%2281.788%22%20cx=%22220.096%22%20fill=%22none%22%20stroke=%22#9a916c%22%20stroke-width=%22.31%22/%3E%3Cpath%20id=%22polygon201%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#323232%22%20d=%22M0%2020.913l201.732-.001%201.984%201.78v63.819l-201.937.001L0%2084.186z%22/%3E%3Cpath%20id=%22polygon203%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M17.293%2027.125h22.14l1.476%201.473-2.954%204.429h-19.19l-2.947-4.429z%22/%3E%3Cpath%20id=%22polygon205%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M42.386%2030.073l1.475%202.954-2.952%2016.24-2.954%202.949-2.949-2.949%202.949-14.766z%22/%3E%3Cpath%20id=%22polygon207%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M37.955%2053.691l1.478%202.95-2.952%2016.24-2.952%202.952-2.952-2.952%202.952-14.758z%22/%3E%3Cpath%20id=%22polygon209%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M30.577%2078.785H8.435l-1.477-1.481%202.952-4.423h19.192l2.95%204.427z%22/%3E%3Cpath%20id=%22polygon211%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2063.339)%22%20fill=%22#646464%22%20d=%22M6.958%2056.641l2.952-2.95%202.95%202.95-2.95%2014.761-4.429%204.431-1.474-2.952z%22/%3E%3Cpath%20id=%22polygon213%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2063.339)%22%20fill=%22#646464%22%20d=%22M11.389%2033.027l2.948-2.954%202.956%202.954-2.956%2014.763-4.427%204.426-1.475-2.949z%22/%3E%3Cpath%20id=%22polyline215%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M11.389%2052.216l2.948-2.949h19.192l2.952%202.949-2.952%202.952H14.337%22/%3E%3Ccircle%20id=%22circle217%22%20r=%221.968%22%20cy=%22111.99%22%20cx=%22209.507%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Cpath%20id=%22polygon219%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M68.521%2027.125h22.14l1.475%201.473-2.953%204.429h-19.19l-2.947-4.429z%22/%3E%3Cpath%20id=%22polygon221%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M93.613%2030.073l1.476%202.954-2.952%2016.24-2.954%202.948-2.949-2.948%202.949-14.766z%22/%3E%3Cpath%20id=%22polygon223%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M89.183%2053.691l1.478%202.95-2.952%2016.24-2.952%202.952-2.952-2.952%202.952-14.758z%22/%3E%3Cpath%20id=%22polygon225%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M81.805%2078.785H59.663l-1.477-1.481%202.952-4.423H80.33l2.95%204.427z%22/%3E%3Cpath%20id=%22polygon227%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M56.709%2075.833l-1.474-2.952%202.951-16.24%202.952-2.95%202.95%202.95-2.95%2014.761z%22/%3E%3Cpath%20id=%22polygon229%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M61.138%2052.215l-1.475-2.948%202.954-16.24%202.948-2.954%202.956%202.954-2.956%2014.763z%22/%3E%3Cpath%20id=%22polyline231%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M62.617%2052.215l2.948-2.948h19.192l2.952%202.948-2.952%202.953H65.565%22/%3E%3Ccircle%20id=%22circle233%22%20r=%221.968%22%20cy=%22111.99%22%20cx=%22241.916%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Ccircle%20id=%22circle235%22%20r=%221.968%22%20cy=%22104.614%22%20cx=%22246.644%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Ccircle%20id=%22circle237%22%20r=%221.968%22%20cy=%2290.048%22%20cx=%22248.849%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Ccircle%20id=%22circle239%22%20r=%221.968%22%20cy=%2282.88%22%20cx=%22282.716%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Cpath%20id=%22polygon241%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M119.768%2027.125h22.143l1.475%201.473-2.954%204.429h-19.19l-2.949-4.429z%22/%3E%3Cpath%20id=%22polygon243%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M144.861%2030.073l1.477%202.954-2.952%2016.24-2.954%202.948-2.949-2.948%202.949-14.766z%22/%3E%3Cpath%20id=%22polygon245%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M140.432%2053.691l1.479%202.95-2.953%2016.24-2.953%202.952-2.951-2.952%202.95-14.758z%22/%3E%3Cpath%20id=%22polygon247%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M133.054%2078.785h-22.142l-1.477-1.481%202.952-4.423h19.19l2.951%204.427z%22/%3E%3Cpath%20id=%22polygon249%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M107.958%2075.833l-1.473-2.952%202.95-16.24%202.952-2.95%202.951%202.95-2.951%2014.761z%22/%3E%3Cpath%20id=%22polygon251%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M112.387%2052.215l-1.475-2.948%202.954-16.24%202.948-2.954%202.954%202.954-2.954%2014.763z%22/%3E%3Cpath%20id=%22polyline253%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M113.866%2052.215l2.948-2.948h19.19l2.954%202.948-2.954%202.953h-19.19%22/%3E%3Ccircle%20id=%22circle255%22%20r=%221.968%22%20cy=%22111.99%22%20cx=%22274.339%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Cpath%20id=%22polygon257%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M171.151%2027.125h22.142l1.476%201.473-2.954%204.429h-19.19l-2.949-4.429z%22/%3E%3Cpath%20id=%22polygon259%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M196.244%2030.073l1.477%202.954-2.952%2016.24-2.954%202.948-2.949-2.948%202.949-14.766z%22/%3E%3Cpath%20id=%22polygon261%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M191.815%2053.691l1.478%202.95-2.952%2016.24-2.954%202.952-2.95-2.952%202.95-14.758z%22/%3E%3Cpath%20id=%22polygon263%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M184.437%2078.785h-22.142l-1.477-1.481%202.952-4.423h19.19l2.95%204.427z%22/%3E%3Cpath%20id=%22polygon265%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#646464%22%20d=%22M159.341%2075.833l-1.474-2.952%202.951-16.24%202.952-2.95%202.95%202.95-2.95%2014.761z%22/%3E%3Cpath%20id=%22polygon267%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M163.77%2052.215l-1.475-2.948%202.954-16.24%202.948-2.954%202.954%202.954-2.954%2014.763z%22/%3E%3Cpath%20id=%22polyline269%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22red%22%20d=%22M165.249%2052.215l2.948-2.948h19.19l2.954%202.948-2.954%202.953h-19.19%22/%3E%3Ccircle%20id=%22circle271%22%20r=%221.968%22%20cy=%22111.99%22%20cx=%22306.846%22%20fill=%22#646464%22%20stroke-width=%22.633%22/%3E%3Cpath%20id=%22polygon273%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#c7c7c7%22%20d=%22M1.779%2086.512l201.937-.001-1.78-2.325H0z%22/%3E%3Cpath%20id=%22polygon275%22%20transform=%22matrix(.63265%200%200%20.63265%20184.026%2064.019)%22%20fill=%22#aaa%22%20d=%22M203.716%2022.692l-1.984-1.78v63.274l1.984%202.325z%22/%3E%3C/g%3E%3Cstyle%20id=%22style2%22%3E.st0%7Bdisplay:none%7D.st1%7Bfill:none;stroke:#303030;stroke-width:.7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10%7D.st2%7Bfill:#303030%7D%3C/style%3E%3C/svg%3E"
   },
@@ -26,8 +26,47 @@
             "virtual": true
           },
           "position": {
-            "x": 1680,
-            "y": -624
+            "x": 1672,
+            "y": -800
+          }
+        },
+        {
+          "id": "342ece16-750a-4553-b62c-7fd018a2fc9a",
+          "type": "basic.output",
+          "data": {
+            "name": "SCLK",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D13",
+                "value": "64"
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 1696,
+            "y": -728
+          }
+        },
+        {
+          "id": "7355c9e7-fd35-44d8-ab1b-5148aaab6149",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 1176,
+            "y": -688
           }
         },
         {
@@ -47,7 +86,7 @@
           },
           "position": {
             "x": -568,
-            "y": -560
+            "y": -672
           }
         },
         {
@@ -67,34 +106,55 @@
           },
           "position": {
             "x": -376,
-            "y": -560
+            "y": -672
           }
         },
         {
-          "id": "342ece16-750a-4553-b62c-7fd018a2fc9a",
-          "type": "basic.output",
+          "id": "8cb185db-b75a-4f5b-8f6e-b8aa4d9d5221",
+          "type": "basic.outputLabel",
           "data": {
-            "name": "SCLK",
+            "blockColor": "navy",
+            "name": "done",
             "pins": [
               {
                 "index": "0",
-                "name": "D13",
-                "value": "64"
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 1184,
+            "y": -624
+          }
+        },
+        {
+          "id": "ecf5ac0b-8d85-4d7f-8822-b7d985403b4b",
+          "type": "basic.output",
+          "data": {
+            "name": "ss",
+            "pins": [
+              {
+                "index": "0",
+                "name": "D10",
+                "value": "22"
               }
             ],
             "virtual": true
           },
           "position": {
-            "x": 1704,
-            "y": -552
+            "x": 1512,
+            "y": -608
           }
         },
         {
-          "id": "7355c9e7-fd35-44d8-ab1b-5148aaab6149",
+          "id": "e9ddde63-1594-4fa4-8a7b-952ea635cd9d",
           "type": "basic.outputLabel",
           "data": {
-            "blockColor": "yellow",
-            "name": "clk",
+            "blockColor": "fuchsia",
+            "name": "load",
             "pins": [
               {
                 "index": "0",
@@ -105,8 +165,68 @@
             "virtual": true
           },
           "position": {
-            "x": 800,
-            "y": -512
+            "x": 1184,
+            "y": -552
+          }
+        },
+        {
+          "id": "cb968927-11d1-42b5-b7c9-9bdaebd79303",
+          "type": "basic.input",
+          "data": {
+            "name": "colon",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "clock": false
+          },
+          "position": {
+            "x": -560,
+            "y": -544
+          }
+        },
+        {
+          "id": "750a0359-9bdb-4a23-b786-c8842dcad480",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "colon",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -408,
+            "y": -544
+          }
+        },
+        {
+          "id": "569b9323-82cb-4dd3-87f9-10d5ad4a35c9",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "fuchsia",
+            "name": "colon",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 576,
+            "y": -488
           }
         },
         {
@@ -127,46 +247,6 @@
           "position": {
             "x": -448,
             "y": -448
-          }
-        },
-        {
-          "id": "8cb185db-b75a-4f5b-8f6e-b8aa4d9d5221",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "navy",
-            "name": "done",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": 808,
-            "y": -448
-          }
-        },
-        {
-          "id": "ecf5ac0b-8d85-4d7f-8822-b7d985403b4b",
-          "type": "basic.output",
-          "data": {
-            "name": "ss",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D10",
-                "value": "22"
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 1136,
-            "y": -432
           }
         },
         {
@@ -280,26 +360,6 @@
           "position": {
             "x": 1376,
             "y": -392
-          }
-        },
-        {
-          "id": "e9ddde63-1594-4fa4-8a7b-952ea635cd9d",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "load",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 808,
-            "y": -376
           }
         },
         {
@@ -1072,12 +1132,25 @@
           "type": "basic.constant",
           "data": {
             "name": "N",
-            "value": "5",
+            "value": "7",
             "local": true
           },
           "position": {
             "x": 552,
             "y": -144
+          }
+        },
+        {
+          "id": "f94759ca-52be-4b1b-8f78-af2aa1fa6756",
+          "type": "basic.constant",
+          "data": {
+            "name": "BIT",
+            "value": "4",
+            "local": true
+          },
+          "position": {
+            "x": 728,
+            "y": -600
           }
         },
         {
@@ -1094,6 +1167,19 @@
           }
         },
         {
+          "id": "78eb5dae-131d-4e80-b553-0acada1b5fe2",
+          "type": "basic.constant",
+          "data": {
+            "name": "POINT",
+            "value": "'h77",
+            "local": true
+          },
+          "position": {
+            "x": 880,
+            "y": -440
+          }
+        },
+        {
           "id": "62bb38d3-11c4-4a4d-b863-7063c3059b4f",
           "type": "basic.constant",
           "data": {
@@ -1102,8 +1188,8 @@
             "local": true
           },
           "position": {
-            "x": 976,
-            "y": -544
+            "x": 1352,
+            "y": -720
           }
         },
         {
@@ -1139,12 +1225,12 @@
             "readonly": true
           },
           "position": {
-            "x": -488,
-            "y": -824
+            "x": -512,
+            "y": -840
           },
           "size": {
-            "width": 704,
-            "height": 144
+            "width": 568,
+            "height": 112
           }
         },
         {
@@ -1167,7 +1253,7 @@
           "id": "ae93a66b-6c4f-4efa-9537-4a3f878e8920",
           "type": "basic.info",
           "data": {
-            "info": "La máquina  \nejecuta 5 pasos",
+            "info": "La máquina  \nejecuta 7 pasos",
             "readonly": true
           },
           "position": {
@@ -1239,7 +1325,7 @@
           "id": "0d5a778a-f1d8-4052-9af5-0c90cb9e10c5",
           "type": "76e9bf5917324c0b23b09d1e053d27b97cd37958",
           "position": {
-            "x": 1320,
+            "x": 1336,
             "y": -272
           },
           "size": {
@@ -1312,22 +1398,6 @@
           },
           "size": {
             "width": 224,
-            "height": 48
-          }
-        },
-        {
-          "id": "c11479b6-6d49-4755-9508-605858c77a34",
-          "type": "basic.info",
-          "data": {
-            "info": "Entradas  \nNO usadas",
-            "readonly": true
-          },
-          "position": {
-            "x": 1200,
-            "y": -264
-          },
-          "size": {
-            "width": 120,
             "height": 48
           }
         },
@@ -1423,8 +1493,8 @@
           "id": "682ee572-be45-4a46-a26b-1018fddc9d71",
           "type": "b959c256104d1064a5ef7b38632ffb6eed3b396f",
           "position": {
-            "x": 976,
-            "y": -448
+            "x": 1352,
+            "y": -624
           },
           "size": {
             "width": 96,
@@ -1439,8 +1509,8 @@
             "readonly": true
           },
           "position": {
-            "x": 744,
-            "y": -616
+            "x": 1120,
+            "y": -792
           },
           "size": {
             "width": 296,
@@ -1461,6 +1531,106 @@
           "size": {
             "width": 232,
             "height": 72
+          }
+        },
+        {
+          "id": "e20cfda6-cbe9-4fa7-9dd8-6ab4c43f5880",
+          "type": "5ad97e1e35a295d0ec722addd6df97c806fc6b7c",
+          "position": {
+            "x": 880,
+            "y": -344
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "7e44585d-7a85-47a2-860e-49762e4e0b3e",
+          "type": "basic.info",
+          "data": {
+            "info": "Los dos puntos se  \ninsertan en el bit 4",
+            "readonly": true
+          },
+          "position": {
+            "x": 840,
+            "y": -560
+          },
+          "size": {
+            "width": 184,
+            "height": 56
+          }
+        },
+        {
+          "id": "592a364e-692d-4b92-910d-d3448c9ff0b6",
+          "type": "e493b2a14cbed707d27cef234b6b3eedcc0f2be7",
+          "position": {
+            "x": 728,
+            "y": -504
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "96e423b9-e20a-4538-bbf0-44987b0047cb",
+          "type": "3bf99b8d77aa1b29ec1bf618b53175de87f1001d",
+          "position": {
+            "x": 568,
+            "y": -568
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "e2c85c0b-1074-48b2-8d16-869880197c01",
+          "type": "basic.info",
+          "data": {
+            "info": "Comando POINT",
+            "readonly": true
+          },
+          "position": {
+            "x": 1032,
+            "y": -352
+          },
+          "size": {
+            "width": 144,
+            "height": 40
+          }
+        },
+        {
+          "id": "8b1ed522-87a9-444f-93df-e0803427f75a",
+          "type": "basic.info",
+          "data": {
+            "info": "Construir el argumento para el  \ncomando POINT: todos los bits  \na cero salvo el 4, que contiene  \nel estado de los dos puntos",
+            "readonly": true
+          },
+          "position": {
+            "x": 352,
+            "y": -568
+          },
+          "size": {
+            "width": 272,
+            "height": 96
+          }
+        },
+        {
+          "id": "76213d5f-4fe1-4d4a-ae75-e207d04a7e02",
+          "type": "basic.info",
+          "data": {
+            "info": "Argumento comando POINT",
+            "readonly": true
+          },
+          "position": {
+            "x": 928,
+            "y": -504
+          },
+          "size": {
+            "width": 208,
+            "height": 40
           }
         }
       ],
@@ -1555,8 +1725,8 @@
           },
           "vertices": [
             {
-              "x": 1440,
-              "y": -104
+              "x": 1448,
+              "y": -112
             }
           ],
           "size": 8
@@ -2109,6 +2279,92 @@
             "block": "a5a8e7ca-1839-42d6-a5f6-9b503606cf32",
             "port": "inlabel"
           }
+        },
+        {
+          "source": {
+            "block": "78eb5dae-131d-4e80-b553-0acada1b5fe2",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "e20cfda6-cbe9-4fa7-9dd8-6ab4c43f5880",
+            "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "e20cfda6-cbe9-4fa7-9dd8-6ab4c43f5880",
+            "port": "a9d6830d-5cc7-4f63-a068-35181d2537bc"
+          },
+          "target": {
+            "block": "0d5a778a-f1d8-4052-9af5-0c90cb9e10c5",
+            "port": "54179926-212d-4ef0-a9f5-25fb87ae2a30"
+          },
+          "vertices": [
+            {
+              "x": 1232,
+              "y": -264
+            }
+          ],
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "cb968927-11d1-42b5-b7c9-9bdaebd79303",
+            "port": "out"
+          },
+          "target": {
+            "block": "750a0359-9bdb-4a23-b786-c8842dcad480",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "569b9323-82cb-4dd3-87f9-10d5ad4a35c9",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "592a364e-692d-4b92-910d-d3448c9ff0b6",
+            "port": "08e4d52f-b4fa-43f6-876d-a36901e1f30b"
+          }
+        },
+        {
+          "source": {
+            "block": "96e423b9-e20a-4538-bbf0-44987b0047cb",
+            "port": "ad29e130-c17a-4544-9237-4c72551ccbeb"
+          },
+          "target": {
+            "block": "592a364e-692d-4b92-910d-d3448c9ff0b6",
+            "port": "723d60d1-a584-4225-8bd9-afc883662c06"
+          },
+          "size": 8
+        },
+        {
+          "source": {
+            "block": "f94759ca-52be-4b1b-8f78-af2aa1fa6756",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "592a364e-692d-4b92-910d-d3448c9ff0b6",
+            "port": "cce03209-9887-481c-ac2b-5da9f9bc2d66"
+          }
+        },
+        {
+          "source": {
+            "block": "592a364e-692d-4b92-910d-d3448c9ff0b6",
+            "port": "9026f70a-0df5-42bb-94a8-c422b6b27d4a"
+          },
+          "target": {
+            "block": "0d5a778a-f1d8-4052-9af5-0c90cb9e10c5",
+            "port": "5cd75127-0a10-468a-963b-7f1c19ddbc86"
+          },
+          "vertices": [
+            {
+              "x": 1256,
+              "y": -360
+            }
+          ],
+          "size": 8
         }
       ]
     }
@@ -11457,6 +11713,233 @@
                 "port": "in"
               },
               "size": 4
+            }
+          ]
+        }
+      }
+    },
+    "e493b2a14cbed707d27cef234b6b3eedcc0f2be7": {
+      "package": {
+        "name": "Insert-1-bit",
+        "version": "0.1",
+        "description": "Inyectar el valor de un cable por el bit indicado de un bus",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22279.363%22%20height=%2293.884%22%20viewBox=%220%200%2073.914719%2024.840043%22%3E%3Cg%20transform=%22translate(-43.466%20-140.187)%22%3E%3Cpath%20d=%22M86.495%20145.448v18.52H44.539%22%20fill=%22none%22%20stroke=%22green%22%20stroke-width=%222.117%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Crect%20width=%2272.704%22%20height=%227.314%22%20x=%22-117.116%22%20y=%22141.954%22%20ry=%220%22%20transform=%22scale(-1%201)%22%20fill=%22green%22%20stroke=%22#000%22%20stroke-width=%22.529%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22bevel%22/%3E%3Ccircle%20cx=%2286.693%22%20cy=%22145.668%22%20r=%225.481%22/%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "723d60d1-a584-4225-8bd9-afc883662c06",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 520,
+                "y": 304
+              }
+            },
+            {
+              "id": "9026f70a-0df5-42bb-94a8-c422b6b27d4a",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[7:0]",
+                "size": 8
+              },
+              "position": {
+                "x": 960,
+                "y": 344
+              }
+            },
+            {
+              "id": "08e4d52f-b4fa-43f6-876d-a36901e1f30b",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": 520,
+                "y": 376
+              }
+            },
+            {
+              "id": "cce03209-9887-481c-ac2b-5da9f9bc2d66",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 736,
+                "y": 192
+              }
+            },
+            {
+              "id": "15921a47-9c6e-411a-95a4-31330b104b72",
+              "type": "basic.code",
+              "data": {
+                "code": "reg [7:0] o;\n\nalways @(*) begin\n\n o[7:0] = i[7:0];\n o[BIT] = a;\n \nend",
+                "params": [
+                  {
+                    "name": "BIT"
+                  }
+                ],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "i",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "a"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "o",
+                      "range": "[7:0]",
+                      "size": 8
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 672,
+                "y": 296
+              },
+              "size": {
+                "width": 224,
+                "height": 152
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "cce03209-9887-481c-ac2b-5da9f9bc2d66",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "15921a47-9c6e-411a-95a4-31330b104b72",
+                "port": "BIT"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "723d60d1-a584-4225-8bd9-afc883662c06",
+                "port": "out"
+              },
+              "target": {
+                "block": "15921a47-9c6e-411a-95a4-31330b104b72",
+                "port": "i"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "15921a47-9c6e-411a-95a4-31330b104b72",
+                "port": "o"
+              },
+              "target": {
+                "block": "9026f70a-0df5-42bb-94a8-c422b6b27d4a",
+                "port": "in"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "08e4d52f-b4fa-43f6-876d-a36901e1f30b",
+                "port": "out"
+              },
+              "target": {
+                "block": "15921a47-9c6e-411a-95a4-31330b104b72",
+                "port": "a"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "3bf99b8d77aa1b29ec1bf618b53175de87f1001d": {
+      "package": {
+        "name": "Valor_0_8bits",
+        "version": "0.0.1",
+        "description": "Valor constante 0 para bus de 8 bits",
+        "author": "Juan Gonzalez-Gomez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22346.308%22%20height=%22300.445%22%20viewBox=%220%200%20324.66403%20281.66758%22%3E%3Cg%20font-weight=%22400%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22371.115%22%20y=%22653.344%22%20font-size=%22335.399%22%20fill=%22green%22%20transform=%22translate(-326.544%20-441.037)%22%3E%3Ctspan%20x=%22371.115%22%20y=%22653.344%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22322.722%22%20y=%22721.624%22%20font-size=%2283.077%22%20transform=%22translate(-326.544%20-441.037)%22%3E%3Ctspan%20x=%22322.722%22%20y=%22721.624%22%3E00000000%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22548.722%22%20y=%22651.624%22%20font-size=%2283.077%22%20fill=%22#00f%22%20transform=%22translate(-326.544%20-441.037)%22%3E%3Ctspan%20x=%22548.722%22%20y=%22651.624%22%3E00%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "ad29e130-c17a-4544-9237-4c72551ccbeb",
+              "type": "basic.output",
+              "data": {
+                "name": "k",
+                "range": "[7:0]",
+                "size": 8
+              },
+              "position": {
+                "x": 928,
+                "y": 256
+              }
+            },
+            {
+              "id": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": true
+              },
+              "position": {
+                "x": 728,
+                "y": 152
+              }
+            },
+            {
+              "id": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+              "type": "5ad97e1e35a295d0ec722addd6df97c806fc6b7c",
+              "position": {
+                "x": 728,
+                "y": 256
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "ad7918eb-22dd-4b6c-949f-e428f5a55530",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              }
+            },
+            {
+              "source": {
+                "block": "d8755f82-ee3e-47e9-9ac3-e4d6713a6105",
+                "port": "a9d6830d-5cc7-4f63-a068-35181d2537bc"
+              },
+              "target": {
+                "block": "ad29e130-c17a-4544-9237-4c72551ccbeb",
+                "port": "in"
+              },
+              "size": 8
             }
           ]
         }
