@@ -1,7 +1,7 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.7.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.8.0-orange.svg)
 
 Blocks created in the Jedi Hardware academy.
 
@@ -9,7 +9,7 @@ Blocks created in the Jedi Hardware academy.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.7.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.8.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -73,12 +73,14 @@ Blocks created in the Jedi Hardware academy.
     * *4-Bits*
       * Mux-2-1-flip
       * Mux-2-1
+      * Mux-4-1-bus
       * Mux-4-1
     * *5-Bits*
       * Mux-2-1
     * *7-Bit*
       * Mux-2-1
     * *8-Bit*
+      * Mux-16-1
       * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1-bus
@@ -222,6 +224,7 @@ Blocks created in the Jedi Hardware academy.
         * tabla-hex-4-1
         * tabla-hex-4-2
         * tabla-hex-4-3
+        * tabla-hex-4-32
         * tabla-hex-4-4
         * tabla-hex-4-5
         * tabla-hex-4-6
@@ -379,16 +382,23 @@ Blocks created in the Jedi Hardware academy.
       * Valor_1
       * Valor_2
       * Valor_3
+      * k-1
     * *03_bits*
       * Generico
+      * Valor_00
+      * k-1
     * *04_bits*
       * Generico
       * Valor_00
       * Valor_05
       * Valor_10
       * Valor_15
+      * k-1
     * *05_bits*
       * Generico
+    * *06_bits*
+      * Generico
+      * Valor_00
     * *07_bits*
       * Generico
     * *08_bits*
@@ -408,6 +418,14 @@ Blocks created in the Jedi Hardware academy.
       * Generico
     * *16_bits*
       * Generico
+* *Perif*
+  * *Displays*
+    * *COM-1129-SparkFun*
+      * char-4
+      * digitos-4
+      * digitos4++
+      * segment-4
+      * time-4
 * *Pines*
   * In-out-right
   * In-out
@@ -419,6 +437,7 @@ Blocks created in the Jedi Hardware academy.
     * Baliza-2
     * Beep-kbd
     * Beep
+    * Doc
     * Init-tic
     * KITT
     * Sirena
@@ -428,7 +447,20 @@ Blocks created in the Jedi Hardware academy.
       * Button-off
       * and
   * *Aritmetica*
+    * *Bin2BCD*
+      * *04-bits*
+        * Bin2BCD-comb
+        * Bin2BCD-seq
+      * *parts*
+        * comb-unit
+    * *CRC*
+      * CRC-16-CCITT
+    * *Shifts*
+      * *01-bits*
+        * Shift-left
     * *Sumadores*
+      * *02-bits*
+        * sum-1op
       * *03-bits*
         * sum-1op
       * *04-bits*
@@ -440,6 +472,7 @@ Blocks created in the Jedi Hardware academy.
         * sum-1op
         * sum-2op
   * *Biestables*
+    * Cambio-rst
     * Cambio
     * Dato
     * Set-Reset
@@ -497,6 +530,7 @@ Blocks created in the Jedi Hardware academy.
       * Separador
     * *04_bits*
       * Agregador-1-3
+      * Agregador-3-1
       * Agregador
       * Agregador4
       * Separador
@@ -512,14 +546,18 @@ Blocks created in the Jedi Hardware academy.
       * Agregador
       * Separador-6x1
     * *07_bits*
+      * Agregador-1-7
       * Agregador-7x1
       * Agregador
       * Separador-7x1
       * mult-1-7-bus
     * *08_bits*
+      * Agregador-1-7
+      * Agregador-2-6
       * Agregador-8x1
       * Agregador
       * Extract-bit
+      * Inject-bit
       * Separador-1-7
       * Separador-3-4
       * Separador-3-5
@@ -539,11 +577,15 @@ Blocks created in the Jedi Hardware academy.
       * Agregador
       * Agregador4
       * Separador
+      * Separador4
     * *17_bits*
       * Extractor-bus-1bit
       * Extractor-bus-2bits
       * Extractor-bus-4bits
       * Extractor-bus-8bits
+    * *32_bits*
+      * Separador
+      * Separador4
   * *Comparadores*
     * *05-bits*
       * Comp-1
@@ -580,6 +622,7 @@ Blocks created in the Jedi Hardware academy.
     * *4-bits*
       * Comp-1
       * Comp-2
+      * Mayor-igual-1
       * Menor-1
       * Menor-2
     * *8-bits*
@@ -649,6 +692,8 @@ Blocks created in the Jedi Hardware academy.
       * cont-up
     * *13-bits*
       * cont-up
+    * *16-bits*
+      * cont-up
     * *17-bits*
       * *system*
         * cont-basic
@@ -694,6 +739,15 @@ Blocks created in the Jedi Hardware academy.
       * Wait-ms
     * *Componentes*
       * Machine-state
+    * *Count*
+      * *01-bits*
+        * count
+      * *02-bits*
+        * count
+      * *03-bits*
+        * count
+      * *04-bits*
+        * count
   * *Motor*
     * *SM-S4303R*
       * MotorBit
@@ -759,15 +813,22 @@ Blocks created in the Jedi Hardware academy.
   * *Registros*
     * 01-bit
     * *02-bits*
-      * reg
-      * sreg-load
-    * *03-bits*
-      * reg
-      * sreg-load
-    * *04-bits*
       * reg-rst
       * reg
       * sreg-load
+    * *03-bits*
+      * reg-rst
+      * reg
+      * sreg-load
+      * sreg-rst
+      * sreg
+    * *04-bits*
+      * reg-rst
+      * reg
+      * sreg-load-rst
+      * sreg-load
+      * sreg-rst
+      * sreg
     * *05-bits*
       * reg-rst
       * reg
@@ -775,6 +836,7 @@ Blocks created in the Jedi Hardware academy.
     * *06-bits*
       * reg
       * sreg-load
+      * sreg
     * *07-bits*
       * reg
       * sreg-load
@@ -795,6 +857,10 @@ Blocks created in the Jedi Hardware academy.
     * *10-bits*
       * sreg-load
       * sreg-r-load
+    * *16-bits*
+      * sreg
+    * *32-bits*
+      * sreg
   * *Retardo*
     * Tortuga-2
   * *SPI*
@@ -803,7 +869,9 @@ Blocks created in the Jedi Hardware academy.
       * spi-master-mode0-2MHZ
       * spi-master-reg
       * *parts*
+        * SPI-heart-2MHZ-DIV
         * SPI-heart-2MHZ
+        * timer-system-spi
     * *SPI-slave*
       * SPI-cmd-regs
       * SPI-slave-mode0-2MHZ
@@ -870,6 +938,18 @@ Blocks created in the Jedi Hardware academy.
   * 04-Potentiometer-BCD-7Seg
   * 05-Potentiometer-8LEDs
   * Alhambra II_adc-test-01
+* *Displays*
+  * *COM-1129-SparkFun*
+    * *SPI*
+      * 01-spi-serial-test
+      * 02-Digito-pulsador
+      * 03-Digito-aleatorio
+      * 04-Digito-aleatorio-cls
+      * 08-contador-100-decimas
+      * 09-minutero-segundero-mm:ss
+      * 10-contador-hexa-0000-FFFF
+      * 11-secuencia-texto
+      * 12-animacion-segmentos
 * *LEDs*
   * Ejemplo-03-grupo-ocho-leds
   * Ejemplo-05-grupo-ocho-leds-brillo-bajo
