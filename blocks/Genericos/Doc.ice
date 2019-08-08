@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "DOC",
+    "name": "Generic-DOC",
     "version": "0.1",
     "description": "Bloque con documentación",
     "author": "Juan González-Gómez",

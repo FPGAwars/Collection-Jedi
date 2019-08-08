@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Constante-4bits",
+    "name": "Generic-Const-4bits",
     "version": "0.0.1",
     "description": "Valor genérico constante, de 4 bits. Su valor se introduce como parámetro. Por defecto vale 0",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
