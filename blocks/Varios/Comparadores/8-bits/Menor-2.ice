@@ -8,7 +8,7 @@
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22732.741%22%20height=%22283.481%22%20viewBox=%220%200%20193.87093%2075.00425%22%3E%3Cg%20word-spacing=%220%22%20letter-spacing=%220%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20stroke-width=%22.206%22%20fill=%22#00f%22%3E%3Ctext%20font-size=%2296.3%22%20y=%2259.926%22%20x=%2211.384%22%20style=%22line-height:125%25%22%20stroke-width=%22.057%22%20transform=%22matrix(1.37272%200%200%201.37272%2024.05%20-3.32)%22%3E%3Ctspan%20font-weight=%22700%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2259.926%22%20x=%2211.384%22%20stroke-width=%22.206%22%3E&lt;%3C/tspan%3E%3C/text%3E%3Ctext%20font-size=%2249.515%22%20y=%2241.865%22%20x=%22-19.647%22%20style=%22line-height:125%25%22%20stroke-width=%22.029%22%20transform=%22matrix(1.37272%200%200%201.37272%2024.05%20-3.32)%22%3E%3Ctspan%20font-weight=%22700%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2241.865%22%20x=%22-19.647%22%20stroke-width=%22.106%22%3Ea%3C/tspan%3E%3C/text%3E%3Ctext%20font-size=%2249.515%22%20y=%2241.865%22%20x=%2290.492%22%20style=%22line-height:125%25%22%20stroke-width=%22.029%22%20transform=%22matrix(1.37272%200%200%201.37272%2024.05%20-3.32)%22%3E%3Ctspan%20font-weight=%22700%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20y=%2241.865%22%20x=%2290.492%22%20stroke-width=%22.106%22%3Eb%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -21,42 +21,42 @@
               {
                 "index": "7",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "6",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "5",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "4",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "3",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "2",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "1",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
@@ -76,7 +76,7 @@
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true
@@ -96,42 +96,42 @@
               {
                 "index": "7",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "6",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "5",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "4",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "3",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "2",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "1",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
