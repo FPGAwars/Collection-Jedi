@@ -1,14 +1,14 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Registro-st",
+    "name": "Registro-rst",
     "version": "0.1",
     "description": "Registro de 8 bits con reset",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22519.236%22%20height=%22279.911%22%20viewBox=%220%200%20137.38127%2074.059853%22%3E%3Cpath%20d=%22M41.506%2040.152l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke=%22#000%22%20stroke-width=%221.092%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M34.122%2032.088L24.89%2012.475l-6.45%203.724-2.07-3.583L37.276.546l2.07%203.584-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.772L33.017%2045.02s-2.849-3.695-2.16-6.795c.687-3.1%203.265-6.137%203.265-6.137z%22%20fill=%22red%22%20stroke=%22#000%22%20stroke-width=%221.092%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22translate(-93.518%20-22.665)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M81.95%2040.152l13.607%2016.672L88.64%2036.29%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M74.566%2032.088l-9.232-19.613-6.451%203.724-2.069-3.583L77.719.546l2.069%203.584-6.092%203.517%2012.03%2018.223s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.772L73.46%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M121.637%2040.152l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M114.253%2032.088l-9.232-19.613-6.45%203.724-2.07-3.583L117.407.546l2.07%203.584-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.136%202.766%202.52%204.92%202.887%204.772L113.147%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -20,15 +20,15 @@
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
             "clock": true
           },
           "position": {
-            "x": 80,
-            "y": 176
+            "x": 88,
+            "y": 120
           }
         },
         {
@@ -40,15 +40,15 @@
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
             "clock": false
           },
           "position": {
-            "x": 64,
-            "y": 232
+            "x": 80,
+            "y": 216
           }
         },
         {
@@ -61,42 +61,42 @@
               {
                 "index": "7",
                 "name": "LED7",
-                "value": "104"
+                "value": "37"
               },
               {
                 "index": "6",
                 "name": "LED6",
-                "value": "102"
+                "value": "38"
               },
               {
                 "index": "5",
                 "name": "LED5",
-                "value": "101"
+                "value": "39"
               },
               {
                 "index": "4",
                 "name": "LED4",
-                "value": "99"
+                "value": "41"
               },
               {
                 "index": "3",
                 "name": "LED3",
-                "value": "98"
+                "value": "42"
               },
               {
                 "index": "2",
                 "name": "LED2",
-                "value": "97"
+                "value": "43"
               },
               {
                 "index": "1",
                 "name": "LED1",
-                "value": "96"
+                "value": "44"
               },
               {
                 "index": "0",
                 "name": "LED0",
-                "value": "95"
+                "value": "45"
               }
             ],
             "virtual": true
@@ -116,50 +116,50 @@
               {
                 "index": "7",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "6",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "5",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "4",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "3",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "2",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "1",
                 "name": "",
-                "value": ""
+                "value": "0"
               },
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
             "clock": false
           },
           "position": {
-            "x": 72,
-            "y": 288
+            "x": 80,
+            "y": 272
           }
         },
         {
@@ -171,15 +171,15 @@
               {
                 "index": "0",
                 "name": "",
-                "value": ""
+                "value": "0"
               }
             ],
             "virtual": true,
             "clock": false
           },
           "position": {
-            "x": 72,
-            "y": 392
+            "x": 80,
+            "y": 352
           }
         },
         {
@@ -199,7 +199,7 @@
           "id": "32106310-bfdc-41db-9a7c-2dadd5016c3f",
           "type": "basic.code",
           "data": {
-            "code": "localparam N = 8;\n\nreg [N-1:0] q = INI;\n\nalways @(posedge clk)\n  if (load)\n    q <= d;",
+            "code": "localparam N = 8;\n\nreg [N-1:0] q = INI;\n\nalways @(posedge clk)\n  if (rst)\n    q <= INI;\n  else\n    if (load)\n      q <= d;",
             "params": [
               {
                 "name": "INI"
