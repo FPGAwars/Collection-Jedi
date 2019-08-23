@@ -27,17 +27,42 @@
             "clock": true
           },
           "position": {
-            "x": 136,
-            "y": 160
+            "x": 120,
+            "y": 144
           }
         },
         {
-          "id": "556d5191-0378-416e-a7e0-c4be13da2a89",
+          "id": "6cf014d5-f90f-4bb3-86a9-0a292f5ab1bb",
           "type": "basic.input",
           "data": {
-            "name": "data_in",
-            "range": "[7:0]",
+            "name": "a",
+            "range": "[12:0]",
             "pins": [
+              {
+                "index": "12",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "11",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "10",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "9",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "8",
+                "name": "",
+                "value": ""
+              },
               {
                 "index": "7",
                 "name": "",
@@ -88,11 +113,47 @@
           }
         },
         {
-          "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
+          "id": "556d5191-0378-416e-a7e0-c4be13da2a89",
           "type": "basic.input",
           "data": {
-            "name": "cs",
+            "name": "d",
+            "range": "[7:0]",
             "pins": [
+              {
+                "index": "7",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "6",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "5",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "4",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "3",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "2",
+                "name": "",
+                "value": ""
+              },
+              {
+                "index": "1",
+                "name": "",
+                "value": ""
+              },
               {
                 "index": "0",
                 "name": "",
@@ -111,7 +172,7 @@
           "id": "d9ccd8eb-434c-40d1-b491-17e5d8378271",
           "type": "basic.output",
           "data": {
-            "name": "data_out",
+            "name": "",
             "range": "[7:0]",
             "pins": [
               {
@@ -203,72 +264,11 @@
           }
         },
         {
-          "id": "6cf014d5-f90f-4bb3-86a9-0a292f5ab1bb",
+          "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
           "type": "basic.input",
           "data": {
-            "name": "addr",
-            "range": "[12:0]",
+            "name": "cs",
             "pins": [
-              {
-                "index": "12",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "11",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
               {
                 "index": "0",
                 "name": "",
@@ -312,12 +312,14 @@
                   "name": "clk"
                 },
                 {
+                  "name": "addr",
+                  "range": "[12:0]",
+                  "size": 13
+                },
+                {
                   "name": "data_in",
                   "range": "[7:0]",
                   "size": 8
-                },
-                {
-                  "name": "cs"
                 },
                 {
                   "name": "rd"
@@ -326,9 +328,7 @@
                   "name": "wr"
                 },
                 {
-                  "name": "addr",
-                  "range": "[12:0]",
-                  "size": 13
+                  "name": "cs"
                 }
               ],
               "out": [
