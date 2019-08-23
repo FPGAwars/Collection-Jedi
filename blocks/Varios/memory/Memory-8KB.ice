@@ -91,7 +91,7 @@
           "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
           "type": "basic.input",
           "data": {
-            "name": "cs_n",
+            "name": "cs",
             "pins": [
               {
                 "index": "0",
@@ -166,7 +166,7 @@
           "id": "66b5de25-438f-48ee-a374-0e283c580659",
           "type": "basic.input",
           "data": {
-            "name": "rd_n",
+            "name": "rd",
             "pins": [
               {
                 "index": "0",
@@ -186,7 +186,7 @@
           "id": "c61902b3-38ce-45bf-98c9-322638c2264b",
           "type": "basic.input",
           "data": {
-            "name": "wr_n",
+            "name": "wr",
             "pins": [
               {
                 "index": "0",
@@ -300,7 +300,7 @@
           "id": "8ff8f437-2938-4450-a9cb-e05d255c1871",
           "type": "basic.code",
           "data": {
-            "code": "localparam ADDR_WIDTH = 13;\n\nwire read_sel = !cs_n & !rd_n & wr_n;\nwire write_sel = !cs_n & rd_n & !wr_n;\n\nassign data_out = (read_sel) ? mem_8[addr] : 8'b00;\n\nreg [7:0] mem_8 [0:(1 << ADDR_WIDTH)-1];\ninitial begin\n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, (1 << ADDR_WIDTH)-1);\nend\n\nalways @(posedge clk)\nbegin\n    if (write_sel) begin\n        mem_8[addr] <= data_in;\n    end\nend",
+            "code": "localparam ADDR_WIDTH = 13;\n\nwire read_sel = cs & rd & !wr;\nwire write_sel = cs & !rd & wr;\n\nassign data_out = (read_sel) ? mem_8[addr] : 8'b00;\n\nreg [7:0] mem_8 [0:(1 << ADDR_WIDTH)-1];\ninitial begin\n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, (1 << ADDR_WIDTH)-1);\nend\n\nalways @(posedge clk)\nbegin\n    if (write_sel) begin\n        mem_8[addr] <= data_in;\n    end\nend",
             "params": [
               {
                 "name": "ROMF"
@@ -317,13 +317,13 @@
                   "size": 8
                 },
                 {
-                  "name": "cs_n"
+                  "name": "cs"
                 },
                 {
-                  "name": "rd_n"
+                  "name": "rd"
                 },
                 {
-                  "name": "wr_n"
+                  "name": "wr"
                 },
                 {
                   "name": "addr",
@@ -385,36 +385,6 @@
         },
         {
           "source": {
-            "block": "44329203-f622-4c25-8b35-34bbd09fa4fe",
-            "port": "out"
-          },
-          "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
-            "port": "cs_n"
-          }
-        },
-        {
-          "source": {
-            "block": "66b5de25-438f-48ee-a374-0e283c580659",
-            "port": "out"
-          },
-          "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
-            "port": "rd_n"
-          }
-        },
-        {
-          "source": {
-            "block": "c61902b3-38ce-45bf-98c9-322638c2264b",
-            "port": "out"
-          },
-          "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
-            "port": "wr_n"
-          }
-        },
-        {
-          "source": {
             "block": "6cf014d5-f90f-4bb3-86a9-0a292f5ab1bb",
             "port": "out"
           },
@@ -432,6 +402,36 @@
           "target": {
             "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
             "port": "clk"
+          }
+        },
+        {
+          "source": {
+            "block": "44329203-f622-4c25-8b35-34bbd09fa4fe",
+            "port": "out"
+          },
+          "target": {
+            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "port": "cs"
+          }
+        },
+        {
+          "source": {
+            "block": "66b5de25-438f-48ee-a374-0e283c580659",
+            "port": "out"
+          },
+          "target": {
+            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "port": "rd"
+          }
+        },
+        {
+          "source": {
+            "block": "c61902b3-38ce-45bf-98c9-322638c2264b",
+            "port": "out"
+          },
+          "target": {
+            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "port": "wr"
           }
         }
       ]
