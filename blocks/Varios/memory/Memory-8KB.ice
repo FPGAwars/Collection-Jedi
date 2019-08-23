@@ -32,26 +32,6 @@
           }
         },
         {
-          "id": "57bd6968-f41d-4162-beaa-95bdebfde7d6",
-          "type": "basic.input",
-          "data": {
-            "name": "reset_n",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "clock": false
-          },
-          "position": {
-            "x": 16,
-            "y": 232
-          }
-        },
-        {
           "id": "556d5191-0378-416e-a7e0-c4be13da2a89",
           "type": "basic.input",
           "data": {
@@ -103,8 +83,28 @@
             "clock": false
           },
           "position": {
-            "x": 128,
-            "y": 280
+            "x": 120,
+            "y": 240
+          }
+        },
+        {
+          "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
+          "type": "basic.input",
+          "data": {
+            "name": "cs_n",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true,
+            "clock": false
+          },
+          "position": {
+            "x": 120,
+            "y": 296
           }
         },
         {
@@ -163,26 +163,6 @@
           }
         },
         {
-          "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
-          "type": "basic.input",
-          "data": {
-            "name": "cs_n",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "clock": false
-          },
-          "position": {
-            "x": 16,
-            "y": 328
-          }
-        },
-        {
           "id": "66b5de25-438f-48ee-a374-0e283c580659",
           "type": "basic.input",
           "data": {
@@ -198,8 +178,8 @@
             "clock": false
           },
           "position": {
-            "x": 128,
-            "y": 368
+            "x": 120,
+            "y": 352
           }
         },
         {
@@ -218,8 +198,8 @@
             "clock": false
           },
           "position": {
-            "x": 24,
-            "y": 416
+            "x": 120,
+            "y": 408
           }
         },
         {
@@ -299,7 +279,7 @@
             "clock": false
           },
           "position": {
-            "x": 128,
+            "x": 120,
             "y": 464
           }
         },
@@ -320,7 +300,7 @@
           "id": "8ff8f437-2938-4450-a9cb-e05d255c1871",
           "type": "basic.code",
           "data": {
-            "code": "localparam ADDR_WIDTH = 13;\n\nwire read_sel = !cs_n & !rd_n & wr_n;\nwire write_sel = !cs_n & rd_n & !wr_n;\n\nassign data_out = (read_sel) ? mem_8[addr] : 8'bz;\n\nreg [7:0] mem_8 [0:(1 << ADDR_WIDTH)-1];\ninitial begin\n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, (1 << ADDR_WIDTH)-1);\nend\n\nalways @(posedge clk)\nbegin\n    if (write_sel) begin\n        mem_8[addr] <= data_in;\n    end\nend",
+            "code": "localparam ADDR_WIDTH = 13;\n\nwire read_sel = !cs_n & !rd_n & wr_n;\nwire write_sel = !cs_n & rd_n & !wr_n;\n\nassign data_out = (read_sel) ? mem_8[addr] : 8'b00;\n\nreg [7:0] mem_8 [0:(1 << ADDR_WIDTH)-1];\ninitial begin\n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, (1 << ADDR_WIDTH)-1);\nend\n\nalways @(posedge clk)\nbegin\n    if (write_sel) begin\n        mem_8[addr] <= data_in;\n    end\nend",
             "params": [
               {
                 "name": "ROMF"
@@ -330,9 +310,6 @@
               "in": [
                 {
                   "name": "clk"
-                },
-                {
-                  "name": "reset_n"
                 },
                 {
                   "name": "data_in",
@@ -394,16 +371,6 @@
             "port": "in"
           },
           "size": 8
-        },
-        {
-          "source": {
-            "block": "57bd6968-f41d-4162-beaa-95bdebfde7d6",
-            "port": "out"
-          },
-          "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
-            "port": "reset_n"
-          }
         },
         {
           "source": {
