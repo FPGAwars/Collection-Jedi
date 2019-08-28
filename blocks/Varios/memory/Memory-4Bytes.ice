@@ -16,7 +16,8 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "clock": true
+            "clock": true,
+            "virtual": true
           },
           "position": {
             "x": 120,
@@ -41,12 +42,12 @@
                 "value": ""
               }
             ],
-            "virtual": false,
+            "virtual": true,
             "clock": false
           },
           "position": {
             "x": 120,
-            "y": 256
+            "y": 272
           }
         },
         {
@@ -56,7 +57,8 @@
             "name": "d",
             "range": "[7:0]",
             "clock": false,
-            "size": 8
+            "size": 8,
+            "virtual": true
           },
           "position": {
             "x": 120,
@@ -69,7 +71,8 @@
           "data": {
             "name": "",
             "range": "[7:0]",
-            "size": 8
+            "size": 8,
+            "virtual": true
           },
           "position": {
             "x": 912,
@@ -81,7 +84,8 @@
           "type": "basic.input",
           "data": {
             "name": "wr",
-            "clock": false
+            "clock": false,
+            "virtual": true
           },
           "position": {
             "x": 120,
@@ -93,7 +97,8 @@
           "type": "basic.input",
           "data": {
             "name": "cs",
-            "clock": false
+            "clock": false,
+            "virtual": true
           },
           "position": {
             "x": 120,
