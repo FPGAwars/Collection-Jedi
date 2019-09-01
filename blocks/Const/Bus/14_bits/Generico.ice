@@ -1,9 +1,9 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Constante-16bits",
+    "name": "Constante-14bits",
     "version": "0.0.1",
-    "description": "Valor genérico constante, de 16 bits. Su valor se introduce como parámetro. Por defecto vale 0",
+    "description": "Valor genérico constante, de 14 bits. Su valor se introduce como parámetro. Por defecto vale 0",
     "author": "Juan Gonzalez-Gomez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22145.608%22%20height=%22247.927%22%20viewBox=%220%200%20136.50729%20232.43134%22%3E%3Ctext%20style=%22line-height:125%25;-inkscape-font-specification:'Ubuntu%20Mono'%22%20x=%22293.115%22%20y=%22648.344%22%20font-weight=%22400%22%20font-size=%22335.399%22%20font-family=%22Ubuntu%20Mono%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22green%22%20transform=%22translate(-316.929%20-415.913)%22%3E%3Ctspan%20x=%22293.115%22%20y=%22648.344%22%3Ek%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
@@ -12,91 +12,81 @@
     "graph": {
       "blocks": [
         {
-          "id": "92dade38-46ec-4714-b28b-f4bb1aeca992",
+          "id": "daaec18b-09a7-4af3-a956-d0a423af98a7",
           "type": "basic.output",
           "data": {
             "name": "k",
-            "range": "[15:0]",
+            "range": "[13:0]",
             "pins": [
-              {
-                "index": "15",
-                "name": "",
-                "value": "0"
-              },
-              {
-                "index": "14",
-                "name": "",
-                "value": "0"
-              },
               {
                 "index": "13",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "12",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "11",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "10",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "9",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "8",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "7",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "6",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "5",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "4",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "3",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "2",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "1",
                 "name": "",
-                "value": "0"
+                "value": ""
               },
               {
                 "index": "0",
                 "name": "",
-                "value": "0"
+                "value": ""
               }
             ],
             "virtual": true
@@ -134,8 +124,8 @@
               "out": [
                 {
                   "name": "k",
-                  "range": "[15:0]",
-                  "size": 16
+                  "range": "[13:0]",
+                  "size": 14
                 }
               ]
             }
@@ -167,10 +157,10 @@
             "port": "k"
           },
           "target": {
-            "block": "92dade38-46ec-4714-b28b-f4bb1aeca992",
+            "block": "daaec18b-09a7-4af3-a956-d0a423af98a7",
             "port": "in"
           },
-          "size": 16
+          "size": 14
         }
       ]
     }

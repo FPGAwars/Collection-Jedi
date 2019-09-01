@@ -69,10 +69,10 @@
                 "value": ""
               }
             ],
-            "virtual": false
+            "virtual": true
           },
           "position": {
-            "x": 968,
+            "x": 952,
             "y": 248
           }
         },
