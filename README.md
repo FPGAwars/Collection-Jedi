@@ -1,7 +1,7 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.8.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.9.0-orange.svg)
 
 Blocks created in the Jedi Hardware academy.
 
@@ -9,7 +9,7 @@ Blocks created in the Jedi Hardware academy.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.8.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.9.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -47,6 +47,8 @@ Blocks created in the Jedi Hardware academy.
         * displayDEC
         * displayHEX
   * *Demux*
+    * *08-bits*
+      * Demux-1-2
     * *1-Bit*
       * Demux-1-2
       * Demux-2-4
@@ -58,6 +60,8 @@ Blocks created in the Jedi Hardware academy.
       * Mux-4-1-flip
       * Mux-4-1
       * Mux-8bus-1
+    * *14-bits*
+      * Mux-2-1
     * *16-bits*
       * Mux-2-1
     * *2-Bits*
@@ -117,6 +121,8 @@ Blocks created in the Jedi Hardware academy.
       * and-8-1
       * and-8
       * not
+      * or-8
+      * xor-8
   * *Tablas*
     * *tablas_bin*
       * *1bit_entrada*
@@ -222,6 +228,7 @@ Blocks created in the Jedi Hardware academy.
         * tabla-hex-3-9
       * *4bit_entrada*
         * tabla-hex-4-1
+        * tabla-hex-4-12
         * tabla-hex-4-2
         * tabla-hex-4-3
         * tabla-hex-4-32
@@ -407,6 +414,7 @@ Blocks created in the Jedi Hardware academy.
       * Valor_085
       * Valor_170
       * Valor_255
+      * k-1
       * *ASCII*
         * Char-A
         * Char-J
@@ -416,6 +424,11 @@ Blocks created in the Jedi Hardware academy.
       * Generico
     * *10_bits*
       * Generico
+      * k-1
+      * k-div-2-1
+    * *14_bits*
+      * Generico
+      * k-1
     * *16_bits*
       * Generico
 * *Perif*
@@ -429,6 +442,10 @@ Blocks created in the Jedi Hardware academy.
 * *Pines*
   * In-out-right
   * In-out
+* *Templates*
+  * Comp
+  * Const
+  * Doc
 * *Varios*
   * *ADC*
     * adc
@@ -437,11 +454,12 @@ Blocks created in the Jedi Hardware academy.
     * Baliza-2
     * Beep-kbd
     * Beep
-    * Doc
+    * Init-tic-32
     * Init-tic
     * KITT
     * Sirena
     * beep-flash
+    * comecocos
     * flash
     * *CircuitScramble*
       * Button-off
@@ -463,12 +481,31 @@ Blocks created in the Jedi Hardware academy.
         * sum-1op
       * *03-bits*
         * sum-1op
+        * sum-2op
       * *04-bits*
         * sum-1op
         * sum-2op
+      * *05-bits*
+        * sum-2op
+      * *06-bits*
+        * sum-2op-carry
+        * sum-2op
+      * *07-bits*
+        * sum-2op-carry
+        * sum-2op
       * *08-bits*
         * sum-1op
+        * sum-2op-carry
+        * sum-2op
       * *09-bits*
+        * sum-1op
+        * sum-2op
+      * *10-bits*
+        * sum-1op
+      * *14-bits*
+        * sum-1op
+        * sum-2op
+      * *16-bits*
         * sum-1op
         * sum-2op
   * *Biestables*
@@ -525,6 +562,7 @@ Blocks created in the Jedi Hardware academy.
       * mult-1-2
     * *03_bits*
       * Acoplador-3-8
+      * Agregador-1-2
       * Agregador
       * Separador-1-2
       * Separador
@@ -533,6 +571,8 @@ Blocks created in the Jedi Hardware academy.
       * Agregador-3-1
       * Agregador
       * Agregador4
+      * Separador-1-3
+      * Separador-3-1
       * Separador
       * Separador4
       * mult-1-4-bus
@@ -540,25 +580,34 @@ Blocks created in the Jedi Hardware academy.
       * Agregador-3-2
       * Agregador-5
       * Separador-1-4
+      * Separador-3-2
       * Separador5
     * *06_bits*
       * Agregador-1-5
+      * Agregador-6x1
       * Agregador
+      * Separador-1-5
+      * Separador-4-2
       * Separador-6x1
+      * Separador
     * *07_bits*
       * Agregador-1-7
       * Agregador-7x1
       * Agregador
+      * Separador-3-4
       * Separador-7x1
       * mult-1-7-bus
     * *08_bits*
       * Agregador-1-7
       * Agregador-2-6
+      * Agregador-6-2
+      * Agregador-7-1
       * Agregador-8x1
       * Agregador
       * Extract-bit
       * Inject-bit
       * Separador-1-7
+      * Separador-2-6
       * Separador-3-4
       * Separador-3-5
       * Separador-5-3
@@ -573,9 +622,20 @@ Blocks created in the Jedi Hardware academy.
       * split-1-8
     * *10_bits*
       * Join-8-2
+    * *12_bits*
+      * Separador-12x1
+    * *13-bits*
+      * Join-5-8
+      * split-5-8
+    * *14_bits*
+      * Join-10-4
+      * Join-6-8
+      * split-6-8
     * *16_bits*
       * Agregador
       * Agregador4
+      * Separador-2-14
+      * Separador-3-13
       * Separador
       * Separador4
     * *17_bits*
@@ -604,11 +664,21 @@ Blocks created in the Jedi Hardware academy.
       * Menor-2
     * *10-bits*
       * Comp-1
+      * Comp-2
       * Less-1
       * Less-eq-1
       * grt-eq-1
+    * *12-bits*
+      * Comp-1
+    * *14-bits*
+      * Comp-1
+      * Comp-2
     * *16-bits*
       * Comp-1
+      * Greather-equal-1
+      * Greather-equal-2
+      * Less-1
+      * Less-2
     * *2-bits*
       * Comp-1
       * Comp-2
@@ -663,6 +733,7 @@ Blocks created in the Jedi Hardware academy.
     * *05-bits*
       * cont-up
     * *06-bits*
+      * cont-up-system-ena
       * cont-up-system
       * cont-up
     * *07-bits*
@@ -670,6 +741,7 @@ Blocks created in the Jedi Hardware academy.
     * *08-bits*
       * cont-basic
       * cont-up-down-limit
+      * cont-up-down
       * cont-up
       * counter-down-limit
       * *blocks*
@@ -691,6 +763,9 @@ Blocks created in the Jedi Hardware academy.
     * *12-bits*
       * cont-up
     * *13-bits*
+      * cont-up
+    * *14-bits*
+      * cont-up-down
       * cont-up
     * *16-bits*
       * cont-up
@@ -736,18 +811,53 @@ Blocks created in the Jedi Hardware academy.
     * serialize-2-16bits
     * serialize-2
     * *Basicas*
+      * Wait-ms-10bits
+      * Wait-ms-2
+      * Wait-ms-rst-10bits
       * Wait-ms
+      * *Cycle*
+        * cycle-ms
+        * cycle-rst-ms
+    * *Boot*
+      * *01-bits*
+        * Serial-bootloader
+      * *02-bits*
+        * Serial-bootloader
+      * *03-bits*
+        * Serial-bootloader
+      * *04-bits*
+        * Serial-bootloader
+      * *08-bits*
+        * Serial-bootloader
+      * *14-bits*
+        * Serial-bootloader
     * *Componentes*
       * Machine-state
     * *Count*
       * *01-bits*
+        * count-stop
         * count
       * *02-bits*
+        * count-stop
         * count
       * *03-bits*
+        * count-rst
+        * count-stop
         * count
       * *04-bits*
+        * count-max
+        * count-stop
         * count
+      * *08-bits*
+        * count-stop
+      * *10-bits*
+        * count-max-rst
+        * count-max
+      * *14-bits*
+        * count-stop
+    * *data*
+      * *04-bits*
+        * data
   * *Motor*
     * *SM-S4303R*
       * MotorBit
@@ -764,6 +874,8 @@ Blocks created in the Jedi Hardware academy.
       * *blocks*
         * pwm-100Hz
         * pwm-92Hz
+  * *Particulas*
+    * caida-libre-8bits
   * *Pegatinas*
     * Agujero-negro
     * Jedi-collection
@@ -808,8 +920,6 @@ Blocks created in the Jedi Hardware academy.
     * pulsador-cambio
     * pulsador-tic-sound
     * pulsador-tic
-  * *Recreo*
-    * comecocos
   * *Registros*
     * 01-bit
     * *02-bits*
@@ -818,12 +928,14 @@ Blocks created in the Jedi Hardware academy.
       * sreg-load
     * *03-bits*
       * reg-rst
+      * reg-system
       * reg
       * sreg-load
       * sreg-rst
       * sreg
     * *04-bits*
       * reg-rst
+      * reg-system
       * reg
       * sreg-load-rst
       * sreg-load
@@ -834,16 +946,21 @@ Blocks created in the Jedi Hardware academy.
       * reg
       * sreg-load
     * *06-bits*
+      * reg-rst-set
+      * reg-rst
       * reg
       * sreg-load
       * sreg
     * *07-bits*
+      * reg-rst-set
+      * reg-rst
       * reg
       * sreg-load
       * sreg-rst
       * sreg
     * *08-bits*
       * reg-addr
+      * reg-rst-set
       * reg-rst
       * reg-system
       * reg
@@ -855,9 +972,14 @@ Blocks created in the Jedi Hardware academy.
       * reg-system
       * sreg-r-load
     * *10-bits*
+      * reg-rst
       * sreg-load
       * sreg-r-load
+    * *14-bits*
+      * reg-rst
+      * reg
     * *16-bits*
+      * reg
       * sreg
     * *32-bits*
       * sreg
@@ -883,6 +1005,7 @@ Blocks created in the Jedi Hardware academy.
         * spi-slave-test-regs
   * *Serial*
     * Serial-rx
+    * Serial-tx-dual
     * Serial-tx
     * Serial-tx16
     * serial-tx-str
@@ -911,9 +1034,11 @@ Blocks created in the Jedi Hardware academy.
   * *Timers*
     * bus-cycle
     * timer-10usec
+    * timer-msec-rst
     * timer-msec
     * timer-sec
     * timer-system
+    * timer-usec-rst
     * timer-usec
     * *blocks*
       * timer-10usec
@@ -928,7 +1053,24 @@ Blocks created in the Jedi Hardware academy.
     * Icemove4
     * Icemove9
   * *memory*
-    * Memory-8x5
+    * Memory-16B
+    * Memory-16KB
+    * Memory-16x8
+    * Memory-256B
+    * Memory-256x8
+    * Memory-2Bytes
+    * Memory-4Bytes
+    * Memory-8B
+    * Memory-8KB
+    * *Boot*
+      * memory-16KB-boot
+    * *Dual*
+      * memory-dual-16B
+      * memory-dual-16KB
+      * memory-dual-256B
+      * memory-dual-2x8B
+      * memory-dual-4B
+      * memory-dual-8B
 
 ## Examples
 * *ADC*
