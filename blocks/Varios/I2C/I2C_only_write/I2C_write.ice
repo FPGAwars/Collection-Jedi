@@ -391,7 +391,7 @@
           },
           "position": {
             "x": 1360,
-            "y": 672
+            "y": 656
           }
         },
         {
@@ -411,7 +411,7 @@
           },
           "position": {
             "x": 168,
-            "y": 672
+            "y": 664
           }
         },
         {
@@ -435,26 +435,6 @@
           }
         },
         {
-          "id": "7a214097-9b64-4a5d-b1f4-f452c5fd5641",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "red",
-            "name": "rst",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": 400,
-            "y": 672
-          }
-        },
-        {
           "id": "83fa90fd-5f9c-43ec-987b-d9e7bbe76a3a",
           "type": "basic.outputLabel",
           "data": {
@@ -471,7 +451,27 @@
           },
           "position": {
             "x": 400,
-            "y": 720
+            "y": 704
+          }
+        },
+        {
+          "id": "7a214097-9b64-4a5d-b1f4-f452c5fd5641",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "red",
+            "name": "rst",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": 400,
+            "y": 752
           }
         },
         {
@@ -752,16 +752,16 @@
           "id": "63bc6f06-ce79-472c-8822-80bd2980a3ab",
           "type": "basic.info",
           "data": {
-            "info": "I2C Maestro. Sólo escritura.",
+            "info": "# I2C Maestro. Sólo escritura.",
             "readonly": true
           },
           "position": {
             "x": 336,
-            "y": 112
+            "y": 80
           },
           "size": {
-            "width": 248,
-            "height": 40
+            "width": 424,
+            "height": 48
           }
         },
         {
@@ -786,6 +786,22 @@
           "size": {
             "width": 96,
             "height": 96
+          }
+        },
+        {
+          "id": "8fb83f7a-c582-4382-b0a9-b7b9e024fad4",
+          "type": "basic.info",
+          "data": {
+            "info": "INFO: https://groups.google.com/d/msg/fpga-wars-explorando-el-lado-libre/QZqGqehCvuk/L9yCuXW_BwAJ",
+            "readonly": true
+          },
+          "position": {
+            "x": -96,
+            "y": 936
+          },
+          "size": {
+            "width": 1144,
+            "height": 32
           }
         }
       ],
