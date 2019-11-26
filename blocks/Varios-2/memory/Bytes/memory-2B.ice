@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Memory-2Bytes",
+    "name": "Memory-2B",
     "version": "1.0",
     "description": "Memoria de dos bytes",
     "author": "Juan González-Gómez (Obijuan)",
@@ -16,12 +16,11 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "clock": true,
-            "virtual": true
+            "clock": true
           },
           "position": {
             "x": 120,
-            "y": 144
+            "y": 168
           }
         },
         {
@@ -29,14 +28,6 @@
           "type": "basic.input",
           "data": {
             "name": "a",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "clock": false
           },
           "position": {
@@ -51,8 +42,7 @@
             "name": "d",
             "range": "[7:0]",
             "clock": false,
-            "size": 8,
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 120,
@@ -65,8 +55,7 @@
           "data": {
             "name": "",
             "range": "[7:0]",
-            "size": 8,
-            "virtual": true
+            "size": 8
           },
           "position": {
             "x": 912,
@@ -78,8 +67,7 @@
           "type": "basic.input",
           "data": {
             "name": "wr",
-            "clock": false,
-            "virtual": true
+            "clock": false
           },
           "position": {
             "x": 120,
@@ -91,8 +79,7 @@
           "type": "basic.input",
           "data": {
             "name": "cs",
-            "clock": false,
-            "virtual": true
+            "clock": false
           },
           "position": {
             "x": 120,
@@ -100,28 +87,28 @@
           }
         },
         {
-          "id": "25ec1d68-ab40-4a08-a26a-84bc1025ccd8",
+          "id": "d80bfd80-1f6d-46af-b5de-5cd121ebe630",
           "type": "basic.memory",
           "data": {
             "name": "",
-            "list": "1\n2",
+            "list": "FF FF",
             "local": false,
             "format": 10
           },
           "position": {
-            "x": 520,
-            "y": 32
+            "x": 504,
+            "y": 64
           },
           "size": {
-            "width": 96,
-            "height": 104
+            "width": 128,
+            "height": 64
           }
         },
         {
-          "id": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+          "id": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
           "type": "basic.code",
           "data": {
-            "code": "\n//-- Leer la memoria, solo si está seleccionada\n//-- Si no lo está se devuelve 0\nassign data_out = (cs & !wr) ? mem_8[addr] : 8'b00;\n\n//-- Memoria\nreg [7:0] mem_8 [0:1];\n\n//-- Inicializar la memoria con el parametro ROMF\ninitial begin\n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, 1);\nend\n\n//-- Escritura síncrona en la memoria\n//-- Se escribe si está seleccionada (cs), es \n//-- una escritura (wr=1) y lleva un flanco en clk\nalways @(posedge clk)\nbegin\n    if (cs & wr) begin\n        mem_8[addr] <= data_in;\n    end\nend",
+            "code": "//-- Anchura del bus de direcciones\nlocalparam ADDR_WIDTH = 1;\n\n//-- Tamano de la memoria\nlocalparam TAM = 1 << ADDR_WIDTH;\n\n//-- NO inicializar!\n//-- Si se inicializa a 0 o cualquier otro\n//-- valor no se infiere una RAM\nreg data_out;\n\n//-- Array para la memoria\nreg [7:0] mem_8 [0:TAM-1];\n\n//-- Puerto de lectura\n//-- Para que se infiera una RAM\n//-- debe ser una lectura sincrona\nalways @(posedge clk)\nbegin\n    //-- Puerto de lectura\n    if (cs & !wr) data_out <= mem_8[addr];\n    \n    //-- Puerto de escritura\n    if (cs & wr) mem_8[addr] <= data_in;\nend\n\n\n//-- Inicializacion de la memoria\ninitial begin\n  \n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, 1);\n  \nend\n\n\n\n",
             "params": [
               {
                 "name": "ROMF"
@@ -157,11 +144,11 @@
             }
           },
           "position": {
-            "x": 320,
+            "x": 312,
             "y": 192
           },
           "size": {
-            "width": 488,
+            "width": 504,
             "height": 328
           }
         }
@@ -169,7 +156,7 @@
       "wires": [
         {
           "source": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "data_out"
           },
           "target": {
@@ -184,7 +171,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "data_in"
           },
           "size": 8
@@ -195,7 +182,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "clk"
           }
         },
@@ -205,7 +192,7 @@
             "port": "out"
           },
           "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "cs"
           }
         },
@@ -215,8 +202,18 @@
             "port": "out"
           },
           "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "wr"
+          }
+        },
+        {
+          "source": {
+            "block": "d80bfd80-1f6d-46af-b5de-5cd121ebe630",
+            "port": "memory-out"
+          },
+          "target": {
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+            "port": "ROMF"
           }
         },
         {
@@ -225,18 +222,8 @@
             "port": "out"
           },
           "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
+            "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
             "port": "addr"
-          }
-        },
-        {
-          "source": {
-            "block": "25ec1d68-ab40-4a08-a26a-84bc1025ccd8",
-            "port": "memory-out"
-          },
-          "target": {
-            "block": "8ff8f437-2938-4450-a9cb-e05d255c1871",
-            "port": "ROMF"
           }
         }
       ]
