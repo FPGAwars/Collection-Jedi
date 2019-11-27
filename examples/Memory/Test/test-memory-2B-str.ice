@@ -423,33 +423,16 @@
           }
         },
         {
-          "id": "0c8eede2-b44f-4034-83da-305b0595a1d5",
-          "type": "basic.memory",
+          "id": "e06ec566-13fc-4d0e-b731-84476257c5cb",
+          "type": "basic.constant",
           "data": {
-            "name": "Memory",
-            "list": "41\n42",
-            "local": false,
-            "format": 10
+            "name": "",
+            "value": "\"ab\"",
+            "local": false
           },
-          "position": {
-            "x": 1048,
-            "y": 264
-          },
-          "size": {
-            "width": 120,
-            "height": 80
-          }
-        },
-        {
-          "id": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
-          "type": "1246ca7c32f2147b0edb7667d70d627a31de4746",
           "position": {
             "x": 1064,
-            "y": 376
-          },
-          "size": {
-            "width": 96,
-            "height": 160
+            "y": 272
           }
         },
         {
@@ -564,7 +547,7 @@
           "id": "39461124-9cf8-4685-9343-0d53f1f6dcd6",
           "type": "basic.info",
           "data": {
-            "info": "## Test Memory-2B\n\nThe 2-bytes memory is dumped initially or  \nwhen the button is pressed",
+            "info": "## Test Memory-2B-str\n\nThe 2-bytes memory is dumped initially or  \nwhen the button is pressed",
             "readonly": true
           },
           "position": {
@@ -711,19 +694,37 @@
             "width": 200,
             "height": 56
           }
+        },
+        {
+          "id": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
+          "type": "1ba8f71d37002e069119a3b1b7ad08d96c663b73",
+          "position": {
+            "x": 1064,
+            "y": 376
+          },
+          "size": {
+            "width": 96,
+            "height": 160
+          }
+        },
+        {
+          "id": "2abfc22e-e3be-4a4b-9479-5315cf4bb605",
+          "type": "basic.info",
+          "data": {
+            "info": "REMEMBER:  \nThe memory changes the last  \ncharacter by '\\0'",
+            "readonly": true
+          },
+          "position": {
+            "x": 1184,
+            "y": 280
+          },
+          "size": {
+            "width": 256,
+            "height": 72
+          }
         }
       ],
       "wires": [
-        {
-          "source": {
-            "block": "0c8eede2-b44f-4034-83da-305b0595a1d5",
-            "port": "memory-out"
-          },
-          "target": {
-            "block": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
-            "port": "d80bfd80-1f6d-46af-b5de-5cd121ebe630"
-          }
-        },
         {
           "source": {
             "block": "feabba00-f6f2-4033-b39d-85ff49bb5f09",
@@ -770,7 +771,7 @@
             "port": "05bddd69-b695-4c9c-b825-60c31db56105"
           },
           "target": {
-            "block": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
             "port": "5d0ab005-9b09-4380-bf93-da9e477d5221"
           },
           "vertices": []
@@ -781,7 +782,7 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
             "port": "44329203-f622-4c25-8b35-34bbd09fa4fe"
           }
         },
@@ -791,7 +792,7 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
             "port": "c61902b3-38ce-45bf-98c9-322638c2264b"
           }
         },
@@ -950,7 +951,7 @@
         },
         {
           "source": {
-            "block": "eb2f1b5d-6982-4e42-864a-3441beec39d5",
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
             "port": "d9ccd8eb-434c-40d1-b491-17e5d8378271"
           },
           "target": {
@@ -969,241 +970,21 @@
             "port": "72632c73-fe18-42b3-b81f-46999ddfdb20"
           },
           "size": 8
+        },
+        {
+          "source": {
+            "block": "e06ec566-13fc-4d0e-b731-84476257c5cb",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
+            "port": "db6a1779-bb28-488e-aa3f-b404d47515d1"
+          }
         }
       ]
     }
   },
   "dependencies": {
-    "1246ca7c32f2147b0edb7667d70d627a31de4746": {
-      "package": {
-        "name": "Memory-2B",
-        "version": "1.0",
-        "description": "Memoria de dos bytes",
-        "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22216.238%22%20height=%22263.284%22%20viewBox=%220%200%2057.212849%2069.660614%22%3E%3Cpath%20fill=%22#fc0%22%20d=%22M15.908%202.487h39.374v10.857H15.908z%22/%3E%3Cpath%20d=%22M5.253%2069.558c-.593-.189-.902-.383-1.306-.821-.695-.755-.698-.77-.752-3.905l-.048-2.793-1.161-.046c-1.296-.05-1.507-.136-1.83-.735-.163-.304-.17-.666-.146-8.483.024-8.14.024-8.167.217-8.425.376-.505.71-.621%201.89-.657l1.076-.033V11.584l5.793-5.792L14.778%200l20.19.024%2020.19.023.495.274a3.177%203.177%200%200%201%201.334%201.49c.182.426.186.614.207%209.957.012%205.238-.002%209.595-.029%209.684-.045.143-.198.16-1.464.16h-1.413v13.003h2.925l-.02%2016.413-.02%2016.414-.243.517a3.11%203.11%200%200%201-1.41%201.455l-.453.225-24.724.018c-19.768.013-24.797-.006-25.09-.1zM23.063%207.83V2.84h-5.677v9.98h5.677zm7.784%200V2.84h-5.678v9.98h5.678zm7.874%200V2.84h-5.677v9.98h5.677zm7.784%200V2.84h-5.677v9.98h5.677zM54.3%209.09l.017-4.968.003-1.236-2.855-.024-2.856-.024v9.983h5.678z%22%20fill=%22#00f%22/%3E%3Cg%20font-weight=%22400%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:center%22%20x=%22108.954%22%20y=%22182.548%22%20font-size=%2210.125%22%20fill=%22#fff%22%20stroke-width=%22.265%22%20transform=%22translate(-78.502%20-120.48)%22%3E%3Ctspan%20x=%22108.954%22%20y=%22182.548%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EMemory%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:center%22%20x=%22108.426%22%20y=%22159.433%22%20font-size=%2211.804%22%20fill=%22red%22%20stroke-width=%22.308%22%20transform=%22translate(-78.502%20-120.48)%22%3E%3Ctspan%20x=%22108.426%22%20y=%22159.433%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3E2%20Bytes%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "0b91cb0d-4144-4939-8755-e331104016db",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 120,
-                "y": 168
-              }
-            },
-            {
-              "id": "5d0ab005-9b09-4380-bf93-da9e477d5221",
-              "type": "basic.input",
-              "data": {
-                "name": "a",
-                "clock": false
-              },
-              "position": {
-                "x": 120,
-                "y": 256
-              }
-            },
-            {
-              "id": "556d5191-0378-416e-a7e0-c4be13da2a89",
-              "type": "basic.input",
-              "data": {
-                "name": "d",
-                "range": "[7:0]",
-                "clock": false,
-                "size": 8
-              },
-              "position": {
-                "x": 120,
-                "y": 328
-              }
-            },
-            {
-              "id": "d9ccd8eb-434c-40d1-b491-17e5d8378271",
-              "type": "basic.output",
-              "data": {
-                "name": "",
-                "range": "[7:0]",
-                "size": 8
-              },
-              "position": {
-                "x": 912,
-                "y": 328
-              }
-            },
-            {
-              "id": "c61902b3-38ce-45bf-98c9-322638c2264b",
-              "type": "basic.input",
-              "data": {
-                "name": "wr",
-                "clock": false
-              },
-              "position": {
-                "x": 120,
-                "y": 392
-              }
-            },
-            {
-              "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
-              "type": "basic.input",
-              "data": {
-                "name": "cs",
-                "clock": false
-              },
-              "position": {
-                "x": 120,
-                "y": 456
-              }
-            },
-            {
-              "id": "d80bfd80-1f6d-46af-b5de-5cd121ebe630",
-              "type": "basic.memory",
-              "data": {
-                "name": "",
-                "list": "FF FF",
-                "local": false,
-                "format": 10
-              },
-              "position": {
-                "x": 504,
-                "y": 64
-              },
-              "size": {
-                "width": 128,
-                "height": 64
-              }
-            },
-            {
-              "id": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-              "type": "basic.code",
-              "data": {
-                "code": "//-- Anchura del bus de direcciones\nlocalparam ADDR_WIDTH = 1;\n\n//-- Tamano de la memoria\nlocalparam TAM = 1 << ADDR_WIDTH;\n\n//-- NO inicializar!\n//-- Si se inicializa a 0 o cualquier otro\n//-- valor no se infiere una RAM\nreg data_out;\n\n//-- Array para la memoria\nreg [7:0] mem_8 [0:TAM-1];\n\n//-- Puerto de lectura\n//-- Para que se infiera una RAM\n//-- debe ser una lectura sincrona\nalways @(posedge clk)\nbegin\n    //-- Puerto de lectura\n    if (cs & !wr) data_out <= mem_8[addr];\n    \n    //-- Puerto de escritura\n    if (cs & wr) mem_8[addr] <= data_in;\nend\n\n\n//-- Inicializacion de la memoria\ninitial begin\n  \n  if (ROMF)\n    $readmemh(ROMF, mem_8, 0, 1);\n  \nend\n\n\n\n",
-                "params": [
-                  {
-                    "name": "ROMF"
-                  }
-                ],
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "addr"
-                    },
-                    {
-                      "name": "data_in",
-                      "range": "[7:0]",
-                      "size": 8
-                    },
-                    {
-                      "name": "wr"
-                    },
-                    {
-                      "name": "cs"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "data_out",
-                      "range": "[7:0]",
-                      "size": 8
-                    }
-                  ]
-                }
-              },
-              "position": {
-                "x": 312,
-                "y": 192
-              },
-              "size": {
-                "width": 504,
-                "height": 328
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "data_out"
-              },
-              "target": {
-                "block": "d9ccd8eb-434c-40d1-b491-17e5d8378271",
-                "port": "in"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "556d5191-0378-416e-a7e0-c4be13da2a89",
-                "port": "out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "data_in"
-              },
-              "size": 8
-            },
-            {
-              "source": {
-                "block": "0b91cb0d-4144-4939-8755-e331104016db",
-                "port": "out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "44329203-f622-4c25-8b35-34bbd09fa4fe",
-                "port": "out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "cs"
-              }
-            },
-            {
-              "source": {
-                "block": "c61902b3-38ce-45bf-98c9-322638c2264b",
-                "port": "out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "wr"
-              }
-            },
-            {
-              "source": {
-                "block": "d80bfd80-1f6d-46af-b5de-5cd121ebe630",
-                "port": "memory-out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "ROMF"
-              }
-            },
-            {
-              "source": {
-                "block": "5d0ab005-9b09-4380-bf93-da9e477d5221",
-                "port": "out"
-              },
-              "target": {
-                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
-                "port": "addr"
-              }
-            }
-          ]
-        }
-      }
-    },
     "3db97e88b7f9a2a65931f3638eaa612a255dccd7": {
       "package": {
         "name": "Init-tic",
@@ -7014,6 +6795,231 @@
                 "port": "in"
               },
               "size": 8
+            }
+          ]
+        }
+      }
+    },
+    "1ba8f71d37002e069119a3b1b7ad08d96c663b73": {
+      "package": {
+        "name": "Memory-2B-str",
+        "version": "1.0",
+        "description": "2-bytes memory, initilized with a string",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22216.238%22%20height=%22319.004%22%20viewBox=%220%200%2057.212849%2084.403198%22%3E%3Cpath%20fill=%22#fc0%22%20d=%22M15.908%2017.23h39.374v10.856H15.908z%22/%3E%3Cpath%20d=%22M5.253%2084.3c-.593-.188-.902-.382-1.306-.82-.695-.755-.698-.77-.752-3.905l-.048-2.793-1.161-.046C.69%2076.685.479%2076.6.156%2076.001c-.163-.304-.17-.666-.146-8.484.024-8.14.024-8.166.217-8.424.376-.505.71-.622%201.89-.657l1.076-.033V26.327l5.793-5.792%205.792-5.792%2020.19.023%2020.19.024.495.274a3.177%203.177%200%200%201%201.334%201.49c.182.425.186.614.207%209.957.012%205.237-.002%209.595-.029%209.683-.045.144-.198.16-1.464.16h-1.413v13.003h2.925l-.02%2016.414-.02%2016.413-.243.518a3.11%203.11%200%200%201-1.41%201.455l-.453.225-24.724.017c-19.768.014-24.797-.006-25.09-.099zm17.81-61.727v-4.99h-5.677v9.98h5.677zm7.784%200v-4.99h-5.678v9.98h5.678zm7.874%200v-4.99h-5.677v9.98h5.677zm7.784%200v-4.99h-5.677v9.98h5.677zm7.796%201.26l.017-4.968.003-1.236-2.855-.025-2.856-.024v9.984h5.678z%22%20fill=%22#00f%22/%3E%3Cg%20font-weight=%22400%22%20font-family=%22ubuntu%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:center%22%20x=%22108.954%22%20y=%22182.548%22%20font-size=%2210.125%22%20fill=%22#fff%22%20stroke-width=%22.265%22%20transform=%22translate(-78.502%20-105.738)%22%3E%3Ctspan%20x=%22108.954%22%20y=%22182.548%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EMemory%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:center%22%20x=%22108.426%22%20y=%22159.433%22%20font-size=%2211.804%22%20fill=%22red%22%20stroke-width=%22.308%22%20transform=%22translate(-78.502%20-105.738)%22%3E%3Ctspan%20x=%22108.426%22%20y=%22159.433%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3E2%20Bytes%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:1.25;-inkscape-font-specification:ubuntu;text-align:center%22%20x=%22110.578%22%20y=%22114.603%22%20font-size=%2211.804%22%20stroke-width=%22.308%22%20transform=%22translate(-78.502%20-105.738)%22%3E%3Ctspan%20x=%22110.578%22%20y=%22114.603%22%20style=%22-inkscape-font-specification:'ubuntu%20Medium'%22%20font-weight=%22500%22%3EString%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "0b91cb0d-4144-4939-8755-e331104016db",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 120,
+                "y": 192
+              }
+            },
+            {
+              "id": "5d0ab005-9b09-4380-bf93-da9e477d5221",
+              "type": "basic.input",
+              "data": {
+                "name": "a",
+                "clock": false
+              },
+              "position": {
+                "x": 120,
+                "y": 256
+              }
+            },
+            {
+              "id": "556d5191-0378-416e-a7e0-c4be13da2a89",
+              "type": "basic.input",
+              "data": {
+                "name": "d",
+                "range": "[7:0]",
+                "clock": false,
+                "size": 8
+              },
+              "position": {
+                "x": 120,
+                "y": 328
+              }
+            },
+            {
+              "id": "d9ccd8eb-434c-40d1-b491-17e5d8378271",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[7:0]",
+                "size": 8
+              },
+              "position": {
+                "x": 912,
+                "y": 328
+              }
+            },
+            {
+              "id": "c61902b3-38ce-45bf-98c9-322638c2264b",
+              "type": "basic.input",
+              "data": {
+                "name": "wr",
+                "clock": false
+              },
+              "position": {
+                "x": 120,
+                "y": 392
+              }
+            },
+            {
+              "id": "44329203-f622-4c25-8b35-34bbd09fa4fe",
+              "type": "basic.input",
+              "data": {
+                "name": "cs",
+                "clock": false
+              },
+              "position": {
+                "x": 120,
+                "y": 456
+              }
+            },
+            {
+              "id": "db6a1779-bb28-488e-aa3f-b404d47515d1",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "\"\\0\\0\"",
+                "local": false
+              },
+              "position": {
+                "x": 520,
+                "y": 72
+              }
+            },
+            {
+              "id": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+              "type": "basic.code",
+              "data": {
+                "code": "//-- Anchura del bus de direcciones\nlocalparam ADDR_WIDTH = 1;\n\n//-- Tamano de la memoria\nlocalparam TAM = 1 << ADDR_WIDTH;\n\n//-- NO inicializar!\n//-- Si se inicializa a 0 o cualquier otro\n//-- valor no se infiere una RAM\nreg data_out;\n\n//-- Array para la memoria\nreg [7:0] mem_8 [0:TAM-1];\n\n//-- Puerto de lectura\n//-- Para que se infiera una RAM\n//-- debe ser una lectura sincrona\nalways @(posedge clk)\nbegin\n    //-- Puerto de lectura\n    if (cs & !wr) data_out <= mem_8[addr];\n    \n    //-- Puerto de escritura\n    if (cs & wr) mem_8[addr] <= data_in;\nend\n\n\n//---- Hay que inicializar la memoria con\n//---  la cadena pasada como parámetro (CAD)\n//---  El caracter situado en la derecha es  \n//---  el de menor peso. La cadena crece hacia  \n//--- la izquierda, justo lo contrario que la\n//--- cadena real: Al añadir un caracter al \n//-- final, se situa como el de menor peso en CAD\n\n//-- Calcular el tamaño total de la cadena\nlocalparam LEN = $size(STR)/8;\n\n//-- Longitud de la cadena efectivo:\n//-- Si es mayor que el tamaño de la memoria\n//-- hay que truncarla\nlocalparam LENT = (LEN > TAM) ? TAM : LEN;\n\n//-- Exceso: cantidad de caracteres en lo que\n//-- la cadena es mayor que el tamaño de la  \n//-- memoria\nlocalparam E = (LEN > TAM) ? LEN-TAM : 0;\n\n//-- Para hacer los calculos, metemos la cadena  \n//-- en un registro cuyo tamaño es el máximo:\n//-- Si la longitud de la cadena (LEN) es mayor\n//-- que la memoria (TAM), el tamaño del registro  \n//-- será LEN\nlocalparam TMAX = (LEN > TAM) ? LEN : TAM;\n\n//-- Asignar la cadena al registro\nreg [8*TMAX:1] str = STR;\n\n//-- Inicializacion de la memoria\ninteger j;\ninitial begin\n  \n  //-- Poner toda la memoria a  0\n  //-- inicialmente\n  \n  for (j = 0; j < TAM; j++)\n    mem_8[j] = 0;\n  \n  //-- Si inicializamos la memoria de esta forma\n  //-- Se rellena en orden inverso\n  //for (j = 0; j <= LENT; j--)\n  //  mem_8[j] = cad[ 8*(j+E)+1 : 8*(j+E+1) ];\n  \n  //-- Por eso hay que hacerlo asi:\n  for (j = 0; j <= LENT; j++)\n    mem_8[LENT-1 - j] = str[ 8*(j+E)+1 : 8*(j+E+1) ];\n    \n  //-- Cuando LEN > MAX, se rellena toda la memoria\n  //-- con la cadena. El ultimo elemento debe ser  \n  //-- un 0. Lo ponemos. Si LEN < MAX es inocuo\n  mem_8[TAM-1] = 0;\n  \nend\n\n\n\n",
+                "params": [
+                  {
+                    "name": "STR"
+                  }
+                ],
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "addr"
+                    },
+                    {
+                      "name": "data_in",
+                      "range": "[7:0]",
+                      "size": 8
+                    },
+                    {
+                      "name": "wr"
+                    },
+                    {
+                      "name": "cs"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "data_out",
+                      "range": "[7:0]",
+                      "size": 8
+                    }
+                  ]
+                }
+              },
+              "position": {
+                "x": 312,
+                "y": 192
+              },
+              "size": {
+                "width": 504,
+                "height": 328
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "data_out"
+              },
+              "target": {
+                "block": "d9ccd8eb-434c-40d1-b491-17e5d8378271",
+                "port": "in"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "556d5191-0378-416e-a7e0-c4be13da2a89",
+                "port": "out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "data_in"
+              },
+              "size": 8
+            },
+            {
+              "source": {
+                "block": "0b91cb0d-4144-4939-8755-e331104016db",
+                "port": "out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "44329203-f622-4c25-8b35-34bbd09fa4fe",
+                "port": "out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "cs"
+              }
+            },
+            {
+              "source": {
+                "block": "c61902b3-38ce-45bf-98c9-322638c2264b",
+                "port": "out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "wr"
+              }
+            },
+            {
+              "source": {
+                "block": "5d0ab005-9b09-4380-bf93-da9e477d5221",
+                "port": "out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "addr"
+              }
+            },
+            {
+              "source": {
+                "block": "db6a1779-bb28-488e-aa3f-b404d47515d1",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
+                "port": "STR"
+              }
             }
           ]
         }
