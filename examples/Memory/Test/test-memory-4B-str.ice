@@ -283,6 +283,61 @@
           }
         },
         {
+          "id": "70c35b54-1495-474b-a016-e11363ed502c",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "range": "[7:0]",
+            "pins": [
+              {
+                "index": "7",
+                "name": "LED7",
+                "value": "37"
+              },
+              {
+                "index": "6",
+                "name": "LED6",
+                "value": "38"
+              },
+              {
+                "index": "5",
+                "name": "LED5",
+                "value": "39"
+              },
+              {
+                "index": "4",
+                "name": "LED4",
+                "value": "41"
+              },
+              {
+                "index": "3",
+                "name": "LED3",
+                "value": "42"
+              },
+              {
+                "index": "2",
+                "name": "LED2",
+                "value": "43"
+              },
+              {
+                "index": "1",
+                "name": "LED1",
+                "value": "44"
+              },
+              {
+                "index": "0",
+                "name": "LED0",
+                "value": "45"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 1424,
+            "y": 312
+          }
+        },
+        {
           "id": "72972076-d577-41eb-ab6e-ae71bf7fddd0",
           "type": "basic.inputLabel",
           "data": {
@@ -336,7 +391,7 @@
           },
           "position": {
             "x": 1216,
-            "y": 424
+            "y": 368
           }
         },
         {
@@ -722,6 +777,22 @@
             "width": 96,
             "height": 128
           }
+        },
+        {
+          "id": "7c1c2ba9-f21f-4cfe-b242-1e7228164ee8",
+          "type": "basic.info",
+          "data": {
+            "info": "Show the current  \nvalue on the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 1416,
+            "y": 256
+          },
+          "size": {
+            "width": 168,
+            "height": 48
+          }
         }
       ],
       "wires": [
@@ -980,6 +1051,17 @@
             "port": "ef198094-7099-48df-bb66-f3c50cd03ebc"
           },
           "size": 2
+        },
+        {
+          "source": {
+            "block": "f2058f6e-aadf-49e5-8ae5-fda976f03bff",
+            "port": "d9ccd8eb-434c-40d1-b491-17e5d8378271"
+          },
+          "target": {
+            "block": "70c35b54-1495-474b-a016-e11363ed502c",
+            "port": "in"
+          },
+          "size": 8
         }
       ]
     }
@@ -5545,7 +5627,7 @@
               "id": "f5619044-1e4b-4218-bfc2-44eced6cb16a",
               "type": "basic.code",
               "data": {
-                "code": "//-- Anchura del bus de direcciones\nlocalparam ADDR_WIDTH = 2;\n\n//-- Tamano de la memoria\nlocalparam TAM = 1 << ADDR_WIDTH;\n\n//-- NO inicializar!\n//-- Si se inicializa a 0 o cualquier otro\n//-- valor no se infiere una RAM\nreg data_out;\n\n//-- Array para la memoria\nreg [7:0] mem_8 [0:TAM-1];\n\n//-- Puerto de lectura\n//-- Para que se infiera una RAM\n//-- debe ser una lectura sincrona\nalways @(posedge clk)\nbegin\n    //-- Puerto de lectura\n    if (cs & !wr) data_out <= mem_8[addr];\n    \n    //-- Puerto de escritura\n    if (cs & wr) mem_8[addr] <= data_in;\nend\n\n\n//---- Hay que inicializar la memoria con\n//---  la cadena pasada como parámetro (CAD)\n//---  El caracter situado en la derecha es  \n//---  el de menor peso. La cadena crece hacia  \n//--- la izquierda, justo lo contrario que la\n//--- cadena real: Al añadir un caracter al \n//-- final, se situa como el de menor peso en CAD\n\n//-- Calcular el tamaño total de la cadena\nlocalparam LEN = $size(STR)/8;\n\n//-- Longitud de la cadena efectivo:\n//-- Si es mayor que el tamaño de la memoria\n//-- hay que truncarla\nlocalparam LENT = (LEN > TAM) ? TAM : LEN;\n\n//-- Exceso: cantidad de caracteres en lo que\n//-- la cadena es mayor que el tamaño de la  \n//-- memoria\nlocalparam E = (LEN > TAM) ? LEN-TAM : 0;\n\n//-- Para hacer los calculos, metemos la cadena  \n//-- en un registro cuyo tamaño es el máximo:\n//-- Si la longitud de la cadena (LEN) es mayor\n//-- que la memoria (TAM), el tamaño del registro  \n//-- será LEN\nlocalparam TMAX = (LEN > TAM) ? LEN : TAM;\n\n//-- Asignar la cadena al registro\nreg [8*TMAX:1] str = STR;\n\n//-- Inicializacion de la memoria\ninteger j;\ninitial begin\n  \n  //-- Poner toda la memoria a  0\n  //-- inicialmente\n  \n  for (j = 0; j < TAM; j++)\n    mem_8[j] = 0;\n  \n  //-- Si inicializamos la memoria de esta forma\n  //-- Se rellena en orden inverso\n  //for (j = 0; j <= LENT; j--)\n  //  mem_8[j] = cad[ 8*(j+E)+1 : 8*(j+E+1) ];\n  \n  //-- Por eso hay que hacerlo asi:\n  for (j = 0; j <= LENT; j++)\n    mem_8[LENT-1 - j] = str[ 8*(j+E)+1 : 8*(j+E+1) ];\n    \n  //-- Cuando LEN > MAX, se rellena toda la memoria\n  //-- con la cadena. El ultimo elemento debe ser  \n  //-- un 0. Lo ponemos. Si LEN < MAX es inocuo\n  mem_8[TAM-1] = 0;\n  \nend\n\n\n\n",
+                "code": "//-- Anchura del bus de direcciones\nlocalparam ADDR_WIDTH = 2;\n\n//-- Tamano de la memoria\nlocalparam TAM = 1 << ADDR_WIDTH;\n\n//-- NO inicializar!\n//-- Si se inicializa a 0 o cualquier otro\n//-- valor no se infiere una RAM\nreg data_out;\n\n//-- Array para la memoria\nreg [7:0] mem_8 [0:TAM-1];\n\n//-- Puerto de lectura\n//-- Para que se infiera una RAM\n//-- debe ser una lectura sincrona\nalways @(posedge clk)\nbegin\n    //-- Puerto de lectura\n    if (cs & !wr) data_out <= mem_8[addr];\n    \n    //-- Puerto de escritura\n    if (cs & wr) mem_8[addr] <= data_in;\nend\n\n\n//---- Hay que inicializar la memoria con\n//---  la cadena pasada como parámetro (CAD)\n//---  El caracter situado en la derecha es  \n//---  el de menor peso. La cadena crece hacia  \n//--- la izquierda, justo lo contrario que la\n//--- cadena real: Al añadir un caracter al \n//-- final, se situa como el de menor peso en CAD\n\n//-- Calcular el tamaño total de la cadena\nlocalparam LEN = $bits(STR)/8;\n\n//-- Longitud de la cadena efectivo:\n//-- Si es mayor que el tamaño de la memoria\n//-- hay que truncarla\nlocalparam LENT = (LEN > TAM) ? TAM : LEN;\n\n//-- Exceso: cantidad de caracteres en lo que\n//-- la cadena es mayor que el tamaño de la  \n//-- memoria\nlocalparam E = (LEN > TAM) ? LEN-TAM : 0;\n\n//-- Para hacer los calculos, metemos la cadena  \n//-- en un registro cuyo tamaño es el máximo:\n//-- Si la longitud de la cadena (LEN) es mayor\n//-- que la memoria (TAM), el tamaño del registro  \n//-- será LEN\nlocalparam TMAX = (LEN > TAM) ? LEN : TAM;\n\n//-- Asignar la cadena al registro\nreg [8*TMAX:1] str = STR;\n\n//-- Inicializacion de la memoria\ninteger j;\ninitial begin\n  \n  //-- Poner toda la memoria a  0\n  //-- inicialmente\n  \n  for (j = 0; j < TAM; j++)\n    mem_8[j] = 0;\n  \n  //-- Si inicializamos la memoria de esta forma\n  //-- Se rellena en orden inverso\n  //for (j = 0; j <= LENT; j--)\n  //  mem_8[j] = cad[ 8*(j+E)+1 : 8*(j+E+1) ];\n  \n  //-- Por eso hay que hacerlo asi:\n  //for (j = 0; j <= LENT; j++)\n  //  mem_8[LENT-1 - j] = str[ 8*(j+E)+1 : 8*(j+E+1) ];\n\n  //-- Eso funciona en síntesis, pero falla al verificar\n  //-- porque el iverilog se queja (apio 0.4.1)\n  //-- Se arregla obteniendo los bits aislados y \n  //-- concatenandolos\n  \n  for (j = 0; j <= LENT; j++)\n    mem_8[LENT-1 - j] = {\n      str[8*(j+E)+1+7],\n      str[8*(j+E)+1+6],\n      str[8*(j+E)+1+5],\n      str[8*(j+E)+1+4],\n      str[8*(j+E)+1+3],\n      str[8*(j+E)+1+2],\n      str[8*(j+E)+1+1],\n      str[8*(j+E)+1+0]\n    };\n    \n  //-- Cuando LEN > MAX, se rellena toda la memoria\n  //-- con la cadena. El ultimo elemento debe ser  \n  //-- un 0. Lo ponemos. Si LEN < MAX es inocuo\n  mem_8[TAM-1] = 0;\n  \nend\n\n\n\n",
                 "params": [
                   {
                     "name": "STR"
