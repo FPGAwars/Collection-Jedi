@@ -1,15 +1,16 @@
 # Jedi Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
-![Version](https://img.shields.io/badge/version-v1.9.0-orange.svg)
+![Version](https://img.shields.io/badge/version-v1.10.0-orange.svg)
 
 Blocks created in the Jedi Hardware academy.
 
 ![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
 
+
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.9.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.10.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
@@ -54,12 +55,16 @@ Blocks created in the Jedi Hardware academy.
       * Demux-2-4
       * Demux-3-8-bus
   * *Mux*
+    * *09-Bits*
+      * mux-2-1
     * *1-Bit*
       * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1-flip
       * Mux-4-1
       * Mux-8bus-1
+    * *10-bits*
+      * mux-2-1
     * *14-bits*
       * Mux-2-1
     * *16-bits*
@@ -74,6 +79,10 @@ Blocks created in the Jedi Hardware academy.
       * Mux-2-1-flip
       * Mux-2-1
       * Mux-4-1
+    * *32-bits*
+      * Mux-2-1
+      * Mux-4-1
+      * Mux-8-1
     * *4-Bits*
       * Mux-2-1-flip
       * Mux-2-1
@@ -106,6 +115,7 @@ Blocks created in the Jedi Hardware academy.
       * and3
       * or3
     * *04-bits*
+      * and-4-1
       * not
       * or4
     * *05-bits*
@@ -403,11 +413,14 @@ Blocks created in the Jedi Hardware academy.
       * k-1
     * *05_bits*
       * Generico
+      * k-1
     * *06_bits*
       * Generico
       * Valor_00
+      * k-1
     * *07_bits*
       * Generico
+      * k-1
     * *08_bits*
       * Generico
       * Valor_000
@@ -431,7 +444,15 @@ Blocks created in the Jedi Hardware academy.
       * k-1
     * *16_bits*
       * Generico
+    * *32_bits*
+      * Generico
+      * Valor_00
 * *Perif*
+  * *DHTxx*
+    * DHT11_serial
+    * DHT22_MAX7912
+    * DHT22_Serial
+    * DHTxx_Driver
   * *Displays*
     * *COM-1129-SparkFun*
       * char-4
@@ -439,6 +460,9 @@ Blocks created in the Jedi Hardware academy.
       * digitos4++
       * segment-4
       * time-4
+    * *MAX7912*
+      * MAX7912_driver
+      * SerialMAX7912
 * *Pines*
   * In-out-right
   * In-out
@@ -447,6 +471,40 @@ Blocks created in the Jedi Hardware academy.
   * Const
   * Doc
 * *Varios*
+* *Varios-2*
+  * *memory*
+    * Memory-16KB
+    * Memory-8KB
+    * *01-bit*
+      * Memory-2x1-bits-parallel
+      * Memory-2x1-bits
+    * *Boot*
+      * memory-16KB-boot
+    * *Bytes*
+      * memory-128B
+      * memory-16B
+      * memory-256B
+      * memory-2B
+      * memory-32B
+      * memory-4B
+      * memory-64B
+      * memory-8B
+      * *strings*
+        * memory-128B-str
+        * memory-16B-str
+        * memory-256B-str
+        * memory-2B-str
+        * memory-32B-str
+        * memory-4B-str
+        * memory-64B-str
+        * memory-8B-str
+    * *Dual*
+      * memory-dual-16B
+      * memory-dual-16KB
+      * memory-dual-256B
+      * memory-dual-2x8B
+      * memory-dual-4B
+      * memory-dual-8B
   * *ADC*
     * adc
   * *Accesorios*
@@ -479,6 +537,7 @@ Blocks created in the Jedi Hardware academy.
     * *Sumadores*
       * *02-bits*
         * sum-1op
+        * sum-2op
       * *03-bits*
         * sum-1op
         * sum-2op
@@ -486,11 +545,14 @@ Blocks created in the Jedi Hardware academy.
         * sum-1op
         * sum-2op
       * *05-bits*
+        * sum-1op
         * sum-2op
       * *06-bits*
+        * sum-1op
         * sum-2op-carry
         * sum-2op
       * *07-bits*
+        * sum-1op
         * sum-2op-carry
         * sum-2op
       * *08-bits*
@@ -579,24 +641,30 @@ Blocks created in the Jedi Hardware academy.
     * *05_bits*
       * Agregador-3-2
       * Agregador-5
+      * Join-4-1
       * Separador-1-4
       * Separador-3-2
       * Separador5
+      * Split-4-1
     * *06_bits*
       * Agregador-1-5
       * Agregador-6x1
       * Agregador
+      * Join-5-1
       * Separador-1-5
       * Separador-4-2
       * Separador-6x1
       * Separador
+      * Split-5-1
     * *07_bits*
       * Agregador-1-7
       * Agregador-7x1
       * Agregador
       * Separador-3-4
       * Separador-7x1
+      * join-6-1
       * mult-1-7-bus
+      * split-6-1
     * *08_bits*
       * Agregador-1-7
       * Agregador-2-6
@@ -643,16 +711,26 @@ Blocks created in the Jedi Hardware academy.
       * Extractor-bus-2bits
       * Extractor-bus-4bits
       * Extractor-bus-8bits
+    * *24_bits*
+      * Separador-22-2
+      * soc-test-25
     * *32_bits*
+      * Agregador4
+      * Separador-8-24
       * Separador
       * Separador4
   * *Comparadores*
     * *05-bits*
       * Comp-1
+      * Comp-2
       * Menor-1
     * *06-bits*
       * Comp-1
+      * Comp-2
       * Menor-1
+    * *07-bits*
+      * comp-1
+      * comp-2
     * *09-bits*
       * Less-1
       * Less-eq-1
@@ -689,6 +767,11 @@ Blocks created in the Jedi Hardware academy.
       * Comp-2
       * Menor-1
       * Menor-2
+    * *32-bits*
+      * Comp-1
+      * Greather-1
+      * Greather-equal-1
+      * Less-1
     * *4-bits*
       * Comp-1
       * Comp-2
@@ -698,6 +781,7 @@ Blocks created in the Jedi Hardware academy.
     * *8-bits*
       * Comp-1
       * Comp-2
+      * Greather-1
       * Menor-1
       * Menor-2
   * *Contadores*
@@ -776,10 +860,14 @@ Blocks created in the Jedi Hardware academy.
     * Bajada
     * Detector-2
     * Subida
+    * change-detector
     * *blocks*
       * Bajada
       * Detector-2
       * Subida
+  * *I2C*
+    * *I2C_only_write*
+      * I2C_write
   * *IR*
     * IR-tic-sound
     * IR-tic
@@ -814,7 +902,9 @@ Blocks created in the Jedi Hardware academy.
       * Wait-ms-10bits
       * Wait-ms-2
       * Wait-ms-rst-10bits
+      * Wait-ms-stop
       * Wait-ms
+      * timeout-ms
       * *Cycle*
         * cycle-ms
         * cycle-rst-ms
@@ -848,8 +938,18 @@ Blocks created in the Jedi Hardware academy.
         * count-max
         * count-stop
         * count
+      * *05-bits*
+        * count-stop
+        * count
+      * *06-bits*
+        * count-stop
+        * count
+      * *07-bits*
+        * count-stop
+        * count
       * *08-bits*
         * count-stop
+        * count
       * *10-bits*
         * count-max-rst
         * count-max
@@ -917,7 +1017,9 @@ Blocks created in the Jedi Hardware academy.
       * *09-bits*
         * pres-basic
   * *Pulsador*
+    * button-click-3
     * pulsador-cambio
+    * pulsador-changed
     * pulsador-tic-sound
     * pulsador-tic
   * *Registros*
@@ -925,6 +1027,7 @@ Blocks created in the Jedi Hardware academy.
     * *02-bits*
       * reg-rst
       * reg
+      * sp
       * sreg-load
     * *03-bits*
       * reg-rst
@@ -1003,6 +1106,9 @@ Blocks created in the Jedi Hardware academy.
         * spi-slave-test-echo
         * spi-slave-test-id
         * spi-slave-test-regs
+    * *SPI_Master_16bits*
+      * SPI16master
+      * SerialSPI16master
   * *Serial*
     * Serial-rx
     * Serial-tx-dual
@@ -1035,6 +1141,7 @@ Blocks created in the Jedi Hardware academy.
     * bus-cycle
     * timer-10usec
     * timer-msec-rst
+    * timer-msec-stop
     * timer-msec
     * timer-sec
     * timer-system
@@ -1052,25 +1159,6 @@ Blocks created in the Jedi Hardware academy.
   * *icebot*
     * Icemove4
     * Icemove9
-  * *memory*
-    * Memory-16B
-    * Memory-16KB
-    * Memory-16x8
-    * Memory-256B
-    * Memory-256x8
-    * Memory-2Bytes
-    * Memory-4Bytes
-    * Memory-8B
-    * Memory-8KB
-    * *Boot*
-      * memory-16KB-boot
-    * *Dual*
-      * memory-dual-16B
-      * memory-dual-16KB
-      * memory-dual-256B
-      * memory-dual-2x8B
-      * memory-dual-4B
-      * memory-dual-8B
 
 ## Examples
 * *ADC*
@@ -1106,6 +1194,24 @@ Blocks created in the Jedi Hardware academy.
   * Ejemplo-23-coche-fantastico
   * Ejemplo-24-contador-binario-efimero
   * Ejemplo-25-contador-decimal-efimero
+* *Memory*
+  * *Test*
+    * test-memory-128B-str
+    * test-memory-128B
+    * test-memory-16B-str
+    * test-memory-16B
+    * test-memory-256B-str
+    * test-memory-256B
+    * test-memory-2B-str
+    * test-memory-2B
+    * test-memory-32B-str
+    * test-memory-32B
+    * test-memory-4B-str
+    * test-memory-4B
+    * test-memory-64B-str
+    * test-memory-64B
+    * test-memory-8B-str
+    * test-memory-8B
 * *PWM*
   * 01-Brillo-LED-pulsador-2bits
   * 02-Brillo-LED-pulsadores-4bits
@@ -1117,6 +1223,8 @@ Blocks created in the Jedi Hardware academy.
   * 05-inout-test-02
   * 06-inout-test-03
   * 07-inout-dos-circuitos
+* *Pulsadores*
+  * Tres-clicks
 * *SPI*
   * *SPI-master*
     * 01-2-spi-master-constant
@@ -1161,6 +1269,9 @@ Blocks created in the Jedi Hardware academy.
   * 04-Jelly-kbd-calculator
   * 05-Jelly-kbd-control-acceso
   * 06-Jelly-kbd-consola-serie
+* *Test*
+  * 01-Led-on
+  * 02-Serial-eco
 * *VGA*
   * *VGA-retro*
     * 00-Plantilla
