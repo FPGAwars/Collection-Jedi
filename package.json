@@ -1,6 +1,6 @@
 {
   "name": "Jedi",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "Blocks created in the Jedi Hardware academy",
   "keywords": "Tutorial,Jedi Academy",
   "license": "GPL-2.0",
@@ -9,7 +9,18 @@
     "email": "obijuan.cube@gmail.com",
     "url": "https://github.com/Obijuan"
   }],
-  "contributors": [],
+  "contributors": [
+    {
+      "name": "Carlos Venegas Arrabé (cavearr)",
+      "email": "charliva@gmail.com ",
+      "url": "https://github.com/cavearr"
+    },
+    {
+      "name": "Demócrito",
+      "email": "spoulak@gmail.com",
+      "url": "https://github.com/Democrito"
+    }
+  ],
   "repository": {
     "type": "git",
     "branch": "master",
