@@ -5,8 +5,6 @@
 
 Blocks created in the Jedi Hardware academy.
 
-![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
-
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.11.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
@@ -29,7 +27,7 @@ Blocks created in the Jedi Hardware academy.
     * cod-5-3-bus
     * cod-8-3-bus
     * cod-8-3
-  * *Decodificadores*
+  * *Decoders*
     * 10bitBCD-3charASCII
     * BCD-ASCII
     * decod-1-2
@@ -41,13 +39,13 @@ Blocks created in the Jedi Hardware academy.
     * decod-3-8-flip
     * decod-3-8
     * *7Seg*
-      * *Anodo-comun*
+      * *Catodo-comun*
         * displayBit
         * displayBit2
         * displayBit3
         * displayDEC
         * displayHEX
-      * *Catodo-comun*
+      * *Common-Anode*
         * displayBit
         * displayBit2
         * displayBit3
@@ -1169,6 +1167,8 @@ Blocks created in the Jedi Hardware academy.
     * *17-bits*
       * *system*
         * cont-basic
+    * *32-bits*
+      * count-up-rst
   * *Encoder*
     * EncoderX4
   * *Flancos*
