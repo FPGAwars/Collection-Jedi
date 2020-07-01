@@ -5,6 +5,8 @@
 
 Blocks created in the Jedi Hardware academy.
 
+![](https://raw.githubusercontent.com/Obijuan/digital-electronics-with-open-FPGAs-tutorial/master/wiki/Tutorial-31/jedi-collection-01.png)
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/v1.11.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/master.zip)
