@@ -8,7 +8,7 @@
     "image": ""
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -20,7 +20,7 @@
               {
                 "index": "0",
                 "name": "D0",
-                "value": "119"
+                "value": "2"
               }
             ],
             "virtual": false
@@ -39,7 +39,7 @@
               {
                 "index": "0",
                 "name": "D1",
-                "value": "118"
+                "value": "1"
               }
             ],
             "virtual": false
@@ -58,7 +58,7 @@
               {
                 "index": "0",
                 "name": "D2",
-                "value": "117"
+                "value": "4"
               }
             ],
             "virtual": false
@@ -77,7 +77,7 @@
               {
                 "index": "0",
                 "name": "RX",
-                "value": "9"
+                "value": "62"
               }
             ],
             "virtual": false,
