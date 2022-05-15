@@ -1,6 +1,6 @@
 
 
-# Jedi Collection
+# jedi Collection
 
 [![Icestudio][icestudio-image]][icestudio-url]
 ![Version][version-image]
@@ -17,7 +17,7 @@ Licensed under [GPL-2.0](https://opensource.org/licenses/GPL-2.0).
 
 For installing and using this colection in Icestudio follow these steps:
 
-* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/refs/tags/v1.11.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/refs/heads/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/Collection-Jedi/archive/refs/tags/v1.12.0.zip) or [development](https://github.com/FPGAwars/Collection-Jedi/archive/refs/heads/master.zip)
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
 
@@ -1659,4 +1659,4 @@ For installing and using this colection in Icestudio follow these steps:
 <!-- Badges -->
 [icestudio-image]: https://img.shields.io/badge/collection-icestudio-blue.svg
 [icestudio-url]: https://github.com/FPGAwars/icestudio
-[version-image]: https://img.shields.io/badge/version-v1.11.0-orange.svg
+[version-image]: https://img.shields.io/badge/version-v1.12.0-orange.svg

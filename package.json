@@ -1,8 +1,8 @@
 {
-  "name": "Jedi",
-  "version": "1.11.0",
+  "name": "jedi",
+  "version": "1.12.0",
   "description": "Blocks created in the Jedi Hardware academy",
-  "keywords": "Tutorial,Jedi Academy",
+  "keywords": ["tutorial", "Jedi Academy"],
   "license": "GPL-2.0",
   "authors": [{
     "name": "Juan González-Gómez (Obijuan)",
@@ -12,7 +12,7 @@
   "contributors": [
     {
       "name": "Carlos Venegas Arrabé (cavearr)",
-      "email": "charliva@gmail.com ",
+      "email": "charliva@gmail.com",
       "url": "https://github.com/cavearr"
     },
     {
