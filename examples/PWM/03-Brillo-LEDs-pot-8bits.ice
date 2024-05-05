@@ -495,8 +495,8 @@
           }
         },
         {
-          "id": "6d6d3911-5360-42eb-9c46-5f904c40debf",
-          "type": "333df52b9746dd2e5cd6f243fd0659cd448cb0d5",
+          "id": "624c7bd9-7e60-4660-adfc-84781574c6a8",
+          "type": "e5e812235207941e7825a5a8b6d6a9a536453b7d",
           "position": {
             "x": 1376,
             "y": 632
@@ -570,13 +570,13 @@
             "port": "f4f0b0cc-6b11-417f-b8de-933dd739752b"
           },
           "target": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "8e6961a5-5534-43a8-8f99-35887a8b8edc"
           }
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -586,7 +586,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -596,7 +596,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -606,7 +606,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -616,7 +616,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -626,7 +626,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -636,7 +636,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -646,7 +646,7 @@
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -660,14 +660,14 @@
             "port": "2dd424a5-e616-4505-8a89-4982cdd7539d"
           },
           "target": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "1f11e33d-ce0d-4082-827f-8b0f4ba0d5df"
           },
           "size": 8
         },
         {
           "source": {
-            "block": "6d6d3911-5360-42eb-9c46-5f904c40debf",
+            "block": "624c7bd9-7e60-4660-adfc-84781574c6a8",
             "port": "b63d6bf7-3175-4261-86a3-9c90298eb24b"
           },
           "target": {
@@ -12704,7 +12704,7 @@
         }
       }
     },
-    "333df52b9746dd2e5cd6f243fd0659cd448cb0d5": {
+    "e5e812235207941e7825a5a8b6d6a9a536453b7d": {
       "package": {
         "name": "pwm-8bits",
         "version": "0.2",
@@ -12797,7 +12797,7 @@
               "id": "e97e5bfe-85bb-4ba3-ac76-bc01a8fb28a3",
               "type": "basic.code",
               "data": {
-                "code": "//-- Parámetro P: Número de bits del prescaler\n//-- (P = 0 para no usar prescaler)\n\n//-- Bits para el nivel\nlocalparam N = 8;\n\n//-- Contador principal\n//-- Tamaño: Bits anchura + Prescaler (P)\nlocalparam C = N + P;\n\nreg [C-1:0] counter = 0;\nalways @(posedge clk)\n  counter <= counter + 1;\n\n//-- Detectar el comienzo de un ciclo nuevo:\n//-- cuando hay un flanco de bajada en el bit de  \n//-- mayor peso (C-1)\n\nreg q = 0;\nalways @(posedge clk)\n  q <= counter[C-1];\n \n//-- Cuando cycle_begin es 1, indica que comienza\n//-- un nuevo ciclo\nwire cycle_begin = q & ~counter[C-1];\n  \n//-- Registro W: Almacena la anchura actual\nreg [N-1:0] reg_w = 0;\n\nalways @(posedge clk)\n  //-- Se carga en cada nuevo ciclo de pwm\n  if (cycle_begin)\n    reg_w <= reg_buf;\n\n//-- Registro buffer. Es donde se almacena la anchura\n//-- introducida por el usuario mientras llega un  \n//-- nuevo ciclo de pwm, y se pueda cargar en el  \n//-- registro w\nreg [N-1:0] reg_buf = 0;\n\nalways @(posedge clk)\n  //-- Se actualiza cuando llega un dato nuevo\n  if (write)\n    reg_buf <= w;\n\n//-- Salida del pwm: comparador\nwire pwm_t = (counter[C-1:C-N] < w);\n\nreg pwm_i = 0;\n\n//-- Registrar la salida del pwm\nalways @(posedge clk)\n  pwm_i <= pwm_t;\n\n",
+                "code": "//-- Parámetro P: Número de bits del prescaler\n//-- (P = 0 para no usar prescaler)\n\n//-- Bits para el nivel\nlocalparam N = 8;\n\n//-- Contador principal\n//-- Tamaño: Bits anchura + Prescaler (P)\nlocalparam C = N + P;\n\nreg [C-1:0] counter = 0;\nalways @(posedge clk)\n  counter <= counter + 1;\n\n//-- Detectar el comienzo de un ciclo nuevo:\n//-- cuando hay un flanco de bajada en el bit de  \n//-- mayor peso (C-1)\n\nreg q = 0;\nalways @(posedge clk)\n  q <= counter[C-1];\n \n//-- Cuando cycle_begin es 1, indica que comienza\n//-- un nuevo ciclo\nwire cycle_begin = q & ~counter[C-1];\n  \n//-- Registro W: Almacena la anchura actual\nreg [N-1:0] reg_w = 0;\n\nalways @(posedge clk)\n  //-- Se carga en cada nuevo ciclo de pwm\n  if (cycle_begin)\n    reg_w <= reg_buf;\n\n//-- Registro buffer. Es donde se almacena la anchura\n//-- introducida por el usuario mientras llega un  \n//-- nuevo ciclo de pwm, y se pueda cargar en el  \n//-- registro w\nreg [N-1:0] reg_buf = 0;\n\nalways @(posedge clk)\n  //-- Se actualiza cuando llega un dato nuevo\n  if (write)\n    reg_buf <= w;\n\n//-- Salida del pwm: comparador\nwire pwm_t = (counter[C-1:C-N] < w);\n\nreg pwm_i = 0;\nassign pwm = pwm_i;\n\n//-- Registrar la salida del pwm\nalways @(posedge clk)\n  pwm_i <= pwm_t;\n\n",
                 "params": [
                   {
                     "name": "P"
