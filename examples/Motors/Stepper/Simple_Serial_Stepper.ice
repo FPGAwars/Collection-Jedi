@@ -84,7 +84,7 @@
           "type": "basic.constant",
           "data": {
             "name": "Hz",
-            "value": "100",
+            "value": "400",
             "local": false
           },
           "position": {
