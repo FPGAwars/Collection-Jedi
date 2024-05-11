@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "note",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Emitir un tono (onda cuadrada) definido por su divisor",
     "author": "Juan Gonzalez-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22279.801%22%20height=%22285.018%22%20viewBox=%220%200%2074.030563%2075.41111%22%3E%3Cpath%20d=%22M10.79%2058.835C5.36%2057.99%201.15%2055.057.213%2051.467-1.34%2045.5%205.766%2040.177%2014.73%2040.595c2.86.134%205.47.77%207.46%201.816.398.21.772.403.831.43.06.026.132%205.073.145-7.033L23.2%200c16.809%204.632%2033.57%209.453%2050.497%2013.639%200%200%20.332%203.576.332%2012.166%200%2028.458.055%2041.998-.884%2043.64-3.214%205.618-13.587%207.749-20.93%204.299-3.791-1.782-5.95-4.533-5.95-7.581%200-5.344%206.781-9.583%2014.737-9.212%202.86.134%205.47.77%207.46%201.816.397.21.771.403.831.43.06.027.109-31.989.109-31.989l.02-5.528-41.667-11.361v33.376c0%207.253.05%207.763-.883%209.393-2.07%203.619-7.333%206.005-13.143%205.959-.915-.007-2.238-.103-2.94-.212z%22%20fill=%22#00f%22/%3E%3C/svg%3E"
@@ -16,14 +16,6 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
             "clock": true
           },
           "position": {
@@ -35,15 +27,7 @@
           "id": "d920097a-a345-41b1-8e60-0edb41bdf4f5",
           "type": "basic.output",
           "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
+            "name": ""
           },
           "position": {
             "x": 752,
@@ -56,90 +40,8 @@
           "data": {
             "name": "nota",
             "range": "[15:0]",
-            "pins": [
-              {
-                "index": "15",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "14",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "13",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "12",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "11",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "10",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "9",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "8",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "7",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "6",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "5",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "4",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true,
-            "clock": false
+            "clock": false,
+            "size": 16
           },
           "position": {
             "x": 192,
@@ -150,7 +52,7 @@
           "id": "b8d2088c-a409-46b2-aecf-716a6c076266",
           "type": "basic.code",
           "data": {
-            "code": "reg clk_out;\nwire clk_tmp;\n\n//-- Registro para implementar el contador modulo note\nreg [15:0] divcounter = 0;\n\n//-- Contador módulo note\nalways @(posedge clk)\n\n  //-- Si la nota es 0 no se incrementa contador\n  if (note == 0)\n    divcounter <= 0;\n\n  //-- Si se alcanza el tope, poner a 0\n  else if (divcounter == note - 1)\n    divcounter <= 0;\n\n  //-- Incrementar contador\n  else\n    divcounter <= divcounter + 1;\n\n//-- Sacar un pulso de anchura 1 ciclo de reloj si el generador\nassign clk_tmp = (divcounter == 0) ? 1 : 0;\n\n//-- Divisor de frecuencia entre 2, para obtener como salida una señal\n//-- con un ciclo de trabajo del 50%\nalways @(posedge clk)\n  if (note == 0)\n    clk_out <= 0;\n\n  else if (clk_tmp == 1)\n    clk_out <= ~clk_out;\n \n",
+            "code": "reg clk_out_i;\nassign clk_out = clk_out_i;\nwire clk_tmp;\n\n//-- Registro para implementar el contador modulo note\nreg [15:0] divcounter = 0;\n\n//-- Contador módulo note\nalways @(posedge clk)\n\n  //-- Si la nota es 0 no se incrementa contador\n  if (note == 0)\n    divcounter <= 0;\n\n  //-- Si se alcanza el tope, poner a 0\n  else if (divcounter == note - 1)\n    divcounter <= 0;\n\n  //-- Incrementar contador\n  else\n    divcounter <= divcounter + 1;\n\n//-- Sacar un pulso de anchura 1 ciclo de reloj si el generador\nassign clk_tmp = (divcounter == 0) ? 1 : 0;\n\n//-- Divisor de frecuencia entre 2, para obtener como salida una señal\n//-- con un ciclo de trabajo del 50%\nalways @(posedge clk)\n  if (note == 0)\n    clk_out_i <= 0;\n\n  else if (clk_tmp == 1)\n    clk_out_i <= ~clk_out_i;\n \n",
             "params": [],
             "ports": {
               "in": [
