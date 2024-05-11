@@ -1,14 +1,14 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "package": {
     "name": "ServoBit-90-Futaba3003",
-    "version": "0.1",
+    "version": "0.2",
     "description": "ServoBit para Futaba 3003. Controlador de 1 bit para mover un servo a 2 posiciones. El ángulo entre una posición y otra es de 90 grados",
     "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-179.795%22%20y=%22446.06%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-179.795%22%20y=%22446.06%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E90%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-130.514%22%20y=%22426.301%22%20font-weight=%22400%22%20font-size=%2240.128%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-130.514%22%20y=%22426.301%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2222.93%22%3E0%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -16,14 +16,6 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": "0"
-              }
-            ],
-            "virtual": true,
             "clock": true
           },
           "position": {
@@ -35,15 +27,7 @@
           "id": "8cd7e68d-a379-4703-b473-df733e6bfc68",
           "type": "basic.output",
           "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D0",
-                "value": "119"
-              }
-            ],
-            "virtual": true
+            "name": ""
           },
           "position": {
             "x": 88,
@@ -55,14 +39,6 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D13",
-                "value": "144"
-              }
-            ],
-            "virtual": true,
             "clock": false
           },
           "position": {
@@ -113,8 +89,8 @@
           }
         },
         {
-          "id": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
-          "type": "19967a588857c35afc59f26c55f0b2f69b13e700",
+          "id": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
+          "type": "f91752bcd62975bc88133c3b3d13f579e20c96f9",
           "position": {
             "x": -88,
             "y": 336
@@ -128,7 +104,7 @@
       "wires": [
         {
           "source": {
-            "block": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
+            "block": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
             "port": "e93b6501-719f-45be-af80-f19062ee250b"
           },
           "target": {
@@ -143,7 +119,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
+            "block": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
             "port": "f4dc3dbc-550f-41f8-ae8d-b97dcba33672"
           },
           "vertices": []
@@ -154,7 +130,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
+            "block": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
             "port": "9766bdcd-4afc-4f4d-a6c8-ac7765014a0a"
           },
           "vertices": []
@@ -165,7 +141,7 @@
             "port": "out"
           },
           "target": {
-            "block": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
+            "block": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
             "port": "76fc8a3d-32ae-4f36-a895-403d5db46915"
           },
           "vertices": []
@@ -176,26 +152,19 @@
             "port": "out"
           },
           "target": {
-            "block": "4c9128b4-a4e6-46a0-ae7f-2e5f44366ebe",
+            "block": "3bb641b6-a80b-49b5-845f-81f1152b5dd8",
             "port": "26c62726-108d-4db7-b5fb-086be3c3bbe8"
           },
           "vertices": []
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 562,
-        "y": -32.5
-      },
-      "zoom": 1
     }
   },
   "dependencies": {
-    "19967a588857c35afc59f26c55f0b2f69b13e700": {
+    "f91752bcd62975bc88133c3b3d13f579e20c96f9": {
       "package": {
         "name": "ServoBit-Futaba3003",
-        "version": "0.1",
+        "version": "0.2",
         "description": "ServoBit paramétrico para Futaba 3003. Controlador de 1 bit para mover el servo a las 2 posiciones P0 y P1",
         "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20278.16016%20175.19108%22%20width=%22278.16%22%20height=%22175.191%22%3E%3Cdefs%3E%3Cmarker%20id=%22a%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22b%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-218.782%20540.66v-1.407h-28.955a2.482%202.412%200%200%201-2.482-2.412v-67.936a2.482%202.412%200%200%201%202.482-2.412h28.955v-1.407a2.482%202.412%200%200%201%202.482-2.412h161.738a2.482%202.412%200%200%201%202.482%202.412v1.407h28.955a2.482%202.412%200%200%201%202.482%202.412v67.936a2.482%202.412%200%200%201-2.482%202.412H-52.08v1.407a2.482%202.412%200%200%201-2.482%202.412H-216.3a2.482%202.412%200%200%201-2.482-2.412%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-236.569%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-482.572%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cellipse%20cy=%22-523.173%22%20cx=%22-34.293%22%20transform=%22scale(1%20-1)%22%20rx=%228.894%22%20ry=%228.643%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.561%22/%3E%3Cg%20transform=%22matrix(4.13652%200%200%20-4.0199%20-135.431%20502.873)%22%20stroke-width=%221.184%22%3E%3Ccircle%20cx=%229.45%22%20r=%227.079%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%22.873%22/%3E%3Ctitle%3EFusion009002001_cs001%3C/title%3E%3C/g%3E%3Cpath%20d=%22M-75.467%20483.966c-7.283-7.66-17.99-10.953-28.034-8.622-10.044%202.331-17.874%209.926-20.503%2019.887-2.629%209.96.35%2020.75%207.8%2028.248l81.49%2039.287z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-75.343%20519.74c-7.283%207.66-17.99%2010.952-28.033%208.621-10.044-2.33-17.875-9.926-20.503-19.887-2.629-9.96.35-20.749%207.8-28.247l80.462-43.908z%22%20fill=%22none%22%20stroke=%22#191919%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-dasharray=%223.56129469,7.1225893%22/%3E%3Cpath%20d=%22M-.062%20548.435a66.685%2073.886%200%200%201-24.216-52.98%2066.685%2073.886%200%200%201%2018.799-55.613%22%20transform=%22scale(-1%201)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.561%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-30.206%22%20y=%22571.866%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-30.206%22%20y=%22571.866%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-27.576%22%20y=%22446.164%22%20font-weight=%22400%22%20font-size=%2262.323%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22red%22%3E%3Ctspan%20x=%22-27.576%22%20y=%22446.164%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2235.613%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22499.501%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22499.501%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3EFutaba%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-172.438%22%20y=%22522.333%22%20font-weight=%22400%22%20font-size=%2235.279%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-172.438%22%20y=%22522.333%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2220.16%22%3E3003%3C/tspan%3E%3C/text%3E%3C/svg%3E"
@@ -274,18 +243,6 @@
               "size": {
                 "width": 96,
                 "height": 96
-              }
-            },
-            {
-              "id": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
-              "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-              "position": {
-                "x": 1192,
-                "y": 144
-              },
-              "size": {
-                "width": 96,
-                "height": 64
               }
             },
             {
@@ -411,6 +368,18 @@
                 "width": 192,
                 "height": 64
               }
+            },
+            {
+              "id": "55fa53a8-f17c-4013-bc86-e83c1c4dc151",
+              "type": "1bd6b7038781cc2bd6b9c80efc652e0b238a0e03",
+              "position": {
+                "x": 1192,
+                "y": 144
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
             }
           ],
           "wires": [
@@ -427,7 +396,7 @@
             },
             {
               "source": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+                "block": "55fa53a8-f17c-4013-bc86-e83c1c4dc151",
                 "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
               },
               "target": {
@@ -442,7 +411,7 @@
                 "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
               },
               "target": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+                "block": "55fa53a8-f17c-4013-bc86-e83c1c4dc151",
                 "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
               },
               "vertices": [],
@@ -454,7 +423,7 @@
                 "port": "out"
               },
               "target": {
-                "block": "af453838-27fa-4d3b-bc4a-95dd4ea0eece",
+                "block": "55fa53a8-f17c-4013-bc86-e83c1c4dc151",
                 "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
               },
               "vertices": []
@@ -516,13 +485,6 @@
               "vertices": []
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -249.4118,
-            "y": 177.7484
-          },
-          "zoom": 0.6699
         }
       }
     },
@@ -814,13 +776,6 @@
               "size": 4
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -95.4783,
-            "y": -68.9565
-          },
-          "zoom": 0.8913
         }
       }
     },
@@ -1228,13 +1183,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 8.2171,
-            "y": -28.9031
-          },
-          "zoom": 0.7946
         }
       }
     },
@@ -1409,13 +1357,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -64.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1587,13 +1528,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -44.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1856,13 +1790,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -189,
-            "y": -102.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2001,13 +1928,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -66,
-            "y": 67.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2096,13 +2016,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -82.4973,
-            "y": 5.3883
-          },
-          "zoom": 1.2451
         }
       }
     },
@@ -2302,13 +2215,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 30,
-            "y": 63.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2397,13 +2303,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 39.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2532,13 +2431,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": -7,
-            "y": -122.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2663,13 +2555,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 124,
-            "y": 59.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2702,13 +2587,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -2825,13 +2703,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 34,
-            "y": 59.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2959,13 +2830,6 @@
               "size": 4
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -56.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -3094,20 +2958,13 @@
               "size": 8
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -56.5
-          },
-          "zoom": 1
         }
       }
     },
-    "56a715a301e2f4cc348cbe2117721b86883da317": {
+    "1bd6b7038781cc2bd6b9c80efc652e0b238a0e03": {
       "package": {
         "name": "ServoTime-20ms",
-        "version": "0.1",
+        "version": "0.2",
         "description": "Controlador PWM para posicionar servos de 20ms. Las unidades de pos son de 10usec",
         "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20224.93219%20144.41752%22%20width=%22224.932%22%20height=%22144.418%22%3E%3Cpath%20d=%22M-220.11%20501.253v-1.36h-27.99a2.4%202.332%200%200%201-2.4-2.332v-65.674a2.4%202.332%200%200%201%202.4-2.331h27.99v-1.36a2.4%202.332%200%200%201%202.4-2.332h156.352a2.4%202.332%200%200%201%202.4%202.332v1.36h27.99a2.4%202.332%200%200%201%202.4%202.331v65.674a2.4%202.332%200%200%201-2.4%202.332h-27.99v1.36a2.4%202.332%200%200%201-2.4%202.332H-217.71a2.4%202.332%200%200%201-2.4-2.332%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223%22/%3E%3Cellipse%20cy=%22-445.1%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-484.349%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-445.1%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-484.349%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-206.013%22%20y=%22544.728%22%20font-weight=%22400%22%20font-size=%2272.854%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-206.013%22%20y=%22544.728%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2241.631%22%3E20ms%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-220.214%20429.341v70.264M-59.15%20429.341v70.264%22%20opacity=%22.54%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-120.787%20443.988c-7.198%207.252-10.08%2017.69-7.546%2027.33%202.534%209.64%2010.093%2016.994%2019.792%2019.255%209.698%202.26%2020.04-.92%2027.076-8.33l35.68-79.843z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
@@ -3156,7 +3013,7 @@
               "id": "eb3a5e73-358b-463a-9396-006d59da3213",
               "type": "basic.code",
               "data": {
-                "code": "//-- Divisor para obtener señal de clk de 10usec\nlocalparam M = 120;\n\n//-- Periodo de la senal pwm, en unidades de 10usec\nlocalparam T = 2000;  //-- Periodo de 20ms  (valor típico)\n\n\n//-- Registro del divisor\nreg [6:0] divcounter;\n\n//-- Reloj de 10usecs\nreg clk_10us = 0;\n\n//-- Prescaler. Sirve para generar la señal de clk_10us\nalways @(posedge clk)\n    if (divcounter == M-1) begin\n      clk_10us <= 1;\n      divcounter = 0;\n    end \n    else begin\n      divcounter <=  divcounter + 1;\n      clk_10us = 0;\n    end  \n\n//-- Posicion registrada\n//-- Es muy importante registrar la señal de entrada pos para que\n//-- solo se pueda actualizar al llegar un ciclo nuevo, y no\n//-- durante la mitad de un ciclo\nreg [7:0] pos_r = 0;\n\n\n//-- Contador de tics\nreg [10:0] cont_tics = 0;\n\nalways @(posedge clk)\n  //-- Si trancurren 20ms, poner el contador a 0\n  //-- Registrar la entrada pos\n  if (cont_tics == T-1) begin\n    cont_tics = 0;\n    pos_r <= pos;\n  end\n  else\n    if (clk_10us)\n      cont_tics <=  cont_tics + 1;\n\nreg o = 0;\n\n//-- Salida registrada\nalways @(posedge clk)\n  //-- Generar el pulso PWM, de anchura pos\n  o <= (cont_tics <= {3'b000, pos_r}) ? 1 : 0;\n\n\n",
+                "code": "//-- Divisor para obtener señal de clk de 10usec\nlocalparam M = 120;\n\n//-- Periodo de la senal pwm, en unidades de 10usec\nlocalparam T = 2000;  //-- Periodo de 20ms  (valor típico)\n\n\n//-- Registro del divisor\nreg [6:0] divcounter;\n\n//-- Reloj de 10usecs\nreg clk_10us = 0;\n\n//-- Prescaler. Sirve para generar la señal de clk_10us\nalways @(posedge clk)\n    if (divcounter == M-1) begin\n      clk_10us <= 1;\n      divcounter = 0;\n    end \n    else begin\n      divcounter <=  divcounter + 1;\n      clk_10us = 0;\n    end  \n\n//-- Posicion registrada\n//-- Es muy importante registrar la señal de entrada pos para que\n//-- solo se pueda actualizar al llegar un ciclo nuevo, y no\n//-- durante la mitad de un ciclo\nreg [7:0] pos_r = 0;\n\n\n//-- Contador de tics\nreg [10:0] cont_tics = 0;\n\nalways @(posedge clk)\n  //-- Si trancurren 20ms, poner el contador a 0\n  //-- Registrar la entrada pos\n  if (cont_tics == T-1) begin\n    cont_tics = 0;\n    pos_r <= pos;\n  end\n  else\n    if (clk_10us)\n      cont_tics <=  cont_tics + 1;\n\nreg oi = 0;\nassign o = oi;\n\n//-- Salida registrada\nalways @(posedge clk)\n  //-- Generar el pulso PWM, de anchura pos\n  oi <= (cont_tics <= {3'b000, pos_r}) ? 1 : 0;\n\n\n",
                 "params": [],
                 "ports": {
                   "in": [
@@ -3251,13 +3108,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 435.7099,
-            "y": 150.0539
-          },
-          "zoom": 0.714
         }
       }
     }
