@@ -59,8 +59,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D1",
-                "value": "1"
+                "name": "D0",
+                "value": "2"
               }
             ],
             "virtual": false
@@ -164,8 +164,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "D2",
-                "value": "4"
+                "name": "LED7",
+                "value": "37"
               }
             ],
             "virtual": false
@@ -196,8 +196,8 @@
             "readonly": true
           },
           "position": {
-            "x": -960,
-            "y": -240
+            "x": -872,
+            "y": -232
           },
           "size": {
             "width": 464,
@@ -212,7 +212,7 @@
             "readonly": true
           },
           "position": {
-            "x": -896,
+            "x": -848,
             "y": -296
           },
           "size": {
@@ -340,8 +340,8 @@
             "readonly": true
           },
           "position": {
-            "x": -496,
-            "y": -200
+            "x": -328,
+            "y": -256
           },
           "size": {
             "width": 568,
@@ -357,7 +357,7 @@
           },
           "position": {
             "x": -2000,
-            "y": 400
+            "y": 472
           },
           "size": {
             "width": 512,
