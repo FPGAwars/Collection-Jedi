@@ -1,14 +1,14 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "package": {
     "name": "MotorBit paramétrico para Servos SM-S4303R",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Controlador para servo de rotacion continua SprintRC SM-S4303R. Con on=1, el motor avanza. Dir=1 sentido agujas reloj/ 0 el contrario. V1 y V2 son los pulsos para las velocidades horaria y antihoraria (en micro-sec). V0 para que esté parado",
     "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20252.58672%20182.74189%22%20width=%22252.587%22%20height=%22182.742%22%3E%3Cdefs%3E%3Cmarker%20orient=%22auto%22%20id=%22a%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M5.231%202.42L-1.324.01%205.23-2.401C4.184-.978%204.19.969%205.231%202.42z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22b%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20stroke=%22#00f%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3C/defs%3E%3Cpath%20d=%22M-220.11%20530.564v-1.36h-27.99a2.4%202.332%200%200%201-2.4-2.331v-65.674a2.4%202.332%200%200%201%202.4-2.332h27.99v-1.36a2.4%202.332%200%200%201%202.4-2.332h156.352a2.4%202.332%200%200%201%202.4%202.332v1.36h27.99a2.4%202.332%200%200%201%202.4%202.332v65.674a2.4%202.332%200%200%201-2.4%202.331h-27.99v1.36a2.4%202.332%200%200%201-2.4%202.332H-217.71a2.4%202.332%200%200%201-2.4-2.332%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223%22/%3E%3Cellipse%20cy=%22-474.411%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-513.66%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-474.411%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-513.66%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cpath%20d=%22M-220.214%20458.653v70.263M-59.15%20458.653v70.263%22%20opacity=%22.54%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-137.713%20443.217l34.426%2026.776%207.24-.137%2037.021-29.644s6.83-2.732%2010.655%201.093c3.826%203.825%202.46%2010.382%202.46%2010.382l-27.869%2038.524-.41%208.606%2030.874%2040.163s.683%203.416-2.596%207.24c-3.278%203.826-10.518%202.596-10.518%202.596l-37.897-29.598-7.321.227-36.338%2029.781s-6.694%205.874-12.295-.273c-5.6-6.148-1.366-13.934-1.366-13.934l26.229-34.426.137-9.972-30.054-38.25s-2.87-5.875%202.595-10.52c5.465-4.644%2015.027%201.366%2015.027%201.366z%22%20fill=%22#4d4d4d%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%22-99.495%22%20cy=%22494.319%22%20rx=%2212.295%22%20ry=%2212.295%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-205.443%20454.644a89.364%2089.371%200%200%201-117.547%2039.338%2089.364%2089.371%200%200%201-43.777-115.975%2089.364%2089.371%200%200%201%20114.217-48.16%2089.364%2089.371%200%200%201%2052.465%20112.312%22%20transform=%22rotate(-23.375)%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%224%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20marker-start=%22url(#a)%22%20marker-end=%22url(#b)%22/%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-177.673%22%20y=%22509.143%22%20font-weight=%22400%22%20font-size=%2226.547%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-177.673%22%20y=%22509.143%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2215.17%22%3ES4303R%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25;text-align:center%22%20x=%22-178.251%22%20y=%22488.514%22%20font-weight=%22400%22%20font-size=%2226.547%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20text-anchor=%22middle%22%20fill=%22#fc0%22%3E%3Ctspan%20x=%22-178.251%22%20y=%22488.514%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold';text-align:center%22%20font-weight=%22700%22%20font-size=%2215.17%22%3ESpringRC%3C/tspan%3E%3C/text%3E%3C/svg%3E"
   },
   "design": {
-    "board": "icezum",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -16,14 +16,6 @@
           "type": "basic.input",
           "data": {
             "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "CLK",
-                "value": "21"
-              }
-            ],
-            "virtual": true,
             "clock": true
           },
           "position": {
@@ -35,15 +27,7 @@
           "id": "90b11c57-5dc4-4363-b14c-b4ec485e0a2b",
           "type": "basic.output",
           "data": {
-            "name": "",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D0",
-                "value": "119"
-              }
-            ],
-            "virtual": true
+            "name": ""
           },
           "position": {
             "x": 1216,
@@ -55,14 +39,6 @@
           "type": "basic.input",
           "data": {
             "name": "dir",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D13",
-                "value": "144"
-              }
-            ],
-            "virtual": true,
             "clock": false
           },
           "position": {
@@ -75,14 +51,6 @@
           "type": "basic.input",
           "data": {
             "name": "on",
-            "pins": [
-              {
-                "index": "0",
-                "name": "D12",
-                "value": "143"
-              }
-            ],
-            "virtual": true,
             "clock": false
           },
           "position": {
@@ -139,18 +107,6 @@
           "size": {
             "width": 96,
             "height": 96
-          }
-        },
-        {
-          "id": "50d7b35f-2988-442e-8cf8-84c542795eca",
-          "type": "56a715a301e2f4cc348cbe2117721b86883da317",
-          "position": {
-            "x": 1056,
-            "y": 288
-          },
-          "size": {
-            "width": 96,
-            "height": 64
           }
         },
         {
@@ -382,6 +338,18 @@
             "width": 304,
             "height": 64
           }
+        },
+        {
+          "id": "625a0e09-cb25-4b0a-ac7c-5c26c3db53bd",
+          "type": "1bd6b7038781cc2bd6b9c80efc652e0b238a0e03",
+          "position": {
+            "x": 1056,
+            "y": 288
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -398,7 +366,7 @@
         },
         {
           "source": {
-            "block": "50d7b35f-2988-442e-8cf8-84c542795eca",
+            "block": "625a0e09-cb25-4b0a-ac7c-5c26c3db53bd",
             "port": "52f2f09c-75c4-49b9-bb9c-20000df9e5cc"
           },
           "target": {
@@ -413,7 +381,7 @@
             "port": "out"
           },
           "target": {
-            "block": "50d7b35f-2988-442e-8cf8-84c542795eca",
+            "block": "625a0e09-cb25-4b0a-ac7c-5c26c3db53bd",
             "port": "776266dd-e7ee-4ca5-84e4-5dc9193b2a7f"
           },
           "vertices": []
@@ -469,7 +437,7 @@
             "port": "fcae0076-6c4c-43a7-ac22-bf17805db11d"
           },
           "target": {
-            "block": "50d7b35f-2988-442e-8cf8-84c542795eca",
+            "block": "625a0e09-cb25-4b0a-ac7c-5c26c3db53bd",
             "port": "1a91ad1d-23b7-42bf-b8af-5e3a64a00cca"
           },
           "size": 8
@@ -532,13 +500,6 @@
           }
         }
       ]
-    },
-    "state": {
-      "pan": {
-        "x": 244.4957,
-        "y": 123.0171
-      },
-      "zoom": 0.9434
     }
   },
   "dependencies": {
@@ -830,13 +791,6 @@
               "size": 4
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -95.4783,
-            "y": -68.9565
-          },
-          "zoom": 0.8913
         }
       }
     },
@@ -1244,13 +1198,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 8.2171,
-            "y": -28.9031
-          },
-          "zoom": 0.7946
         }
       }
     },
@@ -1425,13 +1372,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -64.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1603,13 +1543,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -44.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -1872,13 +1805,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -189,
-            "y": -102.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2017,13 +1943,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -66,
-            "y": 67.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2112,13 +2031,6 @@
               ]
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -82.4973,
-            "y": 5.3883
-          },
-          "zoom": 1.2451
         }
       }
     },
@@ -2318,13 +2230,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 30,
-            "y": 63.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2413,13 +2318,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 42,
-            "y": 39.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2548,13 +2446,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": -7,
-            "y": -122.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2679,13 +2570,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 124,
-            "y": 59.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2718,13 +2602,6 @@
             }
           ],
           "wires": []
-        },
-        "state": {
-          "pan": {
-            "x": 0,
-            "y": 0
-          },
-          "zoom": 1
         }
       }
     },
@@ -2841,13 +2718,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 34,
-            "y": 59.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -2975,13 +2845,6 @@
               "size": 4
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -56.5
-          },
-          "zoom": 1
         }
       }
     },
@@ -3110,20 +2973,13 @@
               "size": 8
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": -18,
-            "y": -56.5
-          },
-          "zoom": 1
         }
       }
     },
-    "56a715a301e2f4cc348cbe2117721b86883da317": {
+    "1bd6b7038781cc2bd6b9c80efc652e0b238a0e03": {
       "package": {
         "name": "ServoTime-20ms",
-        "version": "0.1",
+        "version": "0.2",
         "description": "Controlador PWM para posicionar servos de 20ms. Las unidades de pos son de 10usec",
         "author": "Juan Gonzalez-Gomez y Jesus Arroyo",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%20224.93219%20144.41752%22%20width=%22224.932%22%20height=%22144.418%22%3E%3Cpath%20d=%22M-220.11%20501.253v-1.36h-27.99a2.4%202.332%200%200%201-2.4-2.332v-65.674a2.4%202.332%200%200%201%202.4-2.331h27.99v-1.36a2.4%202.332%200%200%201%202.4-2.332h156.352a2.4%202.332%200%200%201%202.4%202.332v1.36h27.99a2.4%202.332%200%200%201%202.4%202.331v65.674a2.4%202.332%200%200%201-2.4%202.332h-27.99v1.36a2.4%202.332%200%200%201-2.4%202.332H-217.71a2.4%202.332%200%200%201-2.4-2.332%22%20fill=%22gray%22%20fill-rule=%22evenodd%22%20stroke=%22#191919%22%20stroke-width=%223%22/%3E%3Cellipse%20cy=%22-445.1%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-484.349%22%20cx=%22-237.304%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-445.1%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Cellipse%20cy=%22-484.349%22%20cx=%22-41.764%22%20transform=%22scale(1%20-1)%22%20rx=%228.597%22%20ry=%228.355%22%20fill=%22#fff%22%20stroke=%22#191919%22%20stroke-width=%223.443%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%22-206.013%22%20y=%22544.728%22%20font-weight=%22400%22%20font-size=%2272.854%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22-206.013%22%20y=%22544.728%22%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2241.631%22%3E20ms%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M-220.214%20429.341v70.264M-59.15%20429.341v70.264%22%20opacity=%22.54%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%223%22%20stroke-linecap=%22square%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-120.787%20443.988c-7.198%207.252-10.08%2017.69-7.546%2027.33%202.534%209.64%2010.093%2016.994%2019.792%2019.255%209.698%202.26%2020.04-.92%2027.076-8.33l35.68-79.843z%22%20fill=%22#4d4d4d%22%20stroke=%22#191919%22%20stroke-width=%223%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
@@ -3172,7 +3028,7 @@
               "id": "eb3a5e73-358b-463a-9396-006d59da3213",
               "type": "basic.code",
               "data": {
-                "code": "//-- Divisor para obtener señal de clk de 10usec\nlocalparam M = 120;\n\n//-- Periodo de la senal pwm, en unidades de 10usec\nlocalparam T = 2000;  //-- Periodo de 20ms  (valor típico)\n\n\n//-- Registro del divisor\nreg [6:0] divcounter;\n\n//-- Reloj de 10usecs\nreg clk_10us = 0;\n\n//-- Prescaler. Sirve para generar la señal de clk_10us\nalways @(posedge clk)\n    if (divcounter == M-1) begin\n      clk_10us <= 1;\n      divcounter = 0;\n    end \n    else begin\n      divcounter <=  divcounter + 1;\n      clk_10us = 0;\n    end  \n\n//-- Posicion registrada\n//-- Es muy importante registrar la señal de entrada pos para que\n//-- solo se pueda actualizar al llegar un ciclo nuevo, y no\n//-- durante la mitad de un ciclo\nreg [7:0] pos_r = 0;\n\n\n//-- Contador de tics\nreg [10:0] cont_tics = 0;\n\nalways @(posedge clk)\n  //-- Si trancurren 20ms, poner el contador a 0\n  //-- Registrar la entrada pos\n  if (cont_tics == T-1) begin\n    cont_tics = 0;\n    pos_r <= pos;\n  end\n  else\n    if (clk_10us)\n      cont_tics <=  cont_tics + 1;\n\nreg o = 0;\n\n//-- Salida registrada\nalways @(posedge clk)\n  //-- Generar el pulso PWM, de anchura pos\n  o <= (cont_tics <= {3'b000, pos_r}) ? 1 : 0;\n\n\n",
+                "code": "//-- Divisor para obtener señal de clk de 10usec\nlocalparam M = 120;\n\n//-- Periodo de la senal pwm, en unidades de 10usec\nlocalparam T = 2000;  //-- Periodo de 20ms  (valor típico)\n\n\n//-- Registro del divisor\nreg [6:0] divcounter;\n\n//-- Reloj de 10usecs\nreg clk_10us = 0;\n\n//-- Prescaler. Sirve para generar la señal de clk_10us\nalways @(posedge clk)\n    if (divcounter == M-1) begin\n      clk_10us <= 1;\n      divcounter = 0;\n    end \n    else begin\n      divcounter <=  divcounter + 1;\n      clk_10us = 0;\n    end  \n\n//-- Posicion registrada\n//-- Es muy importante registrar la señal de entrada pos para que\n//-- solo se pueda actualizar al llegar un ciclo nuevo, y no\n//-- durante la mitad de un ciclo\nreg [7:0] pos_r = 0;\n\n\n//-- Contador de tics\nreg [10:0] cont_tics = 0;\n\nalways @(posedge clk)\n  //-- Si trancurren 20ms, poner el contador a 0\n  //-- Registrar la entrada pos\n  if (cont_tics == T-1) begin\n    cont_tics = 0;\n    pos_r <= pos;\n  end\n  else\n    if (clk_10us)\n      cont_tics <=  cont_tics + 1;\n\nreg oi = 0;\nassign o = oi;\n\n//-- Salida registrada\nalways @(posedge clk)\n  //-- Generar el pulso PWM, de anchura pos\n  oi <= (cont_tics <= {3'b000, pos_r}) ? 1 : 0;\n\n\n",
                 "params": [],
                 "ports": {
                   "in": [
@@ -3267,13 +3123,6 @@
               }
             }
           ]
-        },
-        "state": {
-          "pan": {
-            "x": 435.7099,
-            "y": 150.0539
-          },
-          "zoom": 0.714
         }
       }
     }
